@@ -1,0 +1,43 @@
+name: Refresh World Monitor evidence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 9 5 * *"
+      timezone: "Asia/Shanghai"
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Resolve Shanghai review date
+        id: review-date
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          print(f"date={datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()}")
+          PY
+      - name: Collect public evidence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python3 scripts/collect_project.py koala73/worldmonitor
+          --hype-date 2026-03-02
+          --review-date "${{ steps.review-date.outputs.date }}"
+          --slug worldmonitor
+      - name: Upload review-only artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: worldmonitor-evidence-${{ steps.review-date.outputs.date }}
+          path: data/snapshots/worldmonitor/${{ steps.review-date.outputs.date }}/
+          if-no-files-found: error
+          retention-days: 30
