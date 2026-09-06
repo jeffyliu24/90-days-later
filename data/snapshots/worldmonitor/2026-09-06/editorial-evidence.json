@@ -4,6 +4,59 @@
   "review_date": "2026-09-06",
   "checked_commit": "fd52b129087aa6eb5a1df400d6dfc9fae28c0bef",
   "manual_checks": {
+    "product_explainer": {
+      "plain_language": "An open-source global situational-awareness dashboard that puts news, geopolitical events, disasters, markets, aviation, and infrastructure signals into one interactive map and set of panels.",
+      "official_claims_observed": {
+        "curated_news_feeds": "500+",
+        "news_categories": 15,
+        "map_layer_types": 56,
+        "site_variants": 6,
+        "programmatic_surfaces": [
+          "REST API",
+          "MCP",
+          "npm CLI",
+          "Python SDK",
+          "Ruby SDK",
+          "Go SDK"
+        ]
+      },
+      "interpretation_boundary": "The product helps users discover and correlate signals. It is not a primary source, a verification authority, or a guarantee that AI-generated briefs are correct.",
+      "source": "https://github.com/koala73/worldmonitor"
+    },
+    "hype_context": {
+      "verified_timeline": [
+        {
+          "date": "2026-02-26",
+          "event": "Developer-community Reddit posts presented the project as a freely available real-time intelligence dashboard and an open-source Palantir-like tool.",
+          "sources": [
+            "https://www.reddit.com/r/letscodecommunity/comments/1rf3dyd/someone_just_built_a_realtime_global_intelligence/",
+            "https://www.reddit.com/r/CharruaDevs/comments/1rf0oak/world_monitor_un_palantir_open_source/"
+          ]
+        },
+        {
+          "date": "2026-03-01",
+          "event": "A security newsletter captured multiple X posts pointing to the repository and recorded 18,964 stars.",
+          "source": "https://buttondown.com/grugq/archive/march-1-2026/"
+        },
+        {
+          "date": "2026-03-02",
+          "event": "GitHub star events peaked at 3,770 in one day. A same-day Hacker News submission had only 1 point, so HN alone does not explain the spike.",
+          "source": "https://news.ycombinator.com/item?id=47217534"
+        },
+        {
+          "date": "2026-07-28",
+          "event": "A GitHub Trending snapshot ranked the project first and recorded roughly 13.2k stars for the week, matching the second wave in captured star history.",
+          "source": "https://githot.dev/en/weekly/2026-07-28"
+        }
+      ],
+      "editorial_inference": [
+        "The value proposition is understandable in seconds.",
+        "The command-center visual is intrinsically shareable.",
+        "A public web experience plus open source and self-hosting serves both end users and developers.",
+        "AI is embedded in aggregation and synthesis rather than presented as another generic chat interface."
+      ],
+      "unknown": "No single post or launch event has been verified as the unique cause of the March peak."
+    },
     "local_git_history": {
       "commit_count_total": 6686,
       "commit_count_through_hype_date": 1597,

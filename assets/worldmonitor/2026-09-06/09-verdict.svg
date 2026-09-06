@@ -1,12 +1,11 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
   <title>World Monitor 188 天后复盘</title>
   <rect width="1242" height="1660" fill="#F6F1E7"/>
   <style>
     text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
   </style>
-  
-    
+
+
   <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >最终评级</text>
   <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >综合 B · 71 / 100</text>
   <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >Learning A · Adoption B · Confidence high</text>
@@ -26,6 +25,6 @@
     <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
   <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
   <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
-  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >7 / 7</text>
-  
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >9 / 9</text>
+
 </svg>

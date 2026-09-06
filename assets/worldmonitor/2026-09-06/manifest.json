@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:30:20.040Z",
+  "generated_at": "2026-09-06T14:57:18.793Z",
   "canvas": {
     "width": 1242,
     "height": 1660,
@@ -14,33 +14,43 @@
     },
     {
       "order": 2,
-      "svg": "02-then-now.svg",
-      "png": "02-then-now.png"
+      "svg": "02-what-it-is.svg",
+      "png": "02-what-it-is.png"
     },
     {
       "order": 3,
-      "svg": "03-star-timeline.svg",
-      "png": "03-star-timeline.png"
+      "svg": "03-why-it-caught-fire.svg",
+      "png": "03-why-it-caught-fire.png"
     },
     {
       "order": 4,
-      "svg": "04-hype-retention.svg",
-      "png": "04-hype-retention.png"
+      "svg": "04-then-now.svg",
+      "png": "04-then-now.png"
     },
     {
       "order": 5,
-      "svg": "05-maintenance.svg",
-      "png": "05-maintenance.png"
+      "svg": "05-star-timeline.svg",
+      "png": "05-star-timeline.png"
     },
     {
       "order": 6,
-      "svg": "06-why-not-a.svg",
-      "png": "06-why-not-a.png"
+      "svg": "06-hype-retention.svg",
+      "png": "06-hype-retention.png"
     },
     {
       "order": 7,
-      "svg": "07-verdict.svg",
-      "png": "07-verdict.png"
+      "svg": "07-maintenance.svg",
+      "png": "07-maintenance.png"
+    },
+    {
+      "order": 8,
+      "svg": "08-why-not-a.svg",
+      "png": "08-why-not-a.png"
+    },
+    {
+      "order": 9,
+      "svg": "09-verdict.svg",
+      "png": "09-verdict.png"
     }
   ]
 }

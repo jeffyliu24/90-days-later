@@ -4,7 +4,7 @@
 
 ## 建议标题
 
-`8.5万星后，它活下来了吗？`
+`8.5万星的开源“全球战情室”`
 
 ## 可直接复制的正文
 
@@ -13,12 +13,14 @@
 ## 发布顺序
 
 1. `01-cover.png`
-2. `02-then-now.png`
-3. `03-star-timeline.png`
-4. `04-hype-retention.png`
-5. `05-maintenance.png`
-6. `06-why-not-a.png`
-7. `07-verdict.png`
+2. `02-what-it-is.png`
+3. `03-why-it-caught-fire.png`
+4. `04-then-now.png`
+5. `05-star-timeline.png`
+6. `06-hype-retention.png`
+7. `07-maintenance.png`
+8. `08-why-not-a.png`
+9. `09-verdict.png`
 
 ## 发布前只需人工确认
 

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+
+
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >为什么会火</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >它让人 3 秒就懂</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >传播原因是推断；传播时间线可以核实</text>
+
+
+    <rect x="72" y="350" width="520" height="220" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <rect x="106" y="380" width="78" height="54" rx="27" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="145" y="418" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >01</text>
+    <text x="210" y="422" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >熟悉的想象</text>
+    <text x="110" y="490" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >“开源全球战情室”</text>
+<text x="110" y="526.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >一句话就有画面。</text>
+
+
+    <rect x="650" y="350" width="520" height="220" rx="28" fill="#DCE9F7" stroke="none" stroke-width="0"/>
+    <rect x="684" y="380" width="78" height="54" rx="27" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="723" y="418" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >02</text>
+    <text x="788" y="422" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >截图就能传播</text>
+    <text x="688" y="490" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >暗色地图、事件点、航线，</text>
+<text x="688" y="526.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >视觉冲击远胜抽象框架。</text>
+
+
+    <rect x="72" y="600" width="520" height="220" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <rect x="106" y="630" width="78" height="54" rx="27" fill="#F2C14E" stroke="none" stroke-width="0"/><text x="145" y="668" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >03</text>
+    <text x="210" y="672" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >解决真实痛点</text>
+    <text x="110" y="740" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >把散落在许多标签页的</text>
+<text x="110" y="776.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >新闻与数据汇到一处。</text>
+
+
+    <rect x="650" y="600" width="520" height="220" rx="28" fill="#DCECDF" stroke="none" stroke-width="0"/>
+    <rect x="684" y="630" width="78" height="54" rx="27" fill="#2F7D5B" stroke="none" stroke-width="0"/><text x="723" y="668" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >04</text>
+    <text x="788" y="672" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >同时吸引两群人</text>
+    <text x="688" y="740" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >普通人可直接体验；开发者</text>
+<text x="688" y="776.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >能看源码、API 与 MCP。</text>
+
+    <rect x="72" y="900" width="1072" height="355" rx="34" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="116" y="975" font-size="29" fill="#F2C14E" font-weight="500" text-anchor="start" >能验证的传播路径</text>
+    <text x="126" y="1065" font-size="34" fill="#F05A3C" font-weight="500" text-anchor="start" >02/26</text>
+    <text x="126" y="1110" font-size="26" fill="#FFFDF8" font-weight="400" text-anchor="start" >社区开始扩散</text>
+    <line x1="300" y1="1055" x2="430" y2="1055" stroke="#68737D" stroke-width="3" />
+    <text x="480" y="1065" font-size="34" fill="#F2C14E" font-weight="500" text-anchor="middle" >03/01</text>
+    <text x="480" y="1110" font-size="26" fill="#FFFDF8" font-weight="400" text-anchor="middle" >已约 18,964 ★</text>
+    <line x1="565" y1="1055" x2="700" y2="1055" stroke="#68737D" stroke-width="3" />
+    <text x="790" y="1065" font-size="34" fill="#F05A3C" font-weight="500" text-anchor="middle" >03/02</text>
+    <text x="790" y="1110" font-size="26" fill="#FFFDF8" font-weight="400" text-anchor="middle" >单日 +3,770</text>
+    <line x1="875" y1="1055" x2="975" y2="1055" stroke="#68737D" stroke-width="3" />
+    <text x="1095" y="1065" font-size="34" fill="#2B6CB0" font-weight="500" text-anchor="end" >07 月</text>
+    <text x="1095" y="1110" font-size="26" fill="#FFFDF8" font-weight="400" text-anchor="end" >第二波峰</text>
+    <line x1="116" y1="1160" x2="1100" y2="1160" stroke="#3A4B58" stroke-width="2" />
+    <text x="116" y="1212" font-size="28" fill="#FFFDF8" font-weight="500" text-anchor="start" >能解释“为什么容易传播”，但不能确认唯一的第一条爆帖。</text>
+    <rect x="72" y="1310" width="1072" height="132" rx="26" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="621" y="1390" font-size="31" fill="#13202B" font-weight="500" text-anchor="middle" >它火的不是一个新模型，而是一种一眼能懂的 AI 产品形态。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >3 / 9</text>
+
+</svg>

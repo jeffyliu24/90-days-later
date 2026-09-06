@@ -1,12 +1,11 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
   <title>World Monitor 188 天后复盘</title>
   <rect width="1242" height="1660" fill="#F6F1E7"/>
   <style>
     text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
   </style>
-  
-    
+
+
   <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >当时 vs 现在</text>
   <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >188 天，发生了什么？</text>
   <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >同一个项目，同一组可复核口径</text>
@@ -14,38 +13,38 @@
     <text x="108" y="390" font-size="34" fill="#F05A3C" font-weight="500" text-anchor="start" >爆火日 · 03/02</text>
     <text x="1134" y="390" font-size="34" fill="#2F7D5B" font-weight="500" text-anchor="end" >复查日 · 09/06</text>
     <line x1="621" y1="345" x2="621" y2="1370" stroke="#D9D2C5" stroke-width="3" />
-    
+
     <text x="108" y="490" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >累计 STAR EVENTS</text>
     <text x="108" y="562" font-size="52" fill="#F05A3C" font-weight="500" text-anchor="start" >约 24,007</text>
     <text x="108" y="611" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >单日峰值 3,770</text>
-  
-    
+
+
     <text x="675" y="490" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >累计 STAR EVENTS</text>
     <text x="675" y="562" font-size="52" fill="#2F7D5B" font-weight="500" text-anchor="start" >85,679</text>
     <text x="675" y="611" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >之后又增加约 61,672</text>
-  
+
     <line x1="108" y1="680" x2="565" y2="680" stroke="#D9D2C5" stroke-width="2" /><line x1="675" y1="680" x2="1134" y2="680" stroke="#D9D2C5" stroke-width="2" />
-    
+
     <text x="108" y="760" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >仓库 COMMITS</text>
     <text x="108" y="832" font-size="52" fill="#F05A3C" font-weight="500" text-anchor="start" >1,597</text>
     <text x="108" y="881" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >从创建到爆火日</text>
-  
-    
+
+
     <text x="675" y="760" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >仓库 COMMITS</text>
     <text x="675" y="832" font-size="52" fill="#2F7D5B" font-weight="500" text-anchor="start" >6,686</text>
     <text x="675" y="881" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >仍在持续开发</text>
-  
+
     <line x1="108" y1="950" x2="565" y2="950" stroke="#D9D2C5" stroke-width="2" /><line x1="675" y1="950" x2="1134" y2="950" stroke="#D9D2C5" stroke-width="2" />
-    
+
     <text x="108" y="1030" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >公开 RELEASE</text>
     <text x="108" y="1102" font-size="52" fill="#F05A3C" font-weight="500" text-anchor="start" >v2.5.23</text>
     <text x="108" y="1151" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >爆火当晚发布</text>
-  
-    
+
+
     <text x="675" y="1030" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >源码 / TAG</text>
     <text x="675" y="1102" font-size="52" fill="#2B6CB0" font-weight="500" text-anchor="start" >v2.10.0</text>
     <text x="675" y="1151" font-size="25" fill="#68737D" font-weight="400" text-anchor="start" >但 Release 页仍是 v2.5.23</text>
-  
+
     <rect x="108" y="1245" width="1026" height="168" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
     <text x="150" y="1310" font-size="28" fill="#13202B" font-weight="500" text-anchor="start" >关键区别</text>
     <text x="150" y="1364" font-size="33" fill="#13202B" font-weight="500" text-anchor="start" >开发很活跃 ≠ 用户拿到的稳定版本同步。</text>
@@ -53,6 +52,6 @@
     <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
   <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
   <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
-  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >2 / 7</text>
-  
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >4 / 9</text>
+
 </svg>
