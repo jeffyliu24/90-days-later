@@ -1,0 +1,31 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+  
+    
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >最终评级</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >综合 B · 71 / 100</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >Learning A · Adoption B · Confidence high</text>
+
+    <text x="106" y="510" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >维护</text><rect x="310" y="479" width="660" height="36" rx="18" fill="#D9D2C5" stroke="none" stroke-width="0"/><rect x="310" y="479" width="594" height="36" rx="18" fill="#2F7D5B" stroke="none" stroke-width="0"/><text x="1136" y="510" font-size="31" fill="#2F7D5B" font-weight="500" text-anchor="end" >18 / 20</text>
+<text x="106" y="615" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >采用</text><rect x="310" y="584" width="660" height="36" rx="18" fill="#D9D2C5" stroke="none" stroke-width="0"/><rect x="310" y="584" width="429" height="36" rx="18" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="1136" y="615" font-size="31" fill="#F05A3C" font-weight="500" text-anchor="end" >13 / 20</text>
+<text x="106" y="720" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >社区韧性</text><rect x="310" y="689" width="660" height="36" rx="18" fill="#D9D2C5" stroke="none" stroke-width="0"/><rect x="310" y="689" width="396" height="36" rx="18" fill="#F2C14E" stroke="none" stroke-width="0"/><text x="1136" y="720" font-size="31" fill="#F2C14E" font-weight="500" text-anchor="end" >12 / 20</text>
+<text x="106" y="825" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >工程成熟</text><rect x="310" y="794" width="660" height="36" rx="18" fill="#D9D2C5" stroke="none" stroke-width="0"/><rect x="310" y="794" width="462" height="36" rx="18" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="1136" y="825" font-size="31" fill="#2B6CB0" font-weight="500" text-anchor="end" >14 / 20</text>
+<text x="106" y="930" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >可迁移性</text><rect x="310" y="899" width="660" height="36" rx="18" fill="#D9D2C5" stroke="none" stroke-width="0"/><rect x="310" y="899" width="462" height="36" rx="18" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="1136" y="930" font-size="31" fill="#2B6CB0" font-weight="500" text-anchor="end" >14 / 20</text>
+    <rect x="88" y="1055" width="1066" height="174" rx="28" fill="#DCECDF" stroke="none" stroke-width="0"/>
+    <text x="130" y="1118" font-size="30" fill="#2F7D5B" font-weight="500" text-anchor="start" >适合</text>
+    <text x="130" y="1172" font-size="31" fill="#13202B" font-weight="500" text-anchor="start" >学实时数据架构 · 体验 Web / 当前源码 · 非关键原型</text>
+    <rect x="88" y="1252" width="1066" height="174" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <text x="130" y="1315" font-size="30" fill="#F05A3C" font-weight="500" text-anchor="start" >暂不适合</text>
+    <text x="130" y="1369" font-size="31" fill="#13202B" font-weight="500" text-anchor="start" >依赖旧桌面版 · 直接做关键生产依赖 · 当作唯一事实源</text>
+    <text x="621" y="1492" font-size="30" fill="#68737D" font-weight="500" text-anchor="middle" >下次复查：2026-12-05</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >7 / 7</text>
+  
+</svg>

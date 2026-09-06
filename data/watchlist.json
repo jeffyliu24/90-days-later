@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "projects": [
+    {
+      "project_id": "worldmonitor",
+      "repo": "koala73/worldmonitor",
+      "hype_date": "2026-03-02",
+      "last_review_date": "2026-09-06",
+      "next_review_date": "2026-12-05",
+      "current_stage": "180d",
+      "current_grade": "B",
+      "status": "review",
+      "priority_questions": [
+        "Has a current stable desktop release shipped?",
+        "Are desktop builds consistently passing?",
+        "Has independent downstream adoption expanded?",
+        "Has recent maintenance become less owner-concentrated?"
+      ]
+    }
+  ]
+}

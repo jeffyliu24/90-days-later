@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "api_version": "2026-03-10",
+  "lookback_days": 400,
+  "per_query": 25,
+  "history_pages": 2,
+  "max_pool_size": 80,
+  "max_candidates": 40,
+  "min_total_stars": 100,
+  "min_peak_daily_stars": 40,
+  "milestones": {
+    "30d": {"day": 30, "lead_days": 7, "overdue_days": 14},
+    "90d": {"day": 90, "lead_days": 14, "overdue_days": 28},
+    "180d": {"day": 180, "lead_days": 21, "overdue_days": 45},
+    "365d": {"day": 365, "lead_days": 30, "overdue_days": 60}
+  },
+  "queries": [
+    {
+      "category": "coding-agent",
+      "query": "topic:ai-coding-assistant stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "agent-framework",
+      "query": "topic:ai-agent stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "agent-framework",
+      "query": "topic:agent-framework stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "rag-data",
+      "query": "topic:rag stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "inference-runtime",
+      "query": "topic:llm-inference stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "eval-observability",
+      "query": "topic:llm-evaluation stars:>=100 fork:false archived:false"
+    },
+    {
+      "category": "mcp-integration",
+      "query": "topic:mcp stars:>=100 fork:false archived:false"
+    }
+  ]
+}

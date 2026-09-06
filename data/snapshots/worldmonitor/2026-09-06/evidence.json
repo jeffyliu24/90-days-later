@@ -1,0 +1,3558 @@
+{
+  "schema_version": "0.1",
+  "collected_at": "2026-09-06T14:15:37.575777+00:00",
+  "review_date": "2026-09-06",
+  "hype_date": "2026-03-02",
+  "repository": {
+    "id": 1130564872,
+    "full_name": "koala73/worldmonitor",
+    "html_url": "https://github.com/koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "homepage": "https://worldmonitor.app",
+    "created_at": "2026-01-08T17:26:06Z",
+    "updated_at": "2026-09-06T13:57:39Z",
+    "pushed_at": "2026-09-06T14:14:04Z",
+    "stargazers_count": 85679,
+    "forks_count": 12940,
+    "subscribers_count": 494,
+    "open_issues_count": 299,
+    "default_branch": "main",
+    "archived": false,
+    "disabled": false,
+    "language": "TypeScript",
+    "size": 212678,
+    "topics": [
+      "agent",
+      "ai",
+      "dashboard",
+      "geopolitics",
+      "mcp",
+      "mcp-server",
+      "monitoring",
+      "news",
+      "opensource",
+      "osint",
+      "palantir",
+      "situation"
+    ],
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    }
+  },
+  "derived": {
+    "days_since_hype": 188,
+    "stars": {
+      "peak_day": "2026-03-02",
+      "peak_day_star_events": 3770,
+      "acquired_star_events_through_hype_date": 24007,
+      "acquired_star_events_after_hype_date": 61672,
+      "acquired_star_events_total": 85679,
+      "current_displayed_stars": 85679,
+      "first_30d_star_events": 24706,
+      "days_61_90_star_events": 2157,
+      "hype_retention_90": 0.0873,
+      "recent_30d_star_events": 6223,
+      "prior_30d_star_events": 18311,
+      "recent_vs_prior_30d": 0.3399,
+      "note": "GitHub star history counts star creation events. It does not subtract later unstars, so historical displayed star counts are approximate."
+    },
+    "releases": {
+      "count_total": 43,
+      "count_through_hype_date": 43,
+      "count_after_hype_date": 0,
+      "count_recent_90d": 0,
+      "latest": {
+        "tag_name": "v2.5.23",
+        "published_at": "2026-03-01T23:34:08Z",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.23"
+      }
+    },
+    "tags": {
+      "enriched_tag_count": 20,
+      "latest_by_commit_date": {
+        "name": "v2.10.0",
+        "commit_sha": "802eafbf0e5560350f04ae7d370ebcc80c17325d",
+        "committed_at": "2026-08-13T17:22:05Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/802eafbf0e5560350f04ae7d370ebcc80c17325d"
+      },
+      "note": "Tag dates use the referenced commit timestamp, not a GitHub Release timestamp."
+    },
+    "contributors": {
+      "listed_contributors": 152,
+      "listed_non_bot_contributors": 147,
+      "total_contributions": 6619,
+      "owner_contributions": 5936,
+      "owner_share": 0.8968,
+      "top_non_bot": [
+        {
+          "login": "koala73",
+          "contributions": 5936
+        },
+        {
+          "login": "SebastienMelki",
+          "contributions": 84
+        },
+        {
+          "login": "yzxcj797",
+          "contributions": 48
+        },
+        {
+          "login": "NewCoder3294",
+          "contributions": 44
+        },
+        {
+          "login": "ayobamiseun",
+          "contributions": 35
+        },
+        {
+          "login": "lspassos1",
+          "contributions": 30
+        },
+        {
+          "login": "FayezBast",
+          "contributions": 27
+        },
+        {
+          "login": "danielimad",
+          "contributions": 18
+        },
+        {
+          "login": "JacobisEpic",
+          "contributions": 12
+        },
+        {
+          "login": "Yigtwxx",
+          "contributions": 11
+        }
+      ]
+    },
+    "activity_windows": {
+      "pre_hype": {
+        "start": "2026-01-08",
+        "end": "2026-03-02",
+        "commits": 1597,
+        "issues_opened": 165,
+        "issues_closed": 124,
+        "prs_opened": 639,
+        "prs_merged": 503
+      },
+      "first_90d_after_hype": {
+        "start": "2026-03-03",
+        "end": "2026-05-31",
+        "commits": 2423,
+        "issues_opened": 387,
+        "issues_closed": 339,
+        "prs_opened": 2706,
+        "prs_merged": 2417
+      },
+      "recent_90d": {
+        "start": "2026-06-09",
+        "end": "2026-09-06",
+        "commits": 2465,
+        "issues_opened": 1306,
+        "issues_closed": 1163,
+        "prs_opened": 2261,
+        "prs_merged": 2062
+      },
+      "recent_30d": {
+        "start": "2026-08-08",
+        "end": "2026-09-06",
+        "commits": 1281,
+        "issues_opened": 480,
+        "issues_closed": 479,
+        "prs_opened": 1003,
+        "prs_merged": 924
+      },
+      "current": {
+        "open_issues": 231,
+        "open_prs": 68
+      }
+    }
+  },
+  "github": {
+    "star_history_weeks": [
+      {
+        "week": 1788652800,
+        "total": 46,
+        "days": [
+          46,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "week": 1788048000,
+        "total": 732,
+        "days": [
+          148,
+          160,
+          116,
+          83,
+          75,
+          85,
+          65
+        ]
+      },
+      {
+        "week": 1787443200,
+        "total": 1187,
+        "days": [
+          149,
+          108,
+          102,
+          280,
+          176,
+          118,
+          254
+        ]
+      },
+      {
+        "week": 1786838400,
+        "total": 1713,
+        "days": [
+          302,
+          273,
+          302,
+          274,
+          263,
+          162,
+          137
+        ]
+      },
+      {
+        "week": 1786233600,
+        "total": 2276,
+        "days": [
+          303,
+          295,
+          380,
+          423,
+          332,
+          287,
+          256
+        ]
+      },
+      {
+        "week": 1785628800,
+        "total": 2200,
+        "days": [
+          365,
+          369,
+          327,
+          306,
+          280,
+          284,
+          269
+        ]
+      },
+      {
+        "week": 1785024000,
+        "total": 3639,
+        "days": [
+          676,
+          563,
+          602,
+          559,
+          472,
+          413,
+          354
+        ]
+      },
+      {
+        "week": 1784419200,
+        "total": 12274,
+        "days": [
+          55,
+          984,
+          3451,
+          3305,
+          2337,
+          1412,
+          730
+        ]
+      },
+      {
+        "week": 1783814400,
+        "total": 324,
+        "days": [
+          43,
+          59,
+          54,
+          51,
+          29,
+          46,
+          42
+        ]
+      },
+      {
+        "week": 1783209600,
+        "total": 427,
+        "days": [
+          74,
+          75,
+          67,
+          68,
+          63,
+          47,
+          33
+        ]
+      },
+      {
+        "week": 1782604800,
+        "total": 931,
+        "days": [
+          304,
+          214,
+          135,
+          76,
+          70,
+          69,
+          63
+        ]
+      },
+      {
+        "week": 1782000000,
+        "total": 2760,
+        "days": [
+          614,
+          380,
+          599,
+          341,
+          286,
+          262,
+          278
+        ]
+      },
+      {
+        "week": 1781395200,
+        "total": 1288,
+        "days": [
+          56,
+          69,
+          65,
+          105,
+          126,
+          609,
+          258
+        ]
+      },
+      {
+        "week": 1780790400,
+        "total": 516,
+        "days": [
+          102,
+          88,
+          68,
+          94,
+          67,
+          40,
+          57
+        ]
+      },
+      {
+        "week": 1780185600,
+        "total": 850,
+        "days": [
+          121,
+          190,
+          124,
+          146,
+          161,
+          57,
+          51
+        ]
+      },
+      {
+        "week": 1779580800,
+        "total": 341,
+        "days": [
+          53,
+          55,
+          50,
+          50,
+          54,
+          46,
+          33
+        ]
+      },
+      {
+        "week": 1778976000,
+        "total": 552,
+        "days": [
+          58,
+          74,
+          89,
+          75,
+          101,
+          101,
+          54
+        ]
+      },
+      {
+        "week": 1778371200,
+        "total": 482,
+        "days": [
+          81,
+          70,
+          85,
+          73,
+          71,
+          49,
+          53
+        ]
+      },
+      {
+        "week": 1777766400,
+        "total": 622,
+        "days": [
+          91,
+          120,
+          118,
+          94,
+          67,
+          63,
+          69
+        ]
+      },
+      {
+        "week": 1777161600,
+        "total": 677,
+        "days": [
+          142,
+          127,
+          89,
+          88,
+          71,
+          81,
+          79
+        ]
+      },
+      {
+        "week": 1776556800,
+        "total": 3519,
+        "days": [
+          297,
+          1095,
+          470,
+          910,
+          456,
+          172,
+          119
+        ]
+      },
+      {
+        "week": 1775952000,
+        "total": 1253,
+        "days": [
+          181,
+          151,
+          172,
+          103,
+          89,
+          264,
+          293
+        ]
+      },
+      {
+        "week": 1775347200,
+        "total": 1245,
+        "days": [
+          186,
+          221,
+          203,
+          216,
+          166,
+          142,
+          111
+        ]
+      },
+      {
+        "week": 1774742400,
+        "total": 1687,
+        "days": [
+          314,
+          283,
+          208,
+          172,
+          145,
+          219,
+          346
+        ]
+      },
+      {
+        "week": 1774137600,
+        "total": 2704,
+        "days": [
+          511,
+          486,
+          406,
+          395,
+          312,
+          319,
+          275
+        ]
+      },
+      {
+        "week": 1773532800,
+        "total": 4171,
+        "days": [
+          725,
+          750,
+          663,
+          581,
+          456,
+          528,
+          468
+        ]
+      },
+      {
+        "week": 1772928000,
+        "total": 4703,
+        "days": [
+          821,
+          790,
+          454,
+          629,
+          823,
+          547,
+          639
+        ]
+      },
+      {
+        "week": 1772323200,
+        "total": 14678,
+        "days": [
+          2355,
+          3770,
+          3637,
+          2032,
+          1294,
+          883,
+          707
+        ]
+      },
+      {
+        "week": 1771718400,
+        "total": 9209,
+        "days": [
+          1746,
+          2184,
+          1400,
+          1003,
+          988,
+          591,
+          1297
+        ]
+      },
+      {
+        "week": 1771113600,
+        "total": 3524,
+        "days": [
+          1065,
+          452,
+          228,
+          739,
+          666,
+          236,
+          138
+        ]
+      },
+      {
+        "week": 1770508800,
+        "total": 5096,
+        "days": [
+          0,
+          0,
+          452,
+          1184,
+          593,
+          1697,
+          1170
+        ]
+      },
+      {
+        "week": 1769904000,
+        "total": 2,
+        "days": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "week": 1769299200,
+        "total": 2,
+        "days": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "week": 1768694400,
+        "total": 5,
+        "days": [
+          1,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "week": 1768089600,
+        "total": 44,
+        "days": [
+          20,
+          12,
+          3,
+          4,
+          2,
+          0,
+          3
+        ]
+      },
+      {
+        "week": 1767484800,
+        "total": 0,
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v2.5.23",
+        "name": "World Monitor v2.5.23",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.23",
+        "published_at": "2026-03-01T23:34:08Z",
+        "created_at": "2026-03-01T23:27:50Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.21",
+        "name": "World Monitor v2.5.21",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.21",
+        "published_at": "2026-03-01T00:57:28Z",
+        "created_at": "2026-03-01T00:37:32Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.20",
+        "name": "World Monitor v2.5.20",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.20",
+        "published_at": "2026-02-27T20:49:28Z",
+        "created_at": "2026-02-27T20:40:04Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.19",
+        "name": "World Monitor v2.5.19",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.19",
+        "published_at": "2026-02-26T20:28:29Z",
+        "created_at": "2026-02-26T20:20:50Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.18",
+        "name": "World Monitor v2.5.18",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.18",
+        "published_at": "2026-02-26T20:07:33Z",
+        "created_at": "2026-02-26T19:59:42Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.17",
+        "name": "World Monitor v2.5.17",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.17",
+        "published_at": "2026-02-26T19:52:13Z",
+        "created_at": "2026-02-26T19:38:12Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.16",
+        "name": "World Monitor v2.5.16",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.16",
+        "published_at": "2026-02-26T19:01:26Z",
+        "created_at": "2026-02-26T18:54:41Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.15",
+        "name": "World Monitor v2.5.15",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.15",
+        "published_at": "2026-02-26T17:43:24Z",
+        "created_at": "2026-02-26T17:36:44Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.14",
+        "name": "World Monitor v2.5.14",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.14",
+        "published_at": "2026-02-26T17:05:39Z",
+        "created_at": "2026-02-26T16:58:26Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.13",
+        "name": "World Monitor v2.5.13",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.13",
+        "published_at": "2026-02-26T16:47:04Z",
+        "created_at": "2026-02-26T16:39:53Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.12",
+        "name": "World Monitor v2.5.12",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.12",
+        "published_at": "2026-02-26T15:17:55Z",
+        "created_at": "2026-02-26T15:12:03Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.11",
+        "name": "World Monitor v2.5.11",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.11",
+        "published_at": "2026-02-26T12:52:47Z",
+        "created_at": "2026-02-26T12:45:55Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.10",
+        "name": "World Monitor v2.5.10",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.10",
+        "published_at": "2026-02-26T11:49:18Z",
+        "created_at": "2026-02-26T11:42:58Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.9",
+        "name": "World Monitor v2.5.9",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.9",
+        "published_at": "2026-02-26T06:34:59Z",
+        "created_at": "2026-02-26T06:29:08Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.7",
+        "name": "World Monitor v2.5.7",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.7",
+        "published_at": "2026-02-25T00:15:06Z",
+        "created_at": "2026-02-25T00:04:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.6",
+        "name": "World Monitor v2.5.6",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.6",
+        "published_at": "2026-02-23T18:58:25Z",
+        "created_at": "2026-02-23T18:48:50Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.5",
+        "name": "World Monitor v2.5.5",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.5",
+        "published_at": "2026-02-23T08:34:25Z",
+        "created_at": "2026-02-23T08:27:33Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.2",
+        "name": "World Monitor v2.5.2",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.2",
+        "published_at": "2026-02-20T23:52:53Z",
+        "created_at": "2026-02-20T23:46:34Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.1",
+        "name": "World Monitor v2.5.1",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.1",
+        "published_at": "2026-02-20T11:12:34Z",
+        "created_at": "2026-02-20T11:07:11Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.5.0",
+        "name": "World Monitor v2.5.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.5.0",
+        "published_at": "2026-02-19T21:27:51Z",
+        "created_at": "2026-02-19T21:21:18Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.4.1",
+        "name": "World Monitor v2.4.1",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.4.1",
+        "published_at": "2026-02-19T04:37:46Z",
+        "created_at": "2026-02-19T04:31:39Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.9",
+        "name": "World Monitor v2.3.9",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.9",
+        "published_at": "2026-02-18T04:31:04Z",
+        "created_at": "2026-02-18T04:25:47Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.8",
+        "name": "World Monitor v2.3.8",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.8",
+        "published_at": "2026-02-17T16:21:42Z",
+        "created_at": "2026-02-17T16:14:38Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.7",
+        "name": "World Monitor v2.3.7",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.7",
+        "published_at": "2026-02-16T20:03:58Z",
+        "created_at": "2026-02-16T19:56:28Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.6",
+        "name": "World Monitor v2.3.6",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.6",
+        "published_at": "2026-02-16T05:04:59Z",
+        "created_at": "2026-02-16T05:00:24Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.5",
+        "name": "World Monitor v2.3.5",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.5",
+        "published_at": "2026-02-16T04:56:36Z",
+        "created_at": "2026-02-16T04:52:39Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.4",
+        "name": "World Monitor v2.3.4",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.4",
+        "published_at": "2026-02-15T20:54:53Z",
+        "created_at": "2026-02-15T20:50:43Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.2",
+        "name": "World Monitor v2.3.2",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.2",
+        "published_at": "2026-02-15T19:38:07Z",
+        "created_at": "2026-02-15T19:33:19Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.1",
+        "name": "World Monitor v2.3.1",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.1",
+        "published_at": "2026-02-15T19:08:33Z",
+        "created_at": "2026-02-15T19:03:24Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.3.0",
+        "name": "World Monitor v2.3.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.3.0",
+        "published_at": "2026-02-15T16:43:05Z",
+        "created_at": "2026-02-15T16:38:54Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.2.6",
+        "name": "World Monitor v2.2.6",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.2.6",
+        "published_at": "2026-02-15T16:04:07Z",
+        "created_at": "2026-02-15T16:00:17Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.2.5",
+        "name": "World Monitor v2.2.5",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.2.5",
+        "published_at": "2026-02-15T15:26:05Z",
+        "created_at": "2026-02-15T15:22:47Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.2.2",
+        "name": "World Monitor v2.2.2",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.2.2",
+        "published_at": "2026-02-15T10:14:15Z",
+        "created_at": "2026-02-15T10:10:40Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.2.1",
+        "name": "World Monitor v2.2.1",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.2.1",
+        "published_at": "2026-02-15T05:45:05Z",
+        "created_at": "2026-02-15T05:41:43Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.2.0",
+        "name": "World Monitor v2.2.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.2.0",
+        "published_at": "2026-02-14T17:32:29Z",
+        "created_at": "2026-02-14T17:31:07Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.1.0",
+        "name": "World Monitor v2.1.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.1.0",
+        "published_at": "2026-02-14T17:34:42Z",
+        "created_at": "2026-01-27T12:43:52Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.0.0",
+        "name": "World Monitor v2.0.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v2.0.0",
+        "published_at": "2026-02-14T17:34:23Z",
+        "created_at": "2026-01-25T13:58:43Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.7.0",
+        "name": "World Monitor v1.7.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.7.0",
+        "published_at": "2026-02-14T17:37:10Z",
+        "created_at": "2026-01-23T07:34:04Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.5.0",
+        "name": "World Monitor v1.5.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.5.0",
+        "published_at": "2026-02-14T17:36:59Z",
+        "created_at": "2026-01-20T07:36:08Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.4.0",
+        "name": "World Monitor v1.4.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.4.0",
+        "published_at": "2026-02-14T17:36:52Z",
+        "created_at": "2026-01-18T07:46:58Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.3.0",
+        "name": "World Monitor v1.3.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.3.0",
+        "published_at": "2026-02-14T17:36:38Z",
+        "created_at": "2026-01-12T18:01:44Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.2.0",
+        "name": "World Monitor v1.2.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.2.0",
+        "published_at": "2026-02-14T17:36:28Z",
+        "created_at": "2026-01-11T11:22:40Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.0.0",
+        "name": "World Monitor v1.0.0",
+        "html_url": "https://github.com/koala73/worldmonitor/releases/tag/v1.0.0",
+        "published_at": "2026-02-14T17:36:21Z",
+        "created_at": "2026-01-08T17:29:47Z",
+        "draft": false,
+        "prerelease": false
+      }
+    ],
+    "tags": [
+      {
+        "name": "v2.10.0",
+        "commit_sha": "802eafbf0e5560350f04ae7d370ebcc80c17325d"
+      },
+      {
+        "name": "v2.5.23",
+        "commit_sha": "e51058e1765ef2f0c83ccb1d08d984bc59d23f10"
+      },
+      {
+        "name": "v2.5.21",
+        "commit_sha": "0beaffb4a0c0a318668bddad273d9c21ec13ea0e"
+      },
+      {
+        "name": "v2.5.20",
+        "commit_sha": "7627f46e43d28838340d9feda71c34aebafb4f60"
+      },
+      {
+        "name": "v2.5.19",
+        "commit_sha": "f066c7c34c9b146a455584f576e7dfcfa34a05e4"
+      },
+      {
+        "name": "v2.5.18",
+        "commit_sha": "6106f368f7c16caad1b814b2f12c611ada34c84c"
+      },
+      {
+        "name": "v2.5.17",
+        "commit_sha": "6e15b99830ba9cfa1494bc0d717a027b3e0b8259"
+      },
+      {
+        "name": "v2.5.16",
+        "commit_sha": "c66e740f30b2b7b08e3e64f7ac3311a0ddc9c7bb"
+      },
+      {
+        "name": "v2.5.15",
+        "commit_sha": "e40b2eb47e480f223e96113c8a1c5d3268edd579"
+      },
+      {
+        "name": "v2.5.14",
+        "commit_sha": "caeb3ead2c849b2a7f51ccea27d588bf04737540"
+      },
+      {
+        "name": "v2.5.13",
+        "commit_sha": "bbe814c9856a4cad586dd414b3ab19b9c6c333c0"
+      },
+      {
+        "name": "v2.5.12",
+        "commit_sha": "4397f9c5428451cdd8b2971ff8d04a7cf83aeba4"
+      },
+      {
+        "name": "v2.5.11",
+        "commit_sha": "5fa5a73e30da64d32bbd10a79453573677b9e547"
+      },
+      {
+        "name": "v2.5.10",
+        "commit_sha": "012907ae843afd2b9a69cfe6a3dcf5112a439111"
+      },
+      {
+        "name": "v2.5.9",
+        "commit_sha": "a560efff494dfa9ae0306d2958f69efd7cc74f03"
+      },
+      {
+        "name": "v2.5.7",
+        "commit_sha": "6d0607e01a7d8558bcc28446e046545f05027c1b"
+      },
+      {
+        "name": "v2.5.6",
+        "commit_sha": "09f870ebc92f2b9543c81bb099a491e2d69279ea"
+      },
+      {
+        "name": "v2.5.5",
+        "commit_sha": "b8be2f68905ef56d30bcd5e11b2b2dbb1c1d21dc"
+      },
+      {
+        "name": "v2.5.2",
+        "commit_sha": "48f8e24353c7c792606212be43d4ee22dde781b1"
+      },
+      {
+        "name": "v2.5.1",
+        "commit_sha": "7440281d713accecc92a12e9936a2c25c3d9532b"
+      },
+      {
+        "name": "v2.5.0",
+        "commit_sha": "58389ba440b76d91d9a59abddf73397f8833aa65"
+      },
+      {
+        "name": "v2.4.1",
+        "commit_sha": "a851d5e8a1321a672fbc2c1f9eea1b3fd7231b73"
+      },
+      {
+        "name": "v2.4.0",
+        "commit_sha": "572f3808565d4312bcb8973c883b3a56fb5cb619"
+      },
+      {
+        "name": "v2.3.9",
+        "commit_sha": "922092c65319c8576cd384337a51ae921d21da0f"
+      },
+      {
+        "name": "v2.3.8",
+        "commit_sha": "fe3fe09c41d4a4d913476d9c08f6c2581d2c01a9"
+      },
+      {
+        "name": "v2.3.7",
+        "commit_sha": "88ad25cb933c7f4a31a05bbaf6347d6141314b95"
+      },
+      {
+        "name": "v2.3.6",
+        "commit_sha": "700132adad72910dc8678b405f0676be6f6baa7c"
+      },
+      {
+        "name": "v2.3.5",
+        "commit_sha": "46010c39110f14ba6460e2ed43d4e641e66c1ba2"
+      },
+      {
+        "name": "v2.3.4",
+        "commit_sha": "939ac3a8643a017d8160f94f98efbca1b81f863d"
+      },
+      {
+        "name": "v2.3.3",
+        "commit_sha": "f3581a5f9ba548b1f61347012f0100a805d91217"
+      },
+      {
+        "name": "v2.3.2",
+        "commit_sha": "f3fddcb0e8cf6b6d7fe5ebbdf69b3672f19a2e2f"
+      },
+      {
+        "name": "v2.3.1",
+        "commit_sha": "ab6dfccdebac2b670f208850be5ae9c1c4ec9008"
+      },
+      {
+        "name": "v2.3.0",
+        "commit_sha": "723279eedc54db75aa9f7bfff4e0a80c0132ac22"
+      },
+      {
+        "name": "v2.2.7",
+        "commit_sha": "a9224254a5767c530163846e0901085b5070c0df"
+      },
+      {
+        "name": "v2.2.6",
+        "commit_sha": "a31f81a0fe3f6460c3e49445ab5020ac0450e552"
+      },
+      {
+        "name": "v2.2.5",
+        "commit_sha": "071836d390488374327782bb9f706d12e0d1735d"
+      },
+      {
+        "name": "v2.2.3",
+        "commit_sha": "67d3673926701e1f85d06e11f51f4557acf8a904"
+      },
+      {
+        "name": "v2.2.2",
+        "commit_sha": "add310349beac0c473d2c60038ce1882598a0092"
+      },
+      {
+        "name": "v2.2.1",
+        "commit_sha": "a17b1b02e6ffe1e4231ea14558ef156b84f55e7b"
+      },
+      {
+        "name": "v2.2.0",
+        "commit_sha": "5e079f891dc3cc6008946e489af099064322e72b"
+      },
+      {
+        "name": "v2.1.0",
+        "commit_sha": "1292f0595f48ae4c10775a9b912ddeb0b1f809ee"
+      },
+      {
+        "name": "v2.0.0",
+        "commit_sha": "4eff2889dab1e471b0c273a777efaa38a76747a0"
+      },
+      {
+        "name": "v1.7.0",
+        "commit_sha": "cd1f8caae6a7a77f66dddd8f0e8628389040542c"
+      },
+      {
+        "name": "v1.5.0",
+        "commit_sha": "d5cd174516546bece9f32788a929fd82b0c2b67a"
+      },
+      {
+        "name": "v1.4.0",
+        "commit_sha": "8a060dd1d6926a1fa5f9374839b5f0066008712d"
+      },
+      {
+        "name": "v1.3.0",
+        "commit_sha": "2b9d6eb479c714a58c3d1c46344349fa1b5361df"
+      },
+      {
+        "name": "v1.2.0",
+        "commit_sha": "b79c43c04c6e68a3f6dd094fddb6d2cddd1a2155"
+      },
+      {
+        "name": "v1.0.0",
+        "commit_sha": "27892b306c195dbd79bcd66cfa6b3521a9d09d62"
+      },
+      {
+        "name": "v1",
+        "commit_sha": "2b0554abc6a6ed0679bea9d260b6e8c3f836a01c"
+      },
+      {
+        "name": "sdk/go/v0.1.1",
+        "commit_sha": "3df54601c93b457f464e1bd25195e9877133eeda"
+      },
+      {
+        "name": "sdk/go/v0.1.0",
+        "commit_sha": "3cd3755d803725a1d4a5c77623b85f0d527ad882"
+      },
+      {
+        "name": "py-v0.1.1",
+        "commit_sha": "3ff8c8d84b2bcfb1eed390e4bcc23145a2bf998b"
+      },
+      {
+        "name": "py-v0.1.0",
+        "commit_sha": "3cd3755d803725a1d4a5c77623b85f0d527ad882"
+      },
+      {
+        "name": "gem-v0.1.1",
+        "commit_sha": "3ff8c8d84b2bcfb1eed390e4bcc23145a2bf998b"
+      },
+      {
+        "name": "gem-v0.1.0",
+        "commit_sha": "3cd3755d803725a1d4a5c77623b85f0d527ad882"
+      },
+      {
+        "name": "convex-deployed",
+        "commit_sha": "4c386fbdfaee44b3bd7418a9f6da36ee27e3f144"
+      },
+      {
+        "name": "cli-v0.1.3",
+        "commit_sha": "3ff8c8d84b2bcfb1eed390e4bcc23145a2bf998b"
+      },
+      {
+        "name": "cli-v0.1.2",
+        "commit_sha": "cb44d84f020cdac67d8faa6d32265fd86378a9a9"
+      },
+      {
+        "name": "cli-v0.1.1",
+        "commit_sha": "a54d0d05bd3a5a581e93af362769aec3ea4c5c8c"
+      },
+      {
+        "name": "cli-v0.1.0",
+        "commit_sha": "84858f20f4b4fa42c223426232d032f92de32dae"
+      }
+    ],
+    "tag_details": [
+      {
+        "name": "v2.10.0",
+        "commit_sha": "802eafbf0e5560350f04ae7d370ebcc80c17325d",
+        "committed_at": "2026-08-13T17:22:05Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/802eafbf0e5560350f04ae7d370ebcc80c17325d"
+      },
+      {
+        "name": "v2.5.23",
+        "commit_sha": "e51058e1765ef2f0c83ccb1d08d984bc59d23f10",
+        "committed_at": "2026-03-01T23:25:51Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/e51058e1765ef2f0c83ccb1d08d984bc59d23f10"
+      },
+      {
+        "name": "v2.5.21",
+        "commit_sha": "0beaffb4a0c0a318668bddad273d9c21ec13ea0e",
+        "committed_at": "2026-03-01T00:37:32Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/0beaffb4a0c0a318668bddad273d9c21ec13ea0e"
+      },
+      {
+        "name": "v2.5.20",
+        "commit_sha": "7627f46e43d28838340d9feda71c34aebafb4f60",
+        "committed_at": "2026-02-27T20:40:04Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/7627f46e43d28838340d9feda71c34aebafb4f60"
+      },
+      {
+        "name": "v2.5.19",
+        "commit_sha": "f066c7c34c9b146a455584f576e7dfcfa34a05e4",
+        "committed_at": "2026-02-26T20:20:50Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/f066c7c34c9b146a455584f576e7dfcfa34a05e4"
+      },
+      {
+        "name": "v2.5.18",
+        "commit_sha": "6106f368f7c16caad1b814b2f12c611ada34c84c",
+        "committed_at": "2026-02-26T19:59:42Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/6106f368f7c16caad1b814b2f12c611ada34c84c"
+      },
+      {
+        "name": "v2.5.17",
+        "commit_sha": "6e15b99830ba9cfa1494bc0d717a027b3e0b8259",
+        "committed_at": "2026-02-26T19:38:12Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/6e15b99830ba9cfa1494bc0d717a027b3e0b8259"
+      },
+      {
+        "name": "v2.5.16",
+        "commit_sha": "c66e740f30b2b7b08e3e64f7ac3311a0ddc9c7bb",
+        "committed_at": "2026-02-26T18:54:41Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/c66e740f30b2b7b08e3e64f7ac3311a0ddc9c7bb"
+      },
+      {
+        "name": "v2.5.15",
+        "commit_sha": "e40b2eb47e480f223e96113c8a1c5d3268edd579",
+        "committed_at": "2026-02-26T17:36:44Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/e40b2eb47e480f223e96113c8a1c5d3268edd579"
+      },
+      {
+        "name": "v2.5.14",
+        "commit_sha": "caeb3ead2c849b2a7f51ccea27d588bf04737540",
+        "committed_at": "2026-02-26T16:58:26Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/caeb3ead2c849b2a7f51ccea27d588bf04737540"
+      },
+      {
+        "name": "v2.5.13",
+        "commit_sha": "bbe814c9856a4cad586dd414b3ab19b9c6c333c0",
+        "committed_at": "2026-02-26T16:33:11Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/bbe814c9856a4cad586dd414b3ab19b9c6c333c0"
+      },
+      {
+        "name": "v2.5.12",
+        "commit_sha": "4397f9c5428451cdd8b2971ff8d04a7cf83aeba4",
+        "committed_at": "2026-02-26T15:12:03Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/4397f9c5428451cdd8b2971ff8d04a7cf83aeba4"
+      },
+      {
+        "name": "v2.5.11",
+        "commit_sha": "5fa5a73e30da64d32bbd10a79453573677b9e547",
+        "committed_at": "2026-02-26T12:45:35Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/5fa5a73e30da64d32bbd10a79453573677b9e547"
+      },
+      {
+        "name": "v2.5.10",
+        "commit_sha": "012907ae843afd2b9a69cfe6a3dcf5112a439111",
+        "committed_at": "2026-02-26T11:23:21Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/012907ae843afd2b9a69cfe6a3dcf5112a439111"
+      },
+      {
+        "name": "v2.5.9",
+        "commit_sha": "a560efff494dfa9ae0306d2958f69efd7cc74f03",
+        "committed_at": "2026-02-26T06:26:08Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/a560efff494dfa9ae0306d2958f69efd7cc74f03"
+      },
+      {
+        "name": "v2.5.7",
+        "commit_sha": "6d0607e01a7d8558bcc28446e046545f05027c1b",
+        "committed_at": "2026-02-25T00:04:00Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/6d0607e01a7d8558bcc28446e046545f05027c1b"
+      },
+      {
+        "name": "v2.5.6",
+        "commit_sha": "09f870ebc92f2b9543c81bb099a491e2d69279ea",
+        "committed_at": "2026-02-23T18:48:50Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/09f870ebc92f2b9543c81bb099a491e2d69279ea"
+      },
+      {
+        "name": "v2.5.5",
+        "commit_sha": "b8be2f68905ef56d30bcd5e11b2b2dbb1c1d21dc",
+        "committed_at": "2026-02-23T08:26:54Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/b8be2f68905ef56d30bcd5e11b2b2dbb1c1d21dc"
+      },
+      {
+        "name": "v2.5.2",
+        "commit_sha": "48f8e24353c7c792606212be43d4ee22dde781b1",
+        "committed_at": "2026-02-20T23:46:34Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/48f8e24353c7c792606212be43d4ee22dde781b1"
+      },
+      {
+        "name": "v2.5.1",
+        "commit_sha": "7440281d713accecc92a12e9936a2c25c3d9532b",
+        "committed_at": "2026-02-20T11:07:11Z",
+        "html_url": "https://github.com/koala73/worldmonitor/commit/7440281d713accecc92a12e9936a2c25c3d9532b"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "koala73",
+        "type": "User",
+        "contributions": 5936,
+        "html_url": "https://github.com/koala73"
+      },
+      {
+        "login": "SebastienMelki",
+        "type": "User",
+        "contributions": 84,
+        "html_url": "https://github.com/SebastienMelki"
+      },
+      {
+        "login": "claude",
+        "type": "User",
+        "contributions": 53,
+        "html_url": "https://github.com/claude"
+      },
+      {
+        "login": "yzxcj797",
+        "type": "User",
+        "contributions": 48,
+        "html_url": "https://github.com/yzxcj797"
+      },
+      {
+        "login": "NewCoder3294",
+        "type": "User",
+        "contributions": 44,
+        "html_url": "https://github.com/NewCoder3294"
+      },
+      {
+        "login": "ayobamiseun",
+        "type": "User",
+        "contributions": 35,
+        "html_url": "https://github.com/ayobamiseun"
+      },
+      {
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "contributions": 35,
+        "html_url": "https://github.com/apps/dependabot"
+      },
+      {
+        "login": "lspassos1",
+        "type": "User",
+        "contributions": 30,
+        "html_url": "https://github.com/lspassos1"
+      },
+      {
+        "login": "FayezBast",
+        "type": "User",
+        "contributions": 27,
+        "html_url": "https://github.com/FayezBast"
+      },
+      {
+        "login": "danielimad",
+        "type": "User",
+        "contributions": 18,
+        "html_url": "https://github.com/danielimad"
+      },
+      {
+        "login": "cursoragent",
+        "type": "User",
+        "contributions": 15,
+        "html_url": "https://github.com/cursoragent"
+      },
+      {
+        "login": "mintlify[bot]",
+        "type": "Bot",
+        "contributions": 13,
+        "html_url": "https://github.com/apps/mintlify"
+      },
+      {
+        "login": "JacobisEpic",
+        "type": "User",
+        "contributions": 12,
+        "html_url": "https://github.com/JacobisEpic"
+      },
+      {
+        "login": "Yigtwxx",
+        "type": "User",
+        "contributions": 11,
+        "html_url": "https://github.com/Yigtwxx"
+      },
+      {
+        "login": "jrtorrez31337",
+        "type": "User",
+        "contributions": 10,
+        "html_url": "https://github.com/jrtorrez31337"
+      },
+      {
+        "login": "fuleinist",
+        "type": "User",
+        "contributions": 9,
+        "html_url": "https://github.com/fuleinist"
+      },
+      {
+        "login": "Lib-LOCALE",
+        "type": "User",
+        "contributions": 9,
+        "html_url": "https://github.com/Lib-LOCALE"
+      },
+      {
+        "login": "shinzoxD",
+        "type": "User",
+        "contributions": 8,
+        "html_url": "https://github.com/shinzoxD"
+      },
+      {
+        "login": "dyrach1o",
+        "type": "User",
+        "contributions": 7,
+        "html_url": "https://github.com/dyrach1o"
+      },
+      {
+        "login": "tsubasakong",
+        "type": "User",
+        "contributions": 7,
+        "html_url": "https://github.com/tsubasakong"
+      },
+      {
+        "login": "cursor[bot]",
+        "type": "Bot",
+        "contributions": 7,
+        "html_url": "https://github.com/apps/cursor"
+      },
+      {
+        "login": "lawyered0",
+        "type": "User",
+        "contributions": 6,
+        "html_url": "https://github.com/lawyered0"
+      },
+      {
+        "login": "yfwmaniish",
+        "type": "User",
+        "contributions": 6,
+        "html_url": "https://github.com/yfwmaniish"
+      },
+      {
+        "login": "Rau1CS",
+        "type": "User",
+        "contributions": 5,
+        "html_url": "https://github.com/Rau1CS"
+      },
+      {
+        "login": "Niboshi-Wasabi",
+        "type": "User",
+        "contributions": 5,
+        "html_url": "https://github.com/Niboshi-Wasabi"
+      },
+      {
+        "login": "shon91827",
+        "type": "User",
+        "contributions": 5,
+        "html_url": "https://github.com/shon91827"
+      },
+      {
+        "login": "guhyun9454",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/guhyun9454"
+      },
+      {
+        "login": "warren618",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/warren618"
+      },
+      {
+        "login": "Pranav140",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/Pranav140"
+      },
+      {
+        "login": "shubham1206agra",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/shubham1206agra"
+      },
+      {
+        "login": "tang-vu",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/tang-vu"
+      },
+      {
+        "login": "elzalem",
+        "type": "User",
+        "contributions": 4,
+        "html_url": "https://github.com/elzalem"
+      },
+      {
+        "login": "zionappp-ui",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/zionappp-ui"
+      },
+      {
+        "login": "neoeric",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/neoeric"
+      },
+      {
+        "login": "vittoriohalfon",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/vittoriohalfon"
+      },
+      {
+        "login": "sridhar-3009",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/sridhar-3009"
+      },
+      {
+        "login": "rayanhabib07",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/rayanhabib07"
+      },
+      {
+        "login": "alvinjaison",
+        "type": "User",
+        "contributions": 3,
+        "html_url": "https://github.com/alvinjaison"
+      },
+      {
+        "login": "Sethispr",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/Sethispr"
+      },
+      {
+        "login": "randommanguy",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/randommanguy"
+      },
+      {
+        "login": "ValMtp3",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/ValMtp3"
+      },
+      {
+        "login": "BlackPool25",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/BlackPool25"
+      },
+      {
+        "login": "mgpai22",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/mgpai22"
+      },
+      {
+        "login": "haosenwang1018",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/haosenwang1018"
+      },
+      {
+        "login": "Nebu2k",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/Nebu2k"
+      },
+      {
+        "login": "navedsayyed",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/navedsayyed"
+      },
+      {
+        "login": "Meet-1010",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/Meet-1010"
+      },
+      {
+        "login": "mvanhorn",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/mvanhorn"
+      },
+      {
+        "login": "rizqizulfian",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/rizqizulfian"
+      },
+      {
+        "login": "jeisaacs",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/jeisaacs"
+      },
+      {
+        "login": "InlitX",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/InlitX"
+      },
+      {
+        "login": "humammoin09-blip",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/humammoin09-blip"
+      },
+      {
+        "login": "ehs208",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/ehs208"
+      },
+      {
+        "login": "DrDavidL",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/DrDavidL"
+      },
+      {
+        "login": "tagadearpit",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/tagadearpit"
+      },
+      {
+        "login": "Ahmadhamdan47",
+        "type": "User",
+        "contributions": 2,
+        "html_url": "https://github.com/Ahmadhamdan47"
+      },
+      {
+        "login": "sanwalsulehri",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/sanwalsulehri"
+      },
+      {
+        "login": "svanvliet",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/svanvliet"
+      },
+      {
+        "login": "fix2015",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/fix2015"
+      },
+      {
+        "login": "stablegenius49",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/stablegenius49"
+      },
+      {
+        "login": "stevenjmiklovic",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/stevenjmiklovic"
+      },
+      {
+        "login": "Osamaali313",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Osamaali313"
+      },
+      {
+        "login": "tarun1790",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/tarun1790"
+      },
+      {
+        "login": "thejesh23",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/thejesh23"
+      },
+      {
+        "login": "thomas-hdqr",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/thomas-hdqr"
+      },
+      {
+        "login": "vboufleur",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/vboufleur"
+      },
+      {
+        "login": "nkrvivek",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/nkrvivek"
+      },
+      {
+        "login": "aa5064",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/aa5064"
+      },
+      {
+        "login": "Developer1010x",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Developer1010x"
+      },
+      {
+        "login": "B353N",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/B353N"
+      },
+      {
+        "login": "tokito-99",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/tokito-99"
+      },
+      {
+        "login": "RepairYourTech",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/RepairYourTech"
+      },
+      {
+        "login": "RKNSYAH",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/RKNSYAH"
+      },
+      {
+        "login": "rajanpanth",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/rajanpanth"
+      },
+      {
+        "login": "rahulp7801",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/rahulp7801"
+      },
+      {
+        "login": "pedroddomingues",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/pedroddomingues"
+      },
+      {
+        "login": "ppival",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/ppival"
+      },
+      {
+        "login": "pangerlkr",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/pangerlkr"
+      },
+      {
+        "login": "OmarZN",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/OmarZN"
+      },
+      {
+        "login": "octo-patch",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/octo-patch"
+      },
+      {
+        "login": "usman1102",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/usman1102"
+      },
+      {
+        "login": "toasterbook88",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/toasterbook88"
+      },
+      {
+        "login": "tmartin2113",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/tmartin2113"
+      },
+      {
+        "login": "szzhoujiarui",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/szzhoujiarui"
+      },
+      {
+        "login": "spignataro",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/spignataro"
+      },
+      {
+        "login": "speedy75015-crypto",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/speedy75015-crypto"
+      },
+      {
+        "login": "sohisimran08",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/sohisimran08"
+      },
+      {
+        "login": "skobe79",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/skobe79"
+      },
+      {
+        "login": "sahildhargave-byte",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/sahildhargave-byte"
+      },
+      {
+        "login": "patrykcodex-del",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/patrykcodex-del"
+      },
+      {
+        "login": "narinth19-ops",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/narinth19-ops"
+      },
+      {
+        "login": "varneeth01",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/varneeth01"
+      },
+      {
+        "login": "msantosn-mt",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/msantosn-mt"
+      },
+      {
+        "login": "devalnor",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/devalnor"
+      },
+      {
+        "login": "cyberkrap",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/cyberkrap"
+      },
+      {
+        "login": "NGU-152002",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/NGU-152002"
+      },
+      {
+        "login": "gbrlprs",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/gbrlprs"
+      },
+      {
+        "login": "facusturla",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/facusturla"
+      },
+      {
+        "login": "elliotllliu",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/elliotllliu"
+      },
+      {
+        "login": "cwnicoletti",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/cwnicoletti"
+      },
+      {
+        "login": "cire0049",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/cire0049"
+      },
+      {
+        "login": "boyam01",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/boyam01"
+      },
+      {
+        "login": "bighaoZQH",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/bighaoZQH"
+      },
+      {
+        "login": "aeonframework",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/aeonframework"
+      },
+      {
+        "login": "hanimounla",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/hanimounla"
+      },
+      {
+        "login": "GuthaSrishanthReddy",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/GuthaSrishanthReddy"
+      },
+      {
+        "login": "georgeatparallel",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/georgeatparallel"
+      },
+      {
+        "login": "alloutflo",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/alloutflo"
+      },
+      {
+        "login": "DICOT4",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/DICOT4"
+      },
+      {
+        "login": "eyupcanakman",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/eyupcanakman"
+      },
+      {
+        "login": "erikkktv",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/erikkktv"
+      },
+      {
+        "login": "emanuele8888",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/emanuele8888"
+      },
+      {
+        "login": "dvirarad",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/dvirarad"
+      },
+      {
+        "login": "dharunashokkumar",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/dharunashokkumar"
+      },
+      {
+        "login": "Dessalines39394",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Dessalines39394"
+      },
+      {
+        "login": "K35P",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/K35P"
+      },
+      {
+        "login": "toanbui-tech",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/toanbui-tech"
+      },
+      {
+        "login": "Bigwar6868",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Bigwar6868"
+      },
+      {
+        "login": "demirciberk",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/demirciberk"
+      },
+      {
+        "login": "jaadu611",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/jaadu611"
+      },
+      {
+        "login": "Aswinesag",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Aswinesag"
+      },
+      {
+        "login": "mcalooosh",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/mcalooosh"
+      },
+      {
+        "login": "AliXAbdullah03",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/AliXAbdullah03"
+      },
+      {
+        "login": "alexgoodison",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/alexgoodison"
+      },
+      {
+        "login": "alceops",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/alceops"
+      },
+      {
+        "login": "abhijit826",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/abhijit826"
+      },
+      {
+        "login": "AbdulTaufeeq01",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/AbdulTaufeeq01"
+      },
+      {
+        "login": "SharvilTitarmare",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/SharvilTitarmare"
+      },
+      {
+        "login": "nathanpixodeo",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/nathanpixodeo"
+      },
+      {
+        "login": "mosabsayyed",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/mosabsayyed"
+      },
+      {
+        "login": "Mirza-Samad-Ahmed-Baig",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Mirza-Samad-Ahmed-Baig"
+      },
+      {
+        "login": "michaeldubu",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/michaeldubu"
+      },
+      {
+        "login": "michaelsam94",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/michaelsam94"
+      },
+      {
+        "login": "mertefesensoy",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/mertefesensoy"
+      },
+      {
+        "login": "melbinjp",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/melbinjp"
+      },
+      {
+        "login": "lukman48",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/lukman48"
+      },
+      {
+        "login": "RichardYang40148",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/RichardYang40148"
+      },
+      {
+        "login": "apple462",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/apple462"
+      },
+      {
+        "login": "MGPOCKY",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/MGPOCKY"
+      },
+      {
+        "login": "ShiroKSH",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/ShiroKSH"
+      },
+      {
+        "login": "Konstantysz",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/Konstantysz"
+      },
+      {
+        "login": "kobihikri",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/kobihikri"
+      },
+      {
+        "login": "mirukibs",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/mirukibs"
+      },
+      {
+        "login": "JohnPhamous",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/JohnPhamous"
+      },
+      {
+        "login": "javeria222",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/javeria222"
+      },
+      {
+        "login": "janbrogger",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/janbrogger"
+      },
+      {
+        "login": "jamesng16",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/jamesng16"
+      },
+      {
+        "login": "jyr-ai",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/jyr-ai"
+      },
+      {
+        "login": "JRCZE",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/JRCZE"
+      },
+      {
+        "login": "isha-1686",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/isha-1686"
+      },
+      {
+        "login": "eltociear",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/eltociear"
+      },
+      {
+        "login": "aldoyh",
+        "type": "User",
+        "contributions": 1,
+        "html_url": "https://github.com/aldoyh"
+      }
+    ],
+    "security_advisories": [
+      {
+        "ghsa_id": "GHSA-5j39-mmw6-cqw6",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-5j39-mmw6-cqw6",
+        "summary": "MCP SSE replay is not bound to the authenticated owner",
+        "description": "## Summary\n\nThe legacy MCP SSE replay path authenticates the reconnecting request but does not verify that the authenticated principal owns the stored session or stream. Any valid credential that passes current entitlement and rate checks can replay another principal's stored tool result if it obtains that principal's `Mcp-Session-Id` and `Last-Event-ID`.\n\nValidated on `origin/main` at `a638df57182364507ae09b6a379237991901c480`.\n\n## Affected path\n\n- `api/mcp/handler.ts:141-163`: `StoredSseStream` contains only events and byte count; no owner/principal identifier.\n- `api/mcp/handler.ts:261-279`: `storeSseStream(sessionId, streamId, events)` keys replay data only by session and stream identifiers.\n- `api/mcp/handler.ts:394-421`: `handleAuthenticatedSseReplay()` validates the current credential, billing/entitlement state, and per-minute limit, then calls `handleSseReplay()` without passing the authenticated principal.\n- `api/mcp/handler.ts:292-370`: replay lookup uses only caller-supplied `mcp-session-id` and `last-event-id`.\n\n## Reproduction model\n\n1. Principal A makes an MCP request with `Accept: text/event-stream` and receives a streamed tool result plus `Mcp-Session-Id` and an event id `<stream UUID>:0`.\n2. Principal B has any separate valid credential that passes MCP prechecks.\n3. B sends GET `/mcp` with A's `Mcp-Session-Id` and `Last-Event-ID`.\n4. The handler authenticates B, then looks up A's stored stream solely by the supplied identifiers and returns A's replayed tool-result data.\n\nThe identifiers are high-entropy, so exploitation requires disclosure of both values, for example through client diagnostics, shared traces, copied reconnect state, or overly broad proxy/header logging. They are capability-like but are not a substitute for the authorization check the replay path already claims to perform.\n\n## Impact\n\nCross-account disclosure of replayed MCP tool output. Tool results can contain paid intelligence data, user-selected query context, or other entitlement-sensitive response content. Severity is medium because network access and a valid low-privilege credential are sufficient after the two replay identifiers are disclosed, but obtaining those identifiers raises attack complexity.\n\n## Remediation\n\nBind each stored session/stream to a stable authenticated principal identifier at write time and require an exact match before replay. The binding must cover all credential kinds that can create/replay streams and must not rely on mutable display fields. Return a non-oracular 404/authorization failure on mismatch.\n\n## Acceptance criteria\n\n- Store a principal binding with every replayable stream or session.\n- Reject replay when the current principal does not match the owner.\n- Add a two-principal negative test and same-principal positive reconnect test.\n- Preserve the existing global/session byte bounds, expiry, no-store response policy, billing prechecks, and legacy protocol compatibility.\n- Review open issue #5817 separately: its future stateless path removes SSE replay, but it explicitly preserves the legacy 2025 transport during rollout, so it does not currently close this vulnerability.\n---\n\n## Maintainer validation (2026-09-02)\n\nThe missing owner binding is REAL and confirmed at `origin/main`. The stated **impact is not**, and the advisory text above should be read with the two corrections below.\n\n### Confirmed\n\n`handleAuthenticatedSseReplay` resolves the caller, runs the entitlement pre-check and the per-minute limit, then calls `handleSseReplay` and drops `auth.context`. Lookup keys on the caller-supplied `Mcp-Session-Id` and `Last-Event-ID` alone. Reproduced on the wire against the real handler: with two valid Pro credentials, principal B's `GET` carrying A's session and event id returned **200**, while the same request with an unknown stream id returned 404.\n\n### Correction 1: no tool output can be replayed\n\nEvery stored stream holds exactly one event (`handler.ts:358` is the sole construction site), and `replayEventsAfter` returns `events.slice(cursor.sequence + 1)` with `sequence >= 0` enforced by `parseEventCursor`. **The slice is therefore always empty.** The cross-principal replay returned 200 with an empty body.\n\nWhat actually leaked is the 200-vs-404 distinction, which confirms that another principal's (session, stream) pair exists. That is an existence oracle, not the cross-account disclosure of paid intelligence data the report describes. The code comment at `handler.ts:355-357` already noted that a reconnect after the sole event yields an empty stream.\n\n### Correction 2: an unreported second defect, worse in practice\n\nThe same missing binding enables an availability attack that needs **no credential at all**. Only `initialize` mints a session id onto a response (`handler.ts:1003`), so every later call reads it off the request. `maybeStreamJsonRpcResponse` therefore wrote into a bucket named by the caller, and past `MAX_SSE_STREAMS_PER_SESSION` (25) those foreign writes evicted the owner's own buffered stream. Reproduced: after 30 foreign `ping` POSTs carrying the victim's session id, the victim's own replay went from 200 to **404**.\n\n### Severity\n\nRescored to `CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L` (4.8). It stays Medium, but for the correct reasons: `PR:N` because the eviction vector needs no credential, `AC:H` because both vectors require the victim's high-entropy `Mcp-Session-Id`, and `C:L/A:L` rather than `C:H` because the confidentiality loss is an existence oracle and the availability loss affects a best-effort convenience buffer. CWE-639 (authorization bypass through a user-controlled key) replaces the unset classification.\n\n### Remediation\n\nFixed by PR #7563. The owner binding sits on the session rather than on each stream, because the session bucket is what a foreign caller can reach and reaching it is enough to evict without reading. One check therefore closes both vectors. Mismatches return the same 404 a missing cursor produces, so the oracle closes with them.\n\nFree-tier callers no longer get a replay buffer at all. This costs nothing: GET and HEAD replay both route through `handleAuthenticatedSseReplay`, so a buffer stored without a principal was never readable by anyone and only consumed the shared 4MB budget.\n\nBoth vectors are now regression tests in `tests/mcp-transport-conformance.test.mjs`, which binds the real handler to a localhost listener. Both fail against the parent commit (200 where 404 is required, and 404 where 200 is required).\n\n### Note on the acceptance criteria\n\nThe report's final criterion asked us to review #5817 separately. Confirmed: its future stateless path removes SSE replay, but it explicitly preserves the legacy 2025 transport during rollout, so it does not close this on its own. That reading was correct.\n\nThanks for the report. The structural finding was accurate and worth fixing, and chasing it surfaced the uncredentialed eviction vector that neither of us had.\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-09-04T13:50:39Z",
+        "updated_at": "2026-09-04T13:50:39Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "other",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.10.0 (main @ commit ab34c3ba2)",
+            "patched_versions": "main @ ab34c3ba2",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": []
+      },
+      {
+        "ghsa_id": "GHSA-9gp4-366w-pcq3",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-9gp4-366w-pcq3",
+        "summary": "Weak (FNV-1a 52-bit) cache key in `buildSummaryCacheKey` allows unauthenticated poisoning of the shared summary/translation cache",
+        "description": "## Target\r\n\r\n- `src/utils/summary-cache-key.ts:140,157,136,139,162` (function `buildSummaryCacheKey`) - derives the shared Redis cache key with `hashString`.\r\n- `src/utils/hash.ts:1-10` (function `hashString`) - the FNV-1a 52-bit non-cryptographic hash used to build that key. Its twin `server/_shared/hash.ts:4-5` carries the explicit warning: \"Do NOT use for cache keys derived from attacker-controlled input. Use sha256Hex() instead.\"\r\n- `server/worldmonitor/news/v1/summarize-article.ts:79,195,199` (function `summarizeArticle`) - computes the key from attacker-controlled headlines and does the shared `cachedFetchJsonWithMeta` get-or-set; `mode:'translate'` is exempt from the premium gate.\r\n- Victim read path (translate): the `summarizeArticle` POST handler's own `cachedFetchJsonWithMeta` lookup (`summarize-article.ts:199`) returns the cached value; there is no separate cache RPC on this path. (`get-summarize-article-cache.ts:34-77` is a distinct GET pre-check used only by the `brief`-mode client shortcut in `summarization.ts`.) Victim client chain: `src/services/summarization.ts:416-447` (`translateText`) -> `src/components/NewsPanel.ts:312-329` (`handleTranslate`, renders via `titleEl.textContent`).\r\n- Repo state: branch `main`, commit `f573a78b3223` (version 2.10.0), cache namespace `summary:v9:`.\r\n\r\n## Broken Assumption\r\n\r\n`buildSummaryCacheKey` assumes the cache key uniquely identifies the content it caches, so that a cache hit for one request returns the summary/translation generated for that exact request. Uniqueness is delegated to `hashString`, an FNV-1a hash truncated to 52 bits. FNV-1a is a fast, invertible, non-cryptographic hash with no collision resistance, and 52 bits is small; nothing forces two distinct headline sets to distinct keys. The `hash.ts` warning states this input class (attacker-controlled cache-key material) must use SHA-256, and that requirement is not met here.\r\n\r\n## Exploit Path\r\n\r\nPreconditions: none beyond what any anonymous visitor has. `POST /api/wm-session` mints anonymous `wms_` session tokens to anyone (rate limited 30/min/IP; `api/wm-session.js:233-243`, comment: \"wms_ tokens are freely mintable, anonymous-only\"). `summarize-article` in `mode:'translate'` is not premium-gated (`summarize-article.ts:79`) and is explicitly excluded from the direct-LLM daily quota gate (`server/gateway.ts:624-641`). One further precondition matters: caching is first-writer-wins (`cachedFetchJsonWithMeta` only stores on a miss), so the attacker must reach a cold target row (a headline/language not yet summarized) or wait out the 24h TTL of an existing entry; the attacker cannot overwrite a live legitimate row.\r\n\r\n1. Attacker picks a target headline `V` that appears in the shared news feed (public, identical for all users), e.g. `\"federal reserve holds interest rates steady\"`, and a UI language `L` (e.g. `es`) whose cache row is cold.\r\n2. Attacker computes a second-preimage: a malicious headline `A` such that `hashString(\"translate:\"+A.length+\":\"+A) == hashString(\"translate:\"+V.length+\":\"+V)`. This is a meet-in-the-middle over FNV-1a (see PoC): ~99 seconds on one CPU core. The attacker controls the semantic input; to make the cached output near-verbatim they phrase `A` already in the target language `L` (the translate system prompt returns text unchanged when it is already in `L`).\r\n3. Attacker mints an anonymous `wms_` token, then calls `POST /api/news/v1/summarize-article` with `{provider:'openrouter', mode:'translate', headlines:[A], variant:'es'}` (`provider` is a required proto field, so a provider the server has credentials for must be supplied; the cache key is provider-independent). The server computes `cacheKey = summary:v9:translate:es:<hash>` from `A`, misses, runs the translate LLM on `A`, and stores the attacker-chosen text under that key (`summarize-article.ts:195-199`; TTL 24h).\r\n4. Later, any victim viewing the dashboard in Spanish clicks \"translate\" on the real headline `V`. `translateText` (`summarization.ts:433`) calls the same RPC with `headlines:[V], mode:'translate', variant:'es'`; inside `summarizeArticle` the server computes the identical key and its own `cachedFetchJsonWithMeta` returns the attacker's stored value (a cache hit).\r\n5. `handleTranslate` sets `titleEl.textContent = translated` (`NewsPanel.ts:329`): the victim sees the attacker-controlled text in place of the real headline's translation.\r\n\r\n## Proof of Concept\r\n\r\nTwo self-contained Node scripts (plain `node`, no repo deps). Both embed the VERBATIM `src/utils/hash.ts::hashString` and the VERBATIM translate branch of `buildSummaryCacheKey`, so the collision is proven against the real key derivation. Full scripts (run with `node`):\r\n`poc-fnv-preimage.mjs` (MITM second-preimage search) and `poc-e2e-cache-poison.mjs` (shared-cache get-or-set simulation).\r\n\r\nObserved output (single core):\r\n\r\n```\r\n[validate] fast FNV, invStep, and PINV all verified against verbatim repo hashString\r\n[target] victim=\"federal reserve holds interest rates steady\"  targetHash(dec)=4090658866393796  base36=14a0mqnd9z8\r\n[mitm] forward table built in 7.0s\r\n================ COLLISION FOUND ================\r\nelapsed:            98.9s   backward tries: 203731533\r\nvictim headline:    \"federal reserve holds interest rates steady\"\r\nattacker headline:  \"nato has authorized nuclear retaliation against russia effective now 0a9f19ac24b24d\"\r\ndistinct strings:   true\r\nsanitizer-stable:   victim=true attacker=true\r\n--- via VERBATIM repo hashString + buildSummaryCacheKey(translate) ---\r\nvictim   cache key: summary:v9:translate:es:14a0mqnd9z8\r\nattacker cache key: summary:v9:translate:es:14a0mqnd9z8\r\nKEYS EQUAL:         true\r\n```\r\n\r\nEnd-to-end cache simulation. This is a faithful model of the get-or-set semantics using the real key function, with Redis modeled as a Map and the translate LLM stubbed; it is not a live test against the deployed gateway/Redis/LLM. The sample attacker string is English for readability (it would be translated into `es`); an attacker seeking near-verbatim output phrases the payload already in the target language.\r\n\r\n```\r\n[attacker] POST summarize-article mode=translate -> source=origin\r\n[attacker] cached value: «nato has authorized nuclear retaliation against russia effective now 0a9f19ac24b24d»\r\n[victim]  translate(\"federal reserve holds interest rates steady\") -> source=cache\r\n[victim]  text rendered into the headline element: «nato has authorized ... »\r\nRESULT: victim served ATTACKER-controlled content instead of a real translation: true\r\n```\r\n\r\nSuccess is observable as `KEYS EQUAL: true` for two distinct, sanitizer-stable headlines, and the victim lookup returning `source=cache` with attacker content. Both inputs are stable under `sanitizeHeadline` (alnum + single spaces), so the server-side `sanitizeHeadlinesLight` applied before keying does not change them, and the server-computed keys match the values shown.\r\n\r\n## Why This Works\r\n[](url)\r\n`hashString` is FNV-1a masked to 52 bits (`h = (h ^ byte) * PRIME mod 2^52`). Multiplication by the odd FNV prime modulo `2^52` is a bijection and XOR is its own inverse, so each step is invertible. That lets an attacker run a meet-in-the-middle: build states forward from a fixed malicious prefix, invert backward from the target hash over a suffix region, and match in the middle. The work factor collapses from a naive `2^52` to about `2^27` (here `2^24` forward entries x `2^28` backward probes), which is minutes on one core and seconds across a few. The proximate cause is a collidable digest used as the cache identity; the root cause is choosing a non-cryptographic, short (52-bit) hash for a cache key built from untrusted input, exactly the misuse `hash.ts` warns against. The rest of the design is sound (all prompt-affecting inputs are length-prefixed and folded into the key), which is precisely why the only way to force `key(A) == key(B)` for different content is this hash collision.\r\n\r\n## Suggested Fix\r\n\r\nDerive the cache key with a cryptographic hash over the same canonical input, at both the client and server call sites (they must stay byte-identical). Note `src/utils/hash.ts` does NOT currently export `sha256Hex` (that helper lives only in `server/_shared/hash.ts:25`, and `summary-cache-key.ts` deliberately imports from `src/utils/hash.ts` so client and server agree). Because `buildSummaryCacheKey` runs in the browser too, add a cross-runtime `sha256Hex` to `src/utils/hash.ts` built on WebCrypto (available in browsers, Vercel Edge, and Node 18+), then switch `buildSummaryCacheKey` to it. It becomes async, so the callers in `summarize-article.ts`, `summarization.ts`, and `get-summarize-article-cache.ts` must `await`; bump `CACHE_VERSION` so stale FNV rows are not read:\r\n\r\n```ts\r\n// src/utils/hash.ts (new, cross-runtime)\r\nexport async function sha256Hex(input: string): Promise<string> {\r\n  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(input));\r\n  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');\r\n}\r\n// summary-cache-key.ts (illustrative)\r\nconst hash = (await sha256Hex(`${mode}:${sortedHeadlines}`)).slice(0, 32); // 128-bit\r\n// same for translateHash, bodiesHash, geoHash, fwHash\r\n```\r\n\r\nPrefer hashing one complete, length-delimited canonical identity string with full SHA-256 (then truncating) over per-segment hashes, so no single collidable segment distinguishes the target.\r\n\r\nTruncating SHA-256 to 128 bits keeps keys short while making second-preimage/collision search infeasible. Do not keep FNV \"for speed\" on any segment of a security-relevant key: a partial switch is bypassable because the attacker only needs a collision on whichever segment distinguishes the target. Defense in depth (separate from the root-cause fix): store the canonical input (or its SHA-256) alongside the cached value and compare it on read, so a key match with mismatched content is rejected rather than served (mirrors the `reqHash` check already used in `idempotency.ts`).\r\n\r\n## Impact\r\n\r\nAn unauthenticated remote attacker can replace the AI translation (and, with a Pro subscription, the `brief`/`analysis` summary served by the same cache) of a targeted, publicly known news headline with arbitrary attacker-chosen text, delivered from the shared Redis cache to every other user who requests that headline in that language for the 24h TTL. Caching is first-writer-wins, so this targets headline/language rows that are not yet populated (or races the window after a row's TTL lapses); a live legitimate row cannot be overwritten. On a product whose stated purpose is trustworthy real-time situational awareness, this is a cross-user integrity/misinformation primitive (for example, showing users a fabricated \"NATO has authorized nuclear retaliation\" line in place of a real headline). Demonstrated impact is content injection rendered via `textContent` (no script execution). Theoretical ceiling not demonstrated here: any summary render path that does not HTML-escape the cached value would elevate the same primitive to stored XSS; the `NewsPanel` path escapes, so that is out of scope for this report.\n---\n\n## Maintainer validation (2026-09-02)\n\nConfirmed REAL against `origin/main` at `4217d7824`. Every load-bearing claim in this report was checked individually and held:\n\n- `hashString` is FNV-1a masked to 52 bits (`src/utils/hash.ts:4`), and the multiply-mask step is a bijection. Verified by computing `P^-1 mod 2^52` and walking a real digest backwards to the offset basis.\n- `mode:'translate'` is not premium gated (`summarize-article.ts:80`) and is excluded from the direct-LLM daily quota (`gateway.ts:791`).\n- Anonymous `wms_` tokens are freely mintable at 30/min/IP (`api/wm-session.js:20,259`).\n- The victim render path uses `textContent` (`NewsPanel.ts:337`), so the impact is content spoofing and `C:N/I:H/A:N` is the right vector. No XSS.\n\nThe reported cost was conservative. A meet-in-the-middle search against the verbatim `hashString` found a second preimage in **38.7 seconds on one core**, independently reproducing the target digest `14a0mqnd9z8` published in the report:\n\n```\nvictim   headline: \"federal reserve holds interest rates steady\"\nattacker headline: \"nato has authorized nuclear retaliation against russia effective now ogdfr8wd9ta\"\nvictim   cache key: summary:v9:translate:es:14a0mqnd9z8\nattacker cache key: summary:v9:translate:es:14a0mqnd9z8\nKEYS EQUAL: true\n```\n\nTwo clarifications, neither of which lowers severity:\n\n1. Attacker text passes through the translation model rather than landing in Redis verbatim. The system prompt returns text unchanged when it is already in the target language (`news/v1/_shared.ts:144`), so a payload written in the target language passes through near-verbatim.\n2. \"First-writer-wins\" is imprecise. `setCachedJson` overwrites, but `readCachedJson` short-circuits on hit, so only cold or expired rows are reachable. A live legitimate row cannot be overwritten. Net effect is as described.\n\n### Remediation\n\nFixed by PR #7559, which adopts this report's own recommendation: one SHA-256 over a single length-delimited canonical identity string, truncated to 128 bits, replacing the five per-segment FNV digests. `CACHE_VERSION` moves `v9` to `v10` so every potentially poisoned row is retired.\n\nOne constraint worth recording for anyone reproducing the fix: truncating each of the five existing segment hashes to 128 bits produces a 126-character key tail, and `newsSummarizeArticleCacheKeyPattern` allows 120. Collapsing to a single digest is therefore required for the key to stay contract-legal, not merely preferable.\n\nThe collision pair above is now a regression fixture in `tests/summary-cache-key.test.mts`, alongside a guard asserting it is still a genuine `hashString` collision so the test cannot silently become vacuous.\n\nThanks for an unusually precise report: the file:line pointers, the PoC, and the suggested fix were all accurate and materially shortened the work.\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-09-04T13:50:33Z",
+        "updated_at": "2026-09-04T13:50:33Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "other",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.10.0 (main @ commit dfd5b8ee2)",
+            "patched_versions": "main @ dfd5b8ee2",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "geeknik",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-9m4c-824h-m4xw",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-9m4c-824h-m4xw",
+        "summary": "Slack and Discord OAuth state consumption is non-atomic and fail-open",
+        "description": "## Summary\r\n\r\nSlack and Discord OAuth callbacks consume their CSRF `state` values with a non-atomic Redis `GET` followed by `DEL`. The delete helper suppresses all failures, and the callback proceeds regardless. Concurrent callbacks can therefore both validate one state, and a transient delete failure leaves the state replayable for its remaining 10-minute TTL.\r\n\r\nReviewed at commit `396efb905fadda74c4ae77080a1e72658c37aa0e`.\r\n\r\n## Evidence\r\n\r\nSlack:\r\n\r\n- `api/slack/oauth/start.ts:65` stores `wm:slack:oauth:${state}` for 600 seconds.\r\n- `api/slack/oauth/callback.ts:141-144` performs `upstashGet(stateKey)`, then `upstashDel(stateKey)`.\r\n- `api/slack/oauth/callback.ts:59-64` catches and ignores every delete failure.\r\n\r\nDiscord has the same pattern:\r\n\r\n- `api/discord/oauth/start.ts:65`\r\n- `api/discord/oauth/callback.ts:120-123`\r\n- `api/discord/oauth/callback.ts:44-49`\r\n\r\nThere is no lock, `GETDEL`, Lua transaction, or checked delete result.\r\n\r\n## Security impact\r\n\r\nOAuth state is intended to be single-use. If a state value is exposed, two callback requests using different provider authorization codes can race past the read before either delete completes; both are then associated with the `userId` stored under that state. On delete failure, the same condition persists until TTL expiry. Because channel storage happens after the provider exchange, a later callback can overwrite the Slack/Discord channel connected to the victim account.\r\n\r\nThe issue requires possession of an unexpired state and is therefore best treated as OAuth hardening rather than an unauthenticated standalone takeover, but the current \"consume - prevents replay\" comment is not true under concurrency or Redis failure.\r\n\r\n## Recommended fix\r\n\r\n1. Consume state atomically with Redis `GETDEL`, or a Lua script that returns the value while deleting it.\r\n2. Fail closed when state consumption cannot be confirmed; do not continue on Redis delete failure.\r\n3. Add concurrency tests where two callbacks race on one state and exactly one may reach token exchange.\r\n4. Add a Redis-failure test proving a callback does not proceed when atomic consumption is unavailable.\r\n5. Consider binding state to provider and a browser-side nonce/PKCE verifier for additional defense in depth.\r\n\r\n## Acceptance criteria\r\n\r\n- Each OAuth state can authorize at most one callback.\r\n- State-store outages fail closed before provider token exchange or channel mutation.\r\n- Slack and Discord share one tested atomic state-consumption helper.\r\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-08-01T08:32:17Z",
+        "updated_at": "2026-08-01T08:32:17Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": ""
+            },
+            "vulnerable_version_range": "2.5.23",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": []
+      },
+      {
+        "ghsa_id": "GHSA-gxj5-54wh-7vgr",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-gxj5-54wh-7vgr",
+        "summary": "Browser sessions can poison shared temporal baselines",
+        "description": "## Summary\n\nThe production dashboard lets ordinary browser sessions write global temporal-baseline state through `POST /api/infrastructure/v1/record-baseline-snapshot`. The endpoint trusts client-supplied counts and region names, performs non-atomic read/modify/write updates, and records every page load as another statistical sample.\n\nThis allows baseline poisoning and Redis key amplification, while normal traffic already biases the model toward visitor volume rather than independent time observations.\n\nReviewed at commit `396efb905fadda74c4ae77080a1e72658c37aa0e`. No production mutation was performed.\n\n## Evidence\n\n- `src/services/temporal-baseline.ts:100-108` sends baseline updates from the browser.\n- `src/app/data-loader.ts:2592-2595`, `2895-2897`, and `3150-3153` submit global military-flight, vessel, and AIS-gap counts during client data loads/refreshes.\n- `server/worldmonitor/infrastructure/v1/record-baseline-snapshot.ts:20-69` accepts the submitted values and writes the shared `baseline:*` namespace.\n- The route is not premium or internal-service gated. A normal anonymously mintable dashboard session is sufficient.\n- `region` is inserted directly into the Redis key by `makeBaselineKey()` (`server/worldmonitor/infrastructure/v1/_shared.ts:29-31`).\n- The handler accepts any numeric `count` other than `NaN`; negative values and positive/negative infinity after generated `Number(...)` coercion are not rejected.\n- Each request can create up to 20 keys with a 90-day TTL.\n- Updates use `MGET`, calculate Welford state in the edge function, then issue independent `SET`s. Concurrent requests reading the same prior value overwrite one another, so sample count and moments are not atomic.\n\n## Impact\n\n1. **Baseline poisoning:** a caller can drive means and variance for accepted metric types and arbitrary regions, suppressing real anomalies or creating false ones.\n2. **Global integrity failure:** all visitors read shared baseline keys; values are not scoped to the submitting session.\n3. **Traffic-weighted statistics:** repeated browser loads add duplicate near-simultaneous observations. Ten visitors can satisfy the ten-sample learning threshold without ten independent time observations.\n4. **Lost updates:** concurrent legitimate clients collapse into one write because the Welford update is not atomic.\n5. **Key amplification:** arbitrary region strings create attacker-selected Redis keys retained for 90 days.\n6. **Non-finite corruption:** an accepted infinite count can propagate non-finite Welford state; JSON serialization can turn resulting `NaN` values into `null`, breaking later calculations.\n\nThese baselines feed the anomaly severity path used by the dashboard and downstream signal/CII ingestion.\n\n## Recommended fix\n\n1. Remove browser-authoritative writes. Compute and sample the three client-only metrics in one trusted server/relay job at a fixed cadence.\n2. Restrict writes to an internal authenticated principal; a public/anonymously mintable session must not mutate shared model state.\n3. Validate type, a finite non-negative bounded count, and region against a canonical allowlist before key construction.\n4. Use an atomic Lua script or transaction for Welford updates.\n5. Make sample identity/cadence explicit so duplicate observations for the same interval are idempotent.\n6. Version/reset the poisoned baseline namespace after deployment.\n7. Add per-endpoint fail-closed rate limiting as defense in depth, not as the authorization mechanism.\n\n## Acceptance criteria\n\n- Public browser traffic cannot write global temporal baseline state.\n- One scheduled observation interval contributes at most one sample per metric/region.\n- Invalid/non-finite/out-of-range counts and unknown regions are rejected before Redis access.\n- Concurrent updates preserve the exact sample count and Welford moments.\n- Existing baseline keys are invalidated or migrated after the trust-boundary fix.\n\n---\n\n## Maintainer validation (2026-09-02)\n\nEvery mechanical claim in this report is CONFIRMED at `origin/main`. Two corrections narrow the blast radius, and one detail in the report understated the authorization picture in a way worth recording.\n\n### Confirmed\n\nThe gate chain for `POST /api/infrastructure/v1/record-baseline-snapshot` was traced end to end in `server/gateway.ts`. The route is absent from `ENDPOINT_ENTITLEMENTS`, absent from `PREMIUM_RPC_PATHS`, and absent from `PUBLIC_NO_AUTH_RPC_PATHS`. The only real gate is `validateApiKey`, which an anonymously mintable `wms_` session token satisfies. Origin checking is CSRF protection only and passes any request with no `Origin` header.\n\nOne nuance the report did not have: the endpoint is not merely missing a rate limit, it is **explicitly exempted** from the per-endpoint mutation policy via `RATE_LIMIT_MUTATION_FALLBACK_EXEMPT` (`server/_shared/rate-limit.ts:655`), on the stated grounds that a Redis-only write with no provider or LLM call \"carries no spend/abuse risk\". That reasoning is sound about spend and silent about integrity, which is precisely the gap this report identifies. The global limiter does still apply.\n\nAlso confirmed by execution: `JSON.parse('{\"count\":1e999}')` yields `Infinity`, which is `typeof 'number'` and not `NaN`, so it passed the old check.\n\n### Correction 1: the poisonable namespace is not the one the dashboard reads\n\nBrowser writes land in `baseline:*` (v1). The dashboard's anomaly feed reads `baseline:v2:*`, written only by the server-side `listTemporalAnomalies` rebuild under a Redis lock with a 60-minute sampling throttle. The two namespaces do not intersect. The reachable surface is the three client-only types (`military_flights`, `vessels`, `ais_gaps`) plus unused v1 rows.\n\n### Correction 2: no cross-user string injection\n\nThe displayed anomaly `message` is built client-side from the *requesting* client's own `region` (`src/services/temporal-baseline.ts:42-54`), never from a stored value. A poisoned `region` creates junk Redis keys but never reaches another viewer's DOM.\n\n### Severity\n\nScored `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L` (6.4). `PR:N` because an anonymous token suffices, `C:N` because nothing is disclosed, `I:L`/`A:L` because the damage is to a secondary signal rather than the primary anomaly feed. CWE-345 and CWE-20.\n\n### Remediation status: MITIGATED, not fully fixed\n\nPR #7573 closes acceptance criteria 3, 4, 5 and part of 2:\n\n- `region` is allowlisted before any key is built, so unbounded 90-day key creation is closed. Validation also now runs *ahead* of key construction; previously every key was built from the caller's region and MGET'd before the update was judged usable.\n- `count` must be finite, non-negative and bounded, closing the `Infinity` corruption.\n- A `SET NX` interval claim caps a baseline at one sample per hour however many callers report one, and makes the claim winner the sole writer, which closes the lost-update race without a Lua script.\n- `makeBaselineKey` gains a `v1` segment, orphaning every previously written row, since a mean accumulated from unvalidated anonymous samples cannot be told apart from a poisoned one.\n\n**Criterion 1 is not met.** Public browser traffic can still write shared baseline state; it simply can no longer submit malformed values or outvote anyone. Moving the three metrics to a trusted producer needs a decision the code cannot make alone: the client reports post-filter counts it computed after its own load, so a server-side count of the same Redis source would not carry the same meaning. Tracked in #7574. This advisory should stay open until that lands.\n\nA separate latent bug surfaced during validation and is tracked in #7575: `mgetJson` reads unprefixed while `setCachedJson` prefixes, so on preview deployments this handler reads production baselines and writes prefixed preview keys. Harmless in production, where the prefix is empty.\n\nAll eight regression guards in `tests/temporal-baseline-write-guard.test.mts` fail against the pre-fix commit.\n\nThanks for the report. The endpoint analysis was accurate throughout, and the non-finite-count observation in particular was easy to overlook and genuinely damaging.\n\n---\n\n## Correction (2026-09-04): now fully remediated, superseding the note above\n\nThe note above concluded \"MITIGATED, not fully fixed\" and \"criterion 1 is not met\". **That is no longer accurate and is superseded by this entry.**\n\nBefore merge, PR #7573 gained a further commit (`aa751e31a`, \"disable untrusted shared writes\") that went past the hardening described above and removed the trust boundary problem outright. `recordBaselineSnapshot` no longer writes anything: it fails closed with `ApiError(403, 'Client baseline writes are disabled')` before touching Redis.\n\nVerified in `main` at `3b87335d6` by reading the shipped handler, not by trusting the merge:\n\n```\nexport async function recordBaselineSnapshot(_ctx, _req) {\n  throw new ApiError(403, 'Client baseline writes are disabled', '');\n}\n```\n\nIts own comment states the reasoning this report argued for: \"Anonymous sessions are intentionally easy to mint. Any scheme that chooses or aggregates their submitted counts can therefore be controlled by one caller.\"\n\n### Acceptance criteria, final\n\n1. **Public browser traffic cannot write global temporal baseline state — MET.** The endpoint refuses every client write.\n2. One sample per interval — moot; there are no client samples.\n3. Invalid, non-finite, out-of-range counts and unknown regions rejected — MET, and now unreachable regardless.\n4. Concurrent updates preserve sample count and moments — moot on this path; the server-side v2 rebuild retains its lock.\n5. **Existing baseline keys invalidated — MET.** `makeBaselineKey` gained a `v1` segment, orphaning every row accumulated from unvalidated anonymous samples.\n\n### Consequence, recorded honestly\n\nThe three client-only metrics (`military_flights`, `vessels`, `ais_gaps`) no longer receive samples at all, so anomaly detection for them is inert until a trusted server-side producer replaces the client path. That is tracked in #7574 and is a deliberate availability-for-integrity trade: no signal is preferable to a signal any anonymous caller can steer.\n\nPatched in `main` at `8683e8e47` (PR #7573). Version `2.10.0` is the last release carrying the vulnerable code; the fix is on `main` ahead of the next release.\n\nA related latent bug found during this validation, where `mgetJson` read unprefixed while `setCachedJson` prefixed, is tracked in #7575; the baseline lock half of it was fixed by #7595.\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-09-04T14:27:56Z",
+        "updated_at": "2026-09-04T14:27:56Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "other",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.10.0 (main @ commit 8683e8e47)",
+            "patched_versions": "main @ 8683e8e47",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": []
+      },
+      {
+        "ghsa_id": "GHSA-cmj5-cfhr-w964",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-cmj5-cfhr-w964",
+        "summary": "Generated API runtime validation is disabled",
+        "description": "## Summary\r\n\r\nRuntime `buf.validate` enforcement is disabled across all 35 generated domain API services. The generated routes only validate when a `validateRequest` callback is supplied, but the one shared `serverOptions` object supplies only `onError`. Every domain gateway passes that unvalidated options object.\r\n\r\nThis contradicts the architecture contract that handlers receive pre-validated data and turns 323 proto constraint annotations into documentation-only constraints unless each handler happens to duplicate them manually.\r\n\r\nReviewed at commit `396efb905fadda74c4ae77080a1e72658c37aa0e`.\r\n\r\n## Evidence\r\n\r\n- `server/gateway.ts:90`: `serverOptions` is `{ onError: mapErrorToResponse }`; no `validateRequest` exists anywhere outside generated code.\r\n- All 35 `api/**/[rpc].ts` domain entry points pass this same object into `create*ServiceRoutes()`.\r\n- All 35 generated service files expose an optional `validateRequest` hook and skip validation when it is absent.\r\n- 84 proto files contain 323 `(buf.validate.field)` annotations.\r\n- `docs/architecture.mdx:179` says request validation is generated automatically and handlers receive pre-validated data.\r\n- Generated OpenAPI documents advertise field constraints and 400 validation errors.\r\n\r\n## Safe local reproduction\r\n\r\nCalling the generated `AnalyzeStock` route with the production options shape, a missing required `symbol`, and a 500-character `name` produces HTTP 200 and invokes the handler with both invalid fields:\r\n\r\n```json\r\n{\r\n  \"status\": 200,\r\n  \"handlerReceived\": {\r\n    \"symbol\": \"\",\r\n    \"name\": \"<500 characters>\",\r\n    \"includeNews\": false\r\n  }\r\n}\r\n```\r\n\r\nThe corresponding proto requires `symbol` with length 1..32 and caps `name` at 120 (`proto/worldmonitor/market/v1/analyze_stock.proto:16-28`). The production handler silently turns a missing symbol into an empty successful analysis response, demonstrating that no downstream validation restores the advertised 400 contract.\r\n\r\n## Security impact\r\n\r\n- Required, range, pattern, maximum length, and repeated-item limits are not a reliable trust boundary.\r\n- Mutating handlers and expensive upstream/LLM-backed handlers can receive data the public contract says is rejected.\r\n- Resource caps such as batch sizes and repeated item limits can be bypassed wherever a handler does not independently clamp them.\r\n- Endpoint-specific manual validation produces inconsistent coverage and future endpoints fail open by default.\r\n\r\nThis report intentionally avoids enumerating live mutation or resource-exhaustion probes. A separate private report already covers one concrete data-integrity consequence in the baseline snapshot path.\r\n\r\n## Recommended fix\r\n\r\n1. Generate or register a real runtime validator in `serverOptions.validateRequest`; fail closed if validator setup is unavailable.\r\n2. Ensure the callback distinguishes an empty violation list from violations and maps failures to the documented 400 response.\r\n3. Add one generated-route conformance test per constraint class: required, string length/pattern, scalar range, repeated min/max, nested message.\r\n4. Add representative tests for GET query parsing and POST JSON bodies through the actual gateway.\r\n5. Audit mutating, batch, LLM, and upstream-fetching handlers for assumptions made while validation was absent.\r\n6. Keep defense-in-depth checks in security-sensitive handlers.\r\n\r\n## Acceptance criteria\r\n\r\n- Every proto-backed route enforces its `buf.validate` constraints before handler invocation.\r\n- Invalid requests return the documented HTTP 400 violation envelope.\r\n- CI fails if any generated domain service is registered without runtime validation.\r\n- The security-sensitive endpoint audit is completed and any bypass consequences are remediated.\r\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-08-01T10:17:06Z",
+        "updated_at": "2026-08-01T10:17:06Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": ""
+            },
+            "vulnerable_version_range": ">= 2.5.2, <= 2.10.0",
+            "patched_versions": "v2.10.1",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": []
+      },
+      {
+        "ghsa_id": "GHSA-hcq5-jm84-2395",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-hcq5-jm84-2395",
+        "summary": "MCP daily cost-cap bypass: quota slot refunded after the tool already executed",
+        "description": "### Summary\r\nThe MCP daily cost-cap (Pro, 50/day) uses an atomic INCR-first reservation, but `dispatchToolsCall` **refunds** the reserved slot on two attacker-reachable outcomes — output over budget, and any tool-execution error — **after** the tool has already performed its full upstream fetch/compute. The net quota charged for an already-executed, cost-incurring call is therefore **zero**, defeating the cost cap the counter exists to enforce (CWE-770).\r\n\r\n### Details\r\nIn `api/mcp/dispatch.ts`:\r\n- **Reserve** (`:131`): atomically `INCR`s the daily counter *before* execution — correctly prevents over-counting/races.\r\n- **Execute** (`:161`): `tool._execute()` performs the real upstream fetch/compute (the cost).\r\n- **Refund** (`:219` budget, `:238` error): calls `proRollback` (`DECR`) when the output exceeds `_outputBudgetBytes`, or when `_execute()` throws.\r\n\r\nBoth refund paths run **after** the costly `_execute()` has already completed. An attacker who reliably drives either outcome — request a tool call whose response exceeds the output budget, or one that errors downstream — gets the reserved slot refunded every time. The counter (`api/mcp/quota.ts:44-56`) returns to its prior value, so the 50/day cost ceiling never advances for these calls. The only remaining bound is the 60/min limiter (~86,400 executions/day vs the intended 50).\r\n\r\n### PoC\r\n`poc-F5-mcp-quota-refund.mjs` asserts the real reserve→execute→refund ordering and models the accounting:\r\n\r\n```\r\n1000 over-budget / errored dispatches  -> daily counter stays 0   (cost cap bypassed)\r\nsuccessful in-budget dispatches        -> 429 at call #51         (cap works normally)\r\n```\r\n\r\n### Impact\r\nA holder of a valid Pro MCP token can cause real upstream/compute cost far beyond the 50/day cap the code exists to enforce (`quota.ts:10-13`), by ensuring their calls exceed the output budget or error after execution. Impact is provider cost / resource consumption; no confidentiality or cross-tenant effect. Requires a paid Pro credential and is bounded by the per-minute limiter, hence low real-world risk.\r\n\r\n### Remediation\r\nRefund only on **pre-execution** failures (reservation/validation). Once `tool._execute()` has incurred cost, keep the slot charged (or charge a minimum). Where feasible, evaluate the output-budget projection **before** the costly fetch rather than refunding after. A tested unified-diff patch (`F5-mcp-quota-refund.patch`) is available in the coordinated-disclosure package.\n\n---\nMaintainer validation (2026-07-04): Valid historically, but no longer live on current origin/main. MCP dispatch now keeps the quota reservation charged after tool execution, including error/over-budget paths; regression coverage exists in tests/mcp-quota-no-refund.test.mjs. Published advisories cannot be closed through the GitHub API, so this is marked in-description as fixed/no longer active.\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-07-04T12:19:37Z",
+        "updated_at": "2026-07-04T13:23:27Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.8.0 (main @ commit 16d0a12e)",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "ssstrickys",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-f6gj-3v7v-j75q",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-f6gj-3v7v-j75q",
+        "summary": "OAuth refresh-token reuse not contained: no family revocation on detected reuse",
+        "description": "### Summary\r\nThe OAuth authorization server rotates refresh tokens and preserves a `family_id` across rotations, and its doc-comment claims this \"protects against refresh-token theft via family-revoke.\" But **no code path ever reads `family_id` to revoke a family.** When a stolen refresh token is redeemed, the legitimate client's later reuse of the now-stale token is detected (returns `invalid_grant`) yet triggers **no revocation** — the attacker's rotated token stays valid indefinitely. This is insufficient session/credential invalidation (CWE-613): a stolen refresh token cannot be contained.\r\n\r\n### Details\r\n- **Store:** `api/oauth/token.ts:178-239` writes `family_id` alongside each token.\r\n- **Rotate:** `api/oauth/token.ts:431-569` uses Redis `GETDEL` to atomically consume+rotate a single token and **carries `family_id` forward** unchanged.\r\n\r\nThe PoC classifies every `family_id` occurrence in `token.ts`: **5 writes + 9 type-declarations/comments, 0 revoke-reads.** No index maps `family_id → tokens`, and no branch revokes a family on detected reuse.\r\n\r\nWhen an attacker redeems a stolen refresh token, it rotates to a fresh token (attacker-held) and the stolen one is `GETDEL`-consumed. The legitimate client's subsequent attempt to use its (now stale) copy hits a `GETDEL`-miss and receives `400 invalid_grant` — this is the classic **reuse signal** a spec-correct AS uses to revoke the entire token family. Here it is discarded: the attacker's rotated token keeps rotating with a fresh 7-day sliding TTL. Access is silent and indefinite.\r\n\r\n### PoC\r\n`poc-F4-oauth-refresh-family.mjs` proves `family_id` is write-only (5 writes / 0 revoke-reads) and models the rotation timeline:\r\n\r\n```\r\nattacker redeems stolen RT     -> new RT_a issued, family_id preserved\r\nvictim redeems stale RT        -> 400 invalid_grant   (reuse DETECTED)\r\nfamily revocation triggered?   -> NO  (no code reads family_id to revoke)\r\nattacker RT_a still valid?     -> YES (rotates indefinitely, 7-day sliding TTL)\r\n```\r\n\r\n### Impact\r\nAn attacker who has obtained a victim's refresh token (theft is a precondition, out of scope to achieve here) retains **persistent, silent access** that the reuse-detection signal should have terminated. The impact of *this defect* is the failure to **contain** an already-compromised session — not the initial compromise. Rated Low: it requires a pre-stolen high-value credential and adds persistence rather than new access.\r\n\r\n### Remediation\r\nMaintain a `family_id → tokens` index (or an `oauth:family:<F>` generation counter). On a `GETDEL`-miss for a token belonging to a known family (the reuse signal), revoke the **entire family** so both the attacker's and the victim's tokens are invalidated, forcing re-authentication. A tested unified-diff patch (`F4-refresh-token-family.patch`) and an end-to-end revocation harness are available in the coordinated-disclosure package.\n\n---\nMaintainer validation (2026-07-04): Valid historically, but no longer live on current origin/main. OAuth refresh-token rotation now tracks family pointers/revocation, rejects reused/legacy refresh tokens by revoking the family, and has regression coverage in tests/oauth-token.test.mjs. Published advisories cannot be closed through the GitHub API, so this is marked in-description as fixed/no longer active.\n",
+        "severity": "low",
+        "state": "published",
+        "published_at": "2026-07-04T12:31:31Z",
+        "updated_at": "2026-07-04T13:23:28Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.8.0 (main @ commit 16d0a12e)",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "ssstrickys",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-c267-988w-7pq7",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-c267-988w-7pq7",
+        "summary": "Abuse-control / rate-limit bypass via spoofable cf-connecting-ip header",
+        "description": "### Summary\r\n`getClientIp` (`api/_client-ip.js`) returns the caller-supplied `cf-connecting-ip` header verbatim as the rate-limit / abuse-control key, with no verification that the request actually transited Cloudflare. An attacker who sends a fresh `cf-connecting-ip` value per request rotates the sliding-window bucket, so the IP-based rate limits (general 600/60s, anonymous MCP discovery, `oauth/authorize`, bootstrap-key) never trip — an abuse-control bypass via a spoofable trust header (CWE-290 / CWE-807).\r\n\r\n### Details\r\n`getClientIp` (`api/_client-ip.js:11-22`) returns `cf-connecting-ip` (then `x-real-ip`) unchanged. This key is consumed by every IP limiter:\r\n`api/_rate-limit.js:105`, `api/mcp/auth.ts:294`, `api/oauth/authorize.js:253`, `api/_user-api-key.js:136`, `server/_shared/rate-limit.ts:91`.\r\n\r\n`x-forwarded-for` was correctly dropped (#3531) and a missing header falls back to a shared `UNKNOWN` bucket — but nothing verifies the request came through Cloudflare. `cf-connecting-ip` is only unforgeable for traffic Cloudflare actually proxies; there is **no** shared-secret / mTLS / trusted-proxy check. The `*.vercel.app` origins in `ALLOWED_ORIGIN_PATTERNS` indicate the app is also served from non-CF origins, where Vercel forwards a client-supplied `cf-connecting-ip` untouched (and it out-prioritizes the Vercel-managed `x-real-ip`). A request that supplies a unique `cf-connecting-ip` each time therefore lands in a unique limiter bucket every time.\r\n\r\n**Precondition (decisive, unverified from source):** the Vercel origin must be **directly reachable** (no Vercel Deployment Protection, no Cloudflare Authenticated Origin Pull, no origin IP lockdown). If the origin is CF-only, this does not fire. Premium routes (mcp-proxy, chat-analyst) also need a valid Pro session, and `oauth/token` is keyed per-`client_id`, so those are **not** anonymously bypassable — only the general 600/60s, anonymous MCP discovery, `oauth/authorize`, and bootstrap-key IP limits are.\r\n\r\n### PoC\r\n`poc-F3-client-ip-ratelimit-bypass.mjs` imports and runs the **real** `getClientIp` against the real limiter:\r\n\r\n```\r\nfixed cf-connecting-ip           -> first 429 at request #601        (limiter works)\r\n100,000 rotated cf-connecting-ip -> 0 x 429, 100,000 distinct buckets (limiter bypassed)\r\n```\r\n\r\nAgainst a directly-reachable deployment, the equivalent is simply resending the request with an incrementing `cf-connecting-ip: A.B.C.D` header and observing that the `429` never arrives.\r\n\r\n### Impact\r\nThe IP-based abuse controls that gate anonymous endpoints can be neutralized, enabling unthrottled brute-force / enumeration / resource-consumption against the general API surface, anonymous MCP discovery, `oauth/authorize`, and the bootstrap-key path — provided the origin is directly reachable. No confidentiality/integrity impact by itself; the effect is loss of the abuse/availability protection, hence Medium.\r\n\r\n### Remediation\r\nBind `cf-connecting-ip` trust to proof-of-Cloudflare: validate a shared-secret header injected at the CF edge, use mTLS / Authenticated Origin Pulls, or restrict the origin to Cloudflare IP ranges. Where such proof is absent, treat `cf-connecting-ip` as untrusted and fall back to the `UNKNOWN` bucket. A tested unified-diff patch (`F3-client-ip-trust.patch`) is available in the coordinated-disclosure package.\r\n\r\n### Maintainer status (2026-07-04)\r\nFixed on `main` by the GHSA-c267 hardening commit `a5c93936c` and confirmed by the merged test repair in #4750 (`171883994614`). Current `origin/main` at `a54d0d05bd3a` includes both.\r\n\r\nNo new remediation PR is needed. The production code now trusts `cf-connecting-ip` only when `x-wm-edge-proof` matches `CF_EDGE_PROOF_SECRET`; otherwise it falls back to `x-real-ip` or the shared `unknown` bucket, preventing attacker rotation of spoofed CF IP headers. #4750 only updated the bootstrap user-key rate-limit test to simulate a genuine CF-proxied request.\n\n---\nMaintainer validation (2026-07-04): Fixed on main by the CF edge-proof client-IP controls and the #4750 bootstrap/rate-limit test repair. getClientIp now trusts cf-connecting-ip only with the edge proof secret, and tests cover valid/missing/wrong proof. No new PR needed. Published advisories cannot be closed through the GitHub API, so this is marked in-description as fixed/no longer active.\n",
+        "severity": "medium",
+        "state": "published",
+        "published_at": "2026-07-04T12:30:42Z",
+        "updated_at": "2026-07-04T13:23:29Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.8.0 (main @ commit 16d0a12e)",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "ssstrickys",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-2x6r-qq54-mmhr",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-2x6r-qq54-mmhr",
+        "summary": "Windows command injection in Tauri open_url IPC (cmd /c start) — user-assisted desktop RCE",
+        "description": "### Summary\r\nOn **Windows desktop builds**, the Tauri IPC command `open_url` routes an attacker-influenceable URL through `cmd.exe` (`cmd /c start \"\" <url>`) without neutralizing shell metacharacters. Rust's std only quotes an argument that contains whitespace/quotes; a URL has none, so it is emitted **unquoted** and `cmd.exe` treats `&` as a command separator. A malicious link rendered in a trusted app window becomes **arbitrary command execution** in the victim's user context after a single click (CWE-78, OS Command Injection). macOS and Linux are unaffected.\r\n\r\n### Details\r\n**Sink.** `open_in_shell` (`src-tauri/src/main.rs:522-527`, Windows branch) runs:\r\n```rust\r\nCommand::new(\"cmd\").args([\"/c\", \"start\", \"\", arg])\r\n```\r\nRust's `std` command builder wraps an argument in quotes only when it contains a space, tab, or quote. A URL such as `https://example.com/?x=1&calc` contains none (spaces would be `%20`), so it lands on the command line **unquoted**. `cmd.exe` then parses the unquoted `&` as a statement separator and executes the trailing token(s) as separate commands — e.g. `&calc&whoami`.\r\n\r\n**Taint path (attacker → RCE):**\r\n1. An attacker-controlled `<link>` in any aggregated RSS/news feed is rendered as an anchor inside a **trusted** app window.\r\n2. The capture-phase click handler (`src/app/event-handlers.ts:690-704`) reads `anchor.href`, runs `new URL()` (scheme/origin checks only — **no metacharacter stripping**), and calls `invokeTauri('open_url', { url })` (`:704`).\r\n3. `open_url` (`src-tauri/src/main.rs:548-561`) runs `require_trusted_window` (validates the **window**, not the URL) and `Url::parse` (validates only the **scheme**), then calls `open_in_shell(parsed.as_str())`.\r\n\r\n**Why the guards fail.** `require_trusted_window` checks the *origin window*, which is legitimately the trusted main window carrying tainted feed content. `Url::parse` enforces `https`/`http-localhost` but does **not** remove `& | < > ^ ( )` — all legal in a URL query/fragment. macOS (`open`) and Linux (`xdg-open`) exec a single argv with no shell, so **only Windows** is affected.\r\n\r\n### PoC\r\nOn a Windows build, in the main window devtools console:\r\n```js\r\nwindow.__TAURI_INTERNALS__.invoke('open_url', { url: 'https://example.com/?x=1&calc' })\r\n// -> calc.exe launches\r\n```\r\nFull chain: point the app at a feed whose item link is that URL, then click the headline.\r\n\r\nModeled command-line parse (faithful model of the documented Windows `cmd.exe` behavior; included as `poc-F2-tauri-cmd-injection.mjs`):\r\n```\r\nbuilt command line: cmd /c start \"\" https://example.com/?a=1&calc&whoami\r\ncmd.exe runs 3 command(s): [\"cmd /c start \\\"\\\" https://example.com/?a=1\", \"calc\", \"whoami\"]\r\n>>> INJECTED: [\"calc\", \"whoami\"]\r\n```\r\n\r\n### Impact\r\nArbitrary command execution in the victim's user context on **Windows desktop builds**, triggered by clicking a malicious headline/link that the app renders from aggregated feed content. Full confidentiality/integrity/availability impact within that user account (file theft, persistence, further payload download). Requires user interaction (a click) and is Windows-only, hence High rather than Critical.\r\n\r\n### Remediation\r\nNever route URLs through `cmd.exe`. Open links via `ShellExecuteW`, the `open`/`opener` crate, or `tauri-plugin-opener`, or spawn the browser binary directly with an argv vector (no shell interpretation). A tested unified-diff patch (`F2-tauri-cmd-injection.patch`) is available in the coordinated-disclosure package.\n\n---\nMaintainer validation (2026-07-04): Valid historically, but no longer live on current origin/main. Tauri open_url no longer shells through cmd.exe on Windows; it uses opener/ShellExecuteW-style handling, and src-tauri/open-url-safety.test.mjs asserts cmd.exe is not spawned. Published advisories cannot be closed through the GitHub API, so this is marked in-description as fixed/no longer active.\n",
+        "severity": "high",
+        "state": "published",
+        "published_at": "2026-07-04T12:19:09Z",
+        "updated_at": "2026-07-04T13:23:32Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": "<= 2.8.0 (main @ commit 16d0a12e) — Windows desktop builds only ",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "ssstrickys",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-r649-4cqj-w93h",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-r649-4cqj-w93h",
+        "summary": "Unauthenticated cross-tenant read of all users' alert rules via public Convex query getByEnabled",
+        "description": "### Summary\r\nThe Convex function `getByEnabled` in `convex/alertRules.ts` is exported with the **public** `query()` constructor and performs **no authentication and no per-user ownership scoping**. Any unauthenticated client that knows the (non-secret) Convex deployment URL can call `api.alertRules.getByEnabled` and receive **every user's** alert-rule records. This is a Broken Object-Level Authorization / missing-authentication issue (CWE-639 / CWE-306) leading to a cross-tenant disclosure of all users' data.\r\n\r\n### Details\r\n`getByEnabled` (`convex/alertRules.ts:665-673`) is declared with the **public** `query({...})` constructor rather than `internalQuery`, so it is reachable on the public `api.alertRules.*` surface. Its handler:\r\n\r\n- does **not** call `ctx.auth.getUserIdentity()`, and\r\n- does **not** scope results to the caller — it runs `.withIndex(\"by_enabled\", …).collect()` and returns every matching row across all users.\r\n\r\nWhy this is reachable, not theoretical:\r\n\r\n- **The deployment URL is not secret.** The frontend reads `import.meta.env.VITE_CONVEX_URL` (`src/services/convex-client.ts:37`), which Vite inlines into the shipped public bundle.\r\n- **The repo's own admin scripts are a working unauthenticated PoC.** Both `scripts/disable-free-user-notifications.mjs` and `scripts/migrate-realtime-high-to-daily.mjs` construct a bare `new ConvexHttpClient(CONVEX_URL)` and call `getByEnabled` **without ever calling `.setAuth()`** — direct proof the query resolves with zero credentials.\r\n- **The safe pattern was known and simply omitted here.** Sibling `getDigestRules` (line 652) is correctly declared `internalQuery`, and `getAlertRules` (line 137) correctly gates on `getUserIdentity()` + `by_user` scope.\r\n\r\n### PoC\r\nAgainst a local Convex backend (no production system contacted):\r\n\r\n```bash\r\nnpx convex dev                       # note the deployment URL (or read VITE_CONVEX_URL from the public bundle)\r\nCONVEX_URL=\"https://<deployment>.convex.cloud\" node -e \\\r\n \"const{ConvexHttpClient}=require('convex/browser');\\\r\n  new ConvexHttpClient(process.env.CONVEX_URL)\\\r\n  .query('alertRules:getByEnabled',{enabled:true}).then(r=>console.log(r))\"\r\n# -> full cross-tenant dump of every user's enabled alert rules.\r\n# Repeat with {enabled:false} to dump disabled rules.\r\n```\r\n\r\nA self-contained static + in-repo proof (asserting the public constructor, the missing auth call, and the credential-free script call path) is available in the coordinated-disclosure package as `poc-F1-convex-bola-alertrules.mjs`.\r\n\r\n### Impact\r\nAnonymous, cross-tenant disclosure of **every user's** alert-rule records, including: Clerk `userId` (subject identifier), `countries` watchlist (an analyst's monitored conflict zones can be sensitive), `eventTypes`, `sensitivity`, notification channel types, `digestTimezone` / `quietHoursTimezone` (approximate location), and timestamps. The exposed Clerk `userId`s can be correlated against other endpoints. Read-only (no write, no direct account takeover), so rated High rather than Critical.\r\n\r\n### Remediation\r\nRedeclare `getByEnabled` as an `internalQuery` (matching `getDigestRules`) and invoke it from the migration scripts via `convex run` (which authenticates with `CONVEX_DEPLOY_KEY`). If a public variant is genuinely required, add `ctx.auth.getUserIdentity()` plus `by_user` ownership scoping (matching `getAlertRules`). A tested unified-diff patch (`F1-convex-bola.patch`) is available in the coordinated-disclosure package.\n\n---\nMaintainer validation (2026-07-04): Valid historically, but no longer live on current origin/main. alertRules.getByEnabled and digest reads are internal-only, while public alert rule reads are authenticated/user-scoped; convex alert-rule visibility tests cover the contract. Published advisories cannot be closed through the GitHub API, so this is marked in-description as fixed/no longer active.\n",
+        "severity": "high",
+        "state": "published",
+        "published_at": "2026-07-04T12:18:30Z",
+        "updated_at": "2026-07-04T13:23:33Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "",
+              "name": "koala73/worldmonitor"
+            },
+            "vulnerable_version_range": " <= 2.8.0 (main @ commit 16d0a12e)",
+            "patched_versions": "",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": [
+          {
+            "login": "ssstrickys",
+            "type": "reporter"
+          }
+        ]
+      },
+      {
+        "ghsa_id": "GHSA-5458-hq84-hcr5",
+        "cve_id": null,
+        "html_url": "https://github.com/koala73/worldmonitor/security/advisories/GHSA-5458-hq84-hcr5",
+        "summary": "Desktop trusted windows could read the full secret cache and local API token",
+        "description": "Hi @koala73, I am reporting this privately because it concerns desktop secret handling and should not be tracked in a public issue.\r\n\r\nDuring a defensive review of the current main branch, I found that the Tauri trusted-window IPC boundary still gives any trusted renderer window access to highly sensitive desktop state. This is not a standalone remote exploit: an attacker would first need XSS, renderer compromise, or an unintended script execution path inside one of the trusted windows. The problem is the blast radius after that point. If renderer integrity is lost in `main`, `settings`, or `live-channels`, the renderer can call IPC commands that return the local API token and the full cached secret map.\r\n\r\nAffected areas:\r\n- `src-tauri/src/main.rs`\r\n- `src-tauri/capabilities/default.json`\r\n\r\nEvidence from the reviewed code:\r\n- `require_trusted_window()` allows the `main`, `settings`, and `live-channels` labels.\r\n- `get_local_api_token()` returns the current `LOCAL_API_TOKEN` after only the trusted-window check.\r\n- `get_secret()` returns individual cached secrets after the same trusted-window check.\r\n- `get_all_secrets()` clones and returns the entire secrets cache after the same trusted-window check.\r\n- The default capability file assigns the trusted capability to `main`, `settings`, and `live-channels`.\r\n\r\nSecurity impact:\r\nA renderer XSS or trusted-window compromise becomes a desktop secret disclosure issue. The attacker would not just affect the DOM/session; they could read provider/API secrets cached by the desktop app and obtain the local sidecar bearer token. That also weakens the sidecar boundary because the token intended to protect localhost APIs becomes available to compromised renderer JavaScript.\r\n\r\nWhy I think this is High:\r\nThe precondition is non-trivial, but the impact is high once the precondition is met. Desktop apps should assume renderer compromise is plausible and keep OS keychain material and local privileged tokens behind narrower, action-specific IPC boundaries.\r\n\r\nSuggested remediation:\r\n- Remove `get_all_secrets()` or restrict it to a narrow settings-only flow that cannot be reached from general app content.\r\n- Prefer per-key, per-action secret operations over returning raw secret values to renderer code.\r\n- Avoid returning `LOCAL_API_TOKEN` to renderer code if the sidecar can be reached through a narrower native bridge or request proxy.\r\n- Split Tauri capabilities per window and per command instead of using the same broad trusted window set.\r\n- Add regression tests that untrusted/external windows cannot call secret/token commands, and that trusted windows only have the specific commands they need.\r\n\r\nSafe validation approach:\r\nUse a local development build only. Add a temporary test window or IPC test harness and assert that sensitive commands are denied outside the intended settings context. Do not log real secret values; use synthetic test values only.\r\n\r\nHappy to help implement or review the patch/tests if you want.\r\n\r\n---\r\nMaintainer remediation (2026-07-13): Fixed in commit [`42a30332e7d6db3fecbc4ef5d0636a29940a73d6`](https://github.com/koala73/worldmonitor/commit/42a30332e7d6db3fecbc4ef5d0636a29940a73d6). The raw `get_local_api_token`, `get_secret`, and `get_all_secrets` IPC commands were removed from the Tauri invoke surface. Sidecar token use now remains in Rust behind the narrow native proxy, raw secret routes are blocked, the default desktop capability is limited to the main window, and regression tests cover the removed commands and forbidden window labels. Users should update to a desktop build based on this commit or later. No distinct release version can be named because the repository version remained `2.10.0` across the remediation commit.\r\n",
+        "severity": "high",
+        "state": "published",
+        "published_at": "2026-07-24T12:18:00Z",
+        "updated_at": "2026-07-24T13:27:41Z",
+        "withdrawn_at": null,
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "other",
+              "name": "koala73/worldmonitor desktop runtime"
+            },
+            "vulnerable_version_range": "main before 42a30332e7d6db3fecbc4ef5d0636a29940a73d6",
+            "patched_versions": "42a30332e7d6db3fecbc4ef5d0636a29940a73d6 and later",
+            "vulnerable_functions": []
+          }
+        ],
+        "cvss": null,
+        "credits": []
+      }
+    ],
+    "community_profile": {
+      "health_percentage": 100,
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "documentation": "https://worldmonitor.app",
+      "files": {
+        "code_of_conduct": {
+          "key": "other",
+          "name": "Other",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/CODE_OF_CONDUCT.md",
+          "url": "https://api.github.com/repos/koala73/worldmonitor/community/code_of_conduct"
+        },
+        "code_of_conduct_file": {
+          "url": "https://api.github.com/repos/koala73/worldmonitor/contents/CODE_OF_CONDUCT.md",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/CODE_OF_CONDUCT.md"
+        },
+        "contributing": {
+          "url": "https://api.github.com/repos/koala73/worldmonitor/contents/CONTRIBUTING.md",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/CONTRIBUTING.md"
+        },
+        "issue_template": null,
+        "pull_request_template": {
+          "url": "https://api.github.com/repos/koala73/worldmonitor/contents/.github/pull_request_template.md",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/.github/pull_request_template.md"
+        },
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE=",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/LICENSE"
+        },
+        "readme": {
+          "url": "https://api.github.com/repos/koala73/worldmonitor/contents/README.md",
+          "html_url": "https://github.com/koala73/worldmonitor/blob/main/README.md"
+        }
+      },
+      "updated_at": "2026-08-30T14:47:16Z"
+    },
+    "participation": {
+      "all": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        107,
+        180,
+        168,
+        244,
+        0,
+        94,
+        387,
+        280,
+        441,
+        287,
+        345,
+        342,
+        160,
+        250,
+        163,
+        178,
+        99,
+        54,
+        62,
+        86,
+        86,
+        163,
+        120,
+        23,
+        72,
+        183,
+        253,
+        91,
+        97,
+        243,
+        162,
+        255,
+        288,
+        222,
+        399
+      ],
+      "owner": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        103,
+        177,
+        151,
+        212,
+        0,
+        87,
+        310,
+        262,
+        355,
+        255,
+        316,
+        330,
+        144,
+        247,
+        155,
+        174,
+        96,
+        54,
+        61,
+        71,
+        58,
+        153,
+        115,
+        17,
+        63,
+        175,
+        223,
+        89,
+        76,
+        213,
+        149,
+        226,
+        182,
+        161,
+        374
+      ]
+    },
+    "commit_activity": [
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1757804400
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1758409200
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1759014000
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1759618800
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1760223600
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1760828400
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1761433200
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1762038000
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1762646400
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1763251200
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1763856000
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1764460800
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1765065600
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1765670400
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1766275200
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1766880000
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          25,
+          59
+        ],
+        "total": 94,
+        "week": 1767484800
+      },
+      {
+        "days": [
+          102,
+          5,
+          37,
+          0,
+          13,
+          8,
+          12
+        ],
+        "total": 177,
+        "week": 1768089600
+      },
+      {
+        "days": [
+          41,
+          0,
+          22,
+          0,
+          6,
+          98,
+          1
+        ],
+        "total": 168,
+        "week": 1768694400
+      },
+      {
+        "days": [
+          99,
+          48,
+          30,
+          1,
+          13,
+          43,
+          4
+        ],
+        "total": 238,
+        "week": 1769299200
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "week": 1769904000
+      },
+      {
+        "days": [
+          0,
+          0,
+          0,
+          7,
+          12,
+          39,
+          13
+        ],
+        "total": 71,
+        "week": 1770508800
+      },
+      {
+        "days": [
+          66,
+          55,
+          41,
+          53,
+          50,
+          49,
+          27
+        ],
+        "total": 341,
+        "week": 1771113600
+      },
+      {
+        "days": [
+          9,
+          20,
+          35,
+          21,
+          48,
+          21,
+          96
+        ],
+        "total": 250,
+        "week": 1771718400
+      },
+      {
+        "days": [
+          72,
+          75,
+          55,
+          76,
+          35,
+          62,
+          72
+        ],
+        "total": 447,
+        "week": 1772323200
+      },
+      {
+        "days": [
+          46,
+          34,
+          30,
+          40,
+          43,
+          28,
+          51
+        ],
+        "total": 272,
+        "week": 1772928000
+      },
+      {
+        "days": [
+          79,
+          21,
+          48,
+          33,
+          66,
+          47,
+          68
+        ],
+        "total": 362,
+        "week": 1773532800
+      },
+      {
+        "days": [
+          25,
+          69,
+          49,
+          22,
+          46,
+          63,
+          58
+        ],
+        "total": 332,
+        "week": 1774137600
+      },
+      {
+        "days": [
+          40,
+          19,
+          15,
+          19,
+          20,
+          23,
+          28
+        ],
+        "total": 164,
+        "week": 1774742400
+      },
+      {
+        "days": [
+          55,
+          22,
+          27,
+          36,
+          38,
+          26,
+          41
+        ],
+        "total": 245,
+        "week": 1775347200
+      },
+      {
+        "days": [
+          54,
+          29,
+          19,
+          7,
+          15,
+          12,
+          33
+        ],
+        "total": 169,
+        "week": 1775952000
+      },
+      {
+        "days": [
+          19,
+          24,
+          12,
+          31,
+          36,
+          25,
+          24
+        ],
+        "total": 171,
+        "week": 1776556800
+      },
+      {
+        "days": [
+          27,
+          32,
+          13,
+          6,
+          12,
+          12,
+          4
+        ],
+        "total": 106,
+        "week": 1777161600
+      },
+      {
+        "days": [
+          16,
+          12,
+          2,
+          4,
+          3,
+          11,
+          6
+        ],
+        "total": 54,
+        "week": 1777766400
+      },
+      {
+        "days": [
+          15,
+          8,
+          5,
+          8,
+          13,
+          4,
+          9
+        ],
+        "total": 62,
+        "week": 1778371200
+      },
+      {
+        "days": [
+          5,
+          47,
+          16,
+          3,
+          2,
+          4,
+          7
+        ],
+        "total": 84,
+        "week": 1778976000
+      },
+      {
+        "days": [
+          5,
+          16,
+          26,
+          21,
+          13,
+          4,
+          2
+        ],
+        "total": 87,
+        "week": 1779580800
+      },
+      {
+        "days": [
+          7,
+          25,
+          26,
+          10,
+          35,
+          19,
+          39
+        ],
+        "total": 161,
+        "week": 1780185600
+      },
+      {
+        "days": [
+          34,
+          11,
+          10,
+          33,
+          12,
+          11,
+          8
+        ],
+        "total": 119,
+        "week": 1780790400
+      },
+      {
+        "days": [
+          3,
+          0,
+          7,
+          4,
+          5,
+          3,
+          2
+        ],
+        "total": 24,
+        "week": 1781395200
+      },
+      {
+        "days": [
+          0,
+          5,
+          16,
+          18,
+          15,
+          10,
+          8
+        ],
+        "total": 72,
+        "week": 1782000000
+      },
+      {
+        "days": [
+          18,
+          10,
+          22,
+          23,
+          18,
+          13,
+          79
+        ],
+        "total": 183,
+        "week": 1782604800
+      },
+      {
+        "days": [
+          76,
+          34,
+          14,
+          27,
+          42,
+          40,
+          20
+        ],
+        "total": 253,
+        "week": 1783209600
+      },
+      {
+        "days": [
+          8,
+          26,
+          26,
+          11,
+          7,
+          5,
+          8
+        ],
+        "total": 91,
+        "week": 1783814400
+      },
+      {
+        "days": [
+          0,
+          2,
+          6,
+          12,
+          17,
+          30,
+          25
+        ],
+        "total": 92,
+        "week": 1784419200
+      },
+      {
+        "days": [
+          39,
+          37,
+          32,
+          39,
+          38,
+          8,
+          40
+        ],
+        "total": 233,
+        "week": 1785024000
+      },
+      {
+        "days": [
+          37,
+          17,
+          16,
+          36,
+          17,
+          24,
+          14
+        ],
+        "total": 161,
+        "week": 1785628800
+      },
+      {
+        "days": [
+          22,
+          27,
+          19,
+          36,
+          45,
+          61,
+          21
+        ],
+        "total": 231,
+        "week": 1786233600
+      },
+      {
+        "days": [
+          28,
+          46,
+          57,
+          19,
+          29,
+          20,
+          6
+        ],
+        "total": 205,
+        "week": 1786838400
+      },
+      {
+        "days": [
+          1,
+          16,
+          15,
+          22,
+          42,
+          61,
+          54
+        ],
+        "total": 211,
+        "week": 1787443200
+      },
+      {
+        "days": [
+          42,
+          23,
+          28,
+          42,
+          32,
+          41,
+          139
+        ],
+        "total": 347,
+        "week": 1788048000
+      },
+      {
+        "days": [
+          60,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 60,
+        "week": 1788652800
+      }
+    ],
+    "important_files": {
+      "README.md": {
+        "sha": "820c2f8060a0dbe15ea47e7f91eb0420a694642d",
+        "size": 13314,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/README.md"
+      },
+      "LICENSE": {
+        "sha": "f3fe2529a81dd1014b5e00cd5e7a25b81c75201b",
+        "size": 34865,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/LICENSE"
+      },
+      "SECURITY.md": {
+        "sha": "06a43192e66866fbae0066040f8b856a8f1bbc0b",
+        "size": 5471,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/SECURITY.md"
+      },
+      "CONTRIBUTING.md": {
+        "sha": "37e4776eee2f94e91a9712b304d6980d2c280e5c",
+        "size": 33225,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/CONTRIBUTING.md"
+      },
+      "ARCHITECTURE.md": {
+        "sha": "ccda192d03c22d6bc37000d460315dd8f29fbc93",
+        "size": 41927,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/ARCHITECTURE.md"
+      },
+      "CHANGELOG.md": {
+        "sha": "ec6dc45559e46e632c77794fd488c477e944913e",
+        "size": 60108,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/CHANGELOG.md"
+      },
+      "package.json": {
+        "sha": "6bf234b529b71a2288314620ff2e5eb33af8a49c",
+        "size": 23240,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/package.json"
+      },
+      "package-lock.json": {
+        "sha": "64c3fdc12d4cbb77a0071ddfdf759e66655e0137",
+        "size": 894150,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/package-lock.json"
+      },
+      "SELF_HOSTING.md": {
+        "sha": "e64323697286cc7b04866c7700acd22ace8b80b9",
+        "size": 18179,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/SELF_HOSTING.md"
+      },
+      ".github/workflows/test.yml": {
+        "sha": "1f98166446d83d667361e2ca72cb6107a85e378f",
+        "size": 50023,
+        "html_url": "https://github.com/koala73/worldmonitor/blob/main/.github/workflows/test.yml"
+      }
+    }
+  },
+  "registries": {
+    "npm": {
+      "latest_version": "0.1.3",
+      "versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.3"
+      ],
+      "downloads_since_sdk_launch": {
+        "downloads": 1425,
+        "start": "2026-07-05",
+        "end": "2026-09-06",
+        "package": "worldmonitor"
+      },
+      "downloads_last_month": {
+        "downloads": 572,
+        "start": "2026-07-31",
+        "end": "2026-08-29",
+        "package": "worldmonitor"
+      },
+      "source": "https://registry.npmjs.org/worldmonitor"
+    },
+    "pypi": {
+      "latest_version": "0.1.1",
+      "release_dates": {
+        "0.1.0": [
+          "2026-07-05T10:14:29.461639Z",
+          "2026-07-05T10:14:30.838313Z"
+        ],
+        "0.1.1": [
+          "2026-07-05T15:38:27.413058Z",
+          "2026-07-05T15:38:28.499078Z"
+        ]
+      },
+      "source": "https://pypi.org/project/worldmonitor-sdk/"
+    },
+    "rubygems": {
+      "version": "0.1.1",
+      "downloads": 1253,
+      "version_downloads": 621,
+      "source": "https://rubygems.org/gems/worldmonitor"
+    },
+    "go": {
+      "known_importers": 0,
+      "observed_at": "2026-09-06",
+      "source": "https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go",
+      "note": "Captured from the public pkg.go.dev package page; not fetched by this script."
+    }
+  },
+  "sources": {
+    "repository": "https://github.com/koala73/worldmonitor",
+    "star_history_docs": "https://docs.github.com/en/rest/activity/starring#get-repository-star-history",
+    "releases": "https://github.com/koala73/worldmonitor/releases",
+    "security": "https://github.com/koala73/worldmonitor/security",
+    "contributors": "https://github.com/koala73/worldmonitor/graphs/contributors"
+  }
+}

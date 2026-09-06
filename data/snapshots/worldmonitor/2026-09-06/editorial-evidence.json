@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1",
+  "project": "koala73/worldmonitor",
+  "review_date": "2026-09-06",
+  "checked_commit": "fd52b129087aa6eb5a1df400d6dfc9fae28c0bef",
+  "manual_checks": {
+    "local_git_history": {
+      "commit_count_total": 6686,
+      "commit_count_through_hype_date": 1597,
+      "approx_non_bot_author_email_identities_through_hype": 40,
+      "approx_non_bot_author_email_identities_through_review": 160,
+      "recent_90d_owner_commits": 2120,
+      "recent_90d_all_commits": 2465,
+      "note": "Email identities are not verified people. Obvious automation identities were excluded, but AI-assisted and shared identities cannot be reliably classified."
+    },
+    "install": {
+      "node": "24.19.0",
+      "npm": "11.17.0",
+      "npm_ci": "pass",
+      "typecheck": "pass",
+      "development_server": "pass",
+      "root_http_status": 200,
+      "boundary": "Base source-development path only; complete data, production self-hosting, and desktop binaries were not verified."
+    },
+    "dependency_audit": {
+      "command": "npm audit --omit=dev --json",
+      "high": 13,
+      "moderate": 13,
+      "critical": 0,
+      "note": "Advisory count is not a reachability or exploitability analysis."
+    },
+    "desktop_release": {
+      "latest_published_release": "v2.5.23",
+      "latest_published_at": "2026-03-01T23:34:08Z",
+      "current_source_version": "2.10.0",
+      "current_tag": "v2.10.0",
+      "parity_issue": "https://github.com/koala73/worldmonitor/issues/5902",
+      "sample_failed_build": "https://github.com/koala73/worldmonitor/actions/runs/33968688494",
+      "sample_failed_build_conclusion": "failure",
+      "sample_failed_build_date": "2026-09-05",
+      "observed_failure_reason": "Required build-time configuration values were absent, so the workflow refused to ship a degraded desktop build."
+    },
+    "independent_adoption": {
+      "verified_count": 1,
+      "repository": "https://github.com/gitdhirajsv/Azalyst-ETF-Intelligence",
+      "evidence": "The independent repository calls api.worldmonitor.app in application configuration and credits World Monitor as inspiration.",
+      "strength": "weak-scale",
+      "note": "This proves at least one real public integration, not broad organizational adoption."
+    },
+    "license": {
+      "platform_source": "AGPL-3.0-only",
+      "official_thin_clients": "MIT",
+      "commercial_use_under_agpl": "permitted subject to license obligations",
+      "hosted_service_and_outputs": "separate EULA applies",
+      "license_clear": true
+    }
+  },
+  "editorial_judgment": {
+    "maintenance": 18,
+    "adoption": 13,
+    "community_resilience": 12,
+    "operational_maturity": 14,
+    "portability": 14,
+    "total": 71,
+    "learning_value": "A",
+    "adoption_confidence": "B",
+    "overall_grade": "B",
+    "confidence": "high",
+    "status": "review",
+    "a_grade_blockers": [
+      "Published desktop releases lag current source and recent desktop build attempts are failing.",
+      "Recent contribution remains highly concentrated in the repository owner.",
+      "Independent downstream adoption is real but too thin to establish broad, stable usage.",
+      "Production self-hosting has a material operational and credential footprint."
+    ]
+  }
+}

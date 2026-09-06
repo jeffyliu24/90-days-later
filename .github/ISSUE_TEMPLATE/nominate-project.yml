@@ -1,0 +1,52 @@
+name: 提名一个项目
+description: 提交值得进入 30/90/180/365 天观察的开源 AI 项目
+title: "[Nomination] owner/repository"
+labels:
+  - nomination
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: 官方 GitHub 仓库
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: hype_date
+    attributes:
+      label: 大约何时爆发？
+      description: 如果不知道精确日期，可以填写月份或相关事件日期。
+      placeholder: YYYY-MM-DD
+  - type: textarea
+    id: trigger
+    attributes:
+      label: 当时发生了什么？
+      description: 请附发布帖、新闻、HN、Product Hunt 或其他可核验来源。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 类别
+      options:
+        - coding-agent
+        - agent-framework
+        - rag-data
+        - inference-runtime
+        - eval-observability
+        - mcp-integration
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 你是否实际使用过？
+      description: 使用多久、完成了什么、遇到哪些问题？请勿提交秘密或个人数据。
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: 利益关系
+      options:
+        - label: 我是维护者、贡献者、投资者或与项目存在商业关系，并已在上文说明。
+

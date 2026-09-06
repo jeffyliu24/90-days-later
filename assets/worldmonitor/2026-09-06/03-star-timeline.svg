@@ -1,0 +1,40 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+  
+    
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >STAR 时间线</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >热度降了，但没有消失</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >每周新增 star events · 线性刻度</text>
+
+    <line x1="100" y1="1095" x2="1142" y2="1095" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="1104" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >0</text>
+<line x1="100" y1="873.5801880365173" x2="1142" y2="873.5801880365173" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="882.5801880365173" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >5k</text>
+<line x1="100" y1="652.1603760730345" x2="1142" y2="652.1603760730345" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="661.1603760730345" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >10k</text>
+<line x1="100" y1="430.74056410955177" x2="1142" y2="430.74056410955177" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="439.74056410955177" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >15k</text>
+    <path d="M 100.0 1095.0 L 129.8 1093.1 L 159.5 1094.8 L 189.3 1094.9 L 219.1 1094.9 L 248.9 869.3 L 278.6 938.9 L 308.4 687.2 L 338.2 445.0 L 367.9 886.7 L 397.7 910.3 L 427.5 975.3 L 457.3 1020.3 L 487.0 1039.9 L 516.8 1039.5 L 546.6 939.2 L 576.3 1065.0 L 606.1 1067.5 L 635.9 1073.7 L 665.7 1070.6 L 695.4 1079.9 L 725.2 1057.4 L 755.0 1072.1 L 784.7 1038.0 L 814.5 972.8 L 844.3 1053.8 L 874.1 1076.1 L 903.8 1080.7 L 933.6 551.5 L 963.4 933.9 L 993.1 997.6 L 1022.9 994.2 L 1052.7 1019.1 L 1082.5 1042.4 L 1112.2 1062.6 L 1142.0 1093.0 L 1142.0 1095 L 100 1095 Z" fill="#FCE0D7" opacity="0.85"/>
+    <path d="M 100.0 1095.0 L 129.8 1093.1 L 159.5 1094.8 L 189.3 1094.9 L 219.1 1094.9 L 248.9 869.3 L 278.6 938.9 L 308.4 687.2 L 338.2 445.0 L 367.9 886.7 L 397.7 910.3 L 427.5 975.3 L 457.3 1020.3 L 487.0 1039.9 L 516.8 1039.5 L 546.6 939.2 L 576.3 1065.0 L 606.1 1067.5 L 635.9 1073.7 L 665.7 1070.6 L 695.4 1079.9 L 725.2 1057.4 L 755.0 1072.1 L 784.7 1038.0 L 814.5 972.8 L 844.3 1053.8 L 874.1 1076.1 L 903.8 1080.7 L 933.6 551.5 L 963.4 933.9 L 993.1 997.6 L 1022.9 994.2 L 1052.7 1019.1 L 1082.5 1042.4 L 1112.2 1062.6 L 1142.0 1093.0" fill="none" stroke="#F05A3C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="338.1714285714286" cy="445" r="13" fill="#F05A3C"/>
+    <circle cx="933.6" cy="551.4586455920426" r="13" fill="#2B6CB0"/>
+    <line x1="338.1714285714286" y1="465" x2="338.1714285714286" y2="1180" stroke="#F05A3C" stroke-width="2" stroke-dasharray="7 8"/>
+    <line x1="933.6" y1="571.4586455920426" x2="933.6" y2="1180" stroke="#2B6CB0" stroke-width="2" stroke-dasharray="7 8"/>
+    <text x="338.1714285714286" y="409" font-size="28" fill="#F05A3C" font-weight="500" text-anchor="middle" >3 月主峰 · 14,678 / 周</text>
+    <text x="933.6" y="515.4586455920426" font-size="28" fill="#2B6CB0" font-weight="500" text-anchor="middle" >7 月第二波 · 12,274 / 周</text>
+    <text x="100" y="1148" font-size="26" fill="#68737D" font-weight="400" text-anchor="start" >1 月</text>
+    <text x="370.92" y="1148" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >3 月</text>
+    <text x="641.84" y="1148" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >5 月</text>
+    <text x="912.76" y="1148" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >7 月</text>
+    <text x="1142" y="1148" font-size="26" fill="#68737D" font-weight="400" text-anchor="end" >9 月</text>
+    <rect x="100" y="1232" width="1042" height="210" rx="28" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="145" y="1304" font-size="28" fill="#68737D" font-weight="500" text-anchor="start" >读图</text>
+    <text x="145" y="1360" font-size="33" fill="#13202B" font-weight="500" text-anchor="start" >一次性爆火会只剩长尾；World Monitor 在 7 月</text>
+<text x="145" y="1404.55" font-size="33" fill="#13202B" font-weight="500" text-anchor="start" >出现第二个大波峰，因此不能简单判定“热度死亡”。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >3 / 7</text>
+  
+</svg>

@@ -1,0 +1,45 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+  
+    
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >维护强度</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >项目没有停更</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >但“活动量”仍要拆开看</text>
+
+    
+    <text x="106" y="445" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >爆火后的第一个 90 天 · commits</text>
+    <text x="1136" y="445" font-size="40" fill="#F05A3C" font-weight="500" text-anchor="end" >2,423</text>
+    <rect x="106" y="475" width="1030" height="58" rx="29" fill="#D9D2C5" stroke="none" stroke-width="0"/>
+    <rect x="106" y="475" width="1012.4503042596349" height="58" rx="29" fill="#F05A3C" stroke="none" stroke-width="0"/>
+  
+    
+    <text x="106" y="650" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >复查前最近 90 天 · commits</text>
+    <text x="1136" y="650" font-size="40" fill="#2F7D5B" font-weight="500" text-anchor="end" >2,465</text>
+    <rect x="106" y="680" width="1030" height="58" rx="29" fill="#D9D2C5" stroke="none" stroke-width="0"/>
+    <rect x="106" y="680" width="1030" height="58" rx="29" fill="#2F7D5B" stroke="none" stroke-width="0"/>
+  
+    <rect x="106" y="858" width="492" height="260" rx="28" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="148" y="920" font-size="64" fill="#2B6CB0" font-weight="500" text-anchor="start" >2,062</text>
+    <text x="148" y="974" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >最近 90 天合并 PR</text>
+    <text x="148" y="1041" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >吞吐仍高，</text>
+<text x="148" y="1081.5" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >不是“无人维护”。</text>
+    <rect x="644" y="858" width="492" height="260" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <text x="686" y="920" font-size="64" fill="#F05A3C" font-weight="500" text-anchor="start" >89.7%</text>
+    <text x="686" y="974" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >累计贡献中的 owner 占比</text>
+    <text x="686" y="1041" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >维护很强，</text>
+<text x="686" y="1081.5" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >单点风险也很高。</text>
+    <rect x="106" y="1215" width="1030" height="190" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <text x="148" y="1283" font-size="28" fill="#13202B" font-weight="500" text-anchor="start" >注意</text>
+    <text x="148" y="1340" font-size="31" fill="#13202B" font-weight="400" text-anchor="start" >仓库含自动化与 AI 辅助提交，commit 数不能直接</text>
+<text x="148" y="1381.85" font-size="31" fill="#13202B" font-weight="400" text-anchor="start" >翻译成“这么多真人贡献者”。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >5 / 7</text>
+  
+</svg>

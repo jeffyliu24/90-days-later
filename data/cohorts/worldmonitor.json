@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "project_id": "worldmonitor",
+  "canonical_repo": "koala73/worldmonitor",
+  "project_name": "World Monitor",
+  "category": "ai-application",
+  "cohort_status": "active",
+  "entered_cohort_at": "2026-09-06",
+  "hype_event": {
+    "date": "2026-03-02",
+    "basis": "Highest daily GitHub star-event count in the captured repository history",
+    "peak_daily_star_events": 3770,
+    "approximate_star_events_through_peak_date": 24007,
+    "direct_trigger": "unverified"
+  },
+  "review_schedule": [
+    {
+      "milestone": "180d",
+      "due_date": "2026-08-29",
+      "observed_at": "2026-09-06",
+      "status": "review"
+    },
+    {
+      "milestone": "next_90d_recheck",
+      "due_date": "2026-12-05",
+      "status": "scheduled_for_research"
+    }
+  ],
+  "selection_reason": "A large, measurable attention spike followed by enough elapsed time to test whether maintenance, release delivery, community resilience, and independent adoption survived the initial hype.",
+  "removal_policy": "Do not remove this project because of inactivity, archival, failure, or a lower future grade. Those outcomes are part of the cohort record."
+}

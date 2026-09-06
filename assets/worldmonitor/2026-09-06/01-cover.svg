@@ -1,0 +1,28 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+  
+    <rect x="72" y="72" width="260" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="202" y="110" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >爆火 188 天后</text>
+    <text x="72" y="290" font-size="86" fill="#13202B" font-weight="500" text-anchor="start" >8.5 万星之后</text>
+    <text x="72" y="392" font-size="86" fill="#13202B" font-weight="500" text-anchor="start" >它真的活下来了吗？</text>
+    <text x="72" y="535" font-size="44" fill="#2B6CB0" font-weight="500" text-anchor="start" >WORLD MONITOR</text>
+    <rect x="72" y="655" width="1098" height="476" rx="38" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="126" y="775" font-size="32" fill="#F2C14E" font-weight="500" text-anchor="start" >结论</text>
+    <text x="126" y="902" font-size="66" fill="#FFFDF8" font-weight="500" text-anchor="start" >活着，而且变大了。</text>
+    <text x="126" y="991" font-size="66" fill="#FFFDF8" font-weight="500" text-anchor="start" >但还没稳到 A。</text>
+    <rect x="126" y="1040" width="238" height="54" rx="27" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="245" y="1078" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >综合评级  B</text>
+    <text x="72" y="1254" font-size="46" fill="#2F7D5B" font-weight="500" text-anchor="start" >学习价值 A</text>
+    <text x="392" y="1254" font-size="46" fill="#68737D" font-weight="400" text-anchor="start" >·</text>
+    <text x="438" y="1254" font-size="46" fill="#F05A3C" font-weight="500" text-anchor="start" >采用信心 B</text>
+    <text x="72" y="1352" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >不是“项目死没死”的二选一，</text>
+<text x="72" y="1401.3" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >而是检查热度退去后，交付是否仍可信。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >1 / 7</text>
+  
+</svg>
