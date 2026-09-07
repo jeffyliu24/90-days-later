@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+
+
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >评价 1 / 4</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >热度降了，但没有消失</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >188 天后，同时看主峰、低谷与第二波</text>
+
+    <line x1="100" y1="950" x2="1142" y2="950" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="959" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >0</text>
+<line x1="100" y1="767.7544624608257" x2="1142" y2="767.7544624608257" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="776.7544624608257" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >5k</text>
+<line x1="100" y1="585.5089249216514" x2="1142" y2="585.5089249216514" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="594.5089249216514" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >10k</text>
+<line x1="100" y1="403.26338738247716" x2="1142" y2="403.26338738247716" stroke="#D9D2C5" stroke-width="2" /><text x="82" y="412.26338738247716" font-size="24" fill="#68737D" font-weight="400" text-anchor="end" >15k</text>
+    <path d="M 100.0 950.0 L 129.8 948.4 L 159.5 949.8 L 189.3 949.9 L 219.1 949.9 L 248.9 764.3 L 278.6 821.6 L 308.4 614.3 L 338.2 415.0 L 367.9 778.6 L 397.7 798.0 L 427.5 851.4 L 457.3 888.5 L 487.0 904.6 L 516.8 904.3 L 546.6 821.7 L 576.3 925.3 L 606.1 927.3 L 635.9 932.4 L 665.7 929.9 L 695.4 937.6 L 725.2 919.0 L 755.0 931.2 L 784.7 903.1 L 814.5 849.4 L 844.3 916.1 L 874.1 934.4 L 903.8 938.2 L 933.6 502.6 L 963.4 817.4 L 993.1 869.8 L 1022.9 867.0 L 1052.7 887.6 L 1082.5 906.7 L 1112.2 923.3 L 1142.0 948.3 L 1142.0 950 L 100 950 Z" fill="#FCE0D7" opacity="0.85"/>
+    <path d="M 100.0 950.0 L 129.8 948.4 L 159.5 949.8 L 189.3 949.9 L 219.1 949.9 L 248.9 764.3 L 278.6 821.6 L 308.4 614.3 L 338.2 415.0 L 367.9 778.6 L 397.7 798.0 L 427.5 851.4 L 457.3 888.5 L 487.0 904.6 L 516.8 904.3 L 546.6 821.7 L 576.3 925.3 L 606.1 927.3 L 635.9 932.4 L 665.7 929.9 L 695.4 937.6 L 725.2 919.0 L 755.0 931.2 L 784.7 903.1 L 814.5 849.4 L 844.3 916.1 L 874.1 934.4 L 903.8 938.2 L 933.6 502.6 L 963.4 817.4 L 993.1 869.8 L 1022.9 867.0 L 1052.7 887.6 L 1082.5 906.7 L 1112.2 923.3 L 1142.0 948.3" fill="none" stroke="#F05A3C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="338.1714285714286" cy="415" r="13" fill="#F05A3C"/>
+    <circle cx="933.6" cy="502.623654448835" r="13" fill="#2B6CB0"/>
+    <line x1="338.1714285714286" y1="435" x2="338.1714285714286" y2="985" stroke="#F05A3C" stroke-width="2" stroke-dasharray="7 8"/>
+    <line x1="933.6" y1="522.6236544488349" x2="933.6" y2="985" stroke="#2B6CB0" stroke-width="2" stroke-dasharray="7 8"/>
+    <text x="338.1714285714286" y="379" font-size="28" fill="#F05A3C" font-weight="500" text-anchor="middle" >3 月主峰 · 14,678 / 周</text>
+    <text x="933.6" y="466.623654448835" font-size="28" fill="#2B6CB0" font-weight="500" text-anchor="middle" >7 月第二波 · 12,274 / 周</text>
+    <text x="100" y="995" font-size="26" fill="#68737D" font-weight="400" text-anchor="start" >1 月</text>
+    <text x="370.92" y="995" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >3 月</text>
+    <text x="641.84" y="995" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >5 月</text>
+    <text x="912.76" y="995" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >7 月</text>
+    <text x="1142" y="995" font-size="26" fill="#68737D" font-weight="400" text-anchor="end" >9 月</text>
+    <rect x="100" y="1065" width="322" height="220" rx="28" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="135" y="1130" font-size="52" fill="#2F7D5B" font-weight="500" text-anchor="start" >85,679</text>
+    <text x="135" y="1182" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >复查日 stars</text>
+<text x="135" y="1221.15" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >峰值日后约 +61,672</text>
+    <rect x="460" y="1065" width="322" height="220" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <text x="495" y="1130" font-size="52" fill="#F05A3C" font-weight="500" text-anchor="start" >8.7%</text>
+    <text x="495" y="1182" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >第 61–90 天增速</text>
+<text x="495" y="1221.15" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >相对爆火后首月</text>
+    <rect x="820" y="1065" width="322" height="220" rx="28" fill="#DCE9F7" stroke="none" stroke-width="0"/>
+    <text x="855" y="1130" font-size="52" fill="#2B6CB0" font-weight="500" text-anchor="start" >+6,223</text>
+    <text x="855" y="1182" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >复查前最近 30 天</text>
+<text x="855" y="1221.15" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >第二波后仍有长尾</text>
+    <rect x="100" y="1340" width="1042" height="102" rx="26" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="621" y="1405" font-size="33" fill="#FFFDF8" font-weight="500" text-anchor="middle" >评价：经历明显降温，但没有变成“一次性流量项目”。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >6 / 9</text>
+
+</svg>

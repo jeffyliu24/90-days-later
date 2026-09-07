@@ -96,7 +96,7 @@ function cover() {
 function whatItIs() {
   const source = (x, y, label, fill, ink) => `${rect(x, y, 184, 76, fill, 38)}${text(x + 92, y + 51, label, 30, ink, 500, 'middle')}`;
   return shell(`
-    ${header('先说人话', '它到底是干什么的？', '把散落的全球信号，放进一张可交互地图')}
+    ${header('认识工具 1 / 4', '它到底是干什么的？', '把散落的全球信号，放进一张可交互地图')}
     ${source(72, 365, '全球新闻', C.orangeSoft, C.orange)}
     ${source(294, 365, '冲突事件', C.yellowSoft, C.ink)}
     ${source(516, 365, '灾害天气', C.greenSoft, C.green)}
@@ -138,60 +138,74 @@ function whyItCaughtFire() {
     ${lines(x + 38, y + 140, body, 27, 1.35, C.muted)}
   `;
   return shell(`
-    ${header('为什么会火', '它让人 3 秒就懂', '传播原因是推断；传播时间线可以核实')}
-    ${reason(72, 350, 1, '熟悉的想象', ['“开源全球战情室”', '一句话就有画面。'], C.orangeSoft, C.orange)}
-    ${reason(650, 350, 2, '截图就能传播', ['暗色地图、事件点、航线，', '视觉冲击远胜抽象框架。'], C.blueSoft, C.blue)}
-    ${reason(72, 600, 3, '解决真实痛点', ['把散落在许多标签页的', '新闻与数据汇到一处。'], C.yellowSoft, C.yellow)}
-    ${reason(650, 600, 4, '同时吸引两群人', ['普通人可直接体验；开发者', '能看源码、API 与 MCP。'], C.greenSoft, C.green)}
-    ${rect(72, 900, 1072, 355, C.ink, 34)}
-    ${text(116, 975, '能验证的传播路径', 29, C.yellow, 500)}
-    ${text(126, 1065, '02/26', 34, C.orange, 500)}
-    ${text(126, 1110, '社区开始扩散', 26, C.paper2)}
-    ${line(300, 1055, 430, 1055, C.muted, 3)}
-    ${text(480, 1065, '03/01', 34, C.yellow, 500, 'middle')}
-    ${text(480, 1110, '已约 18,964 ★', 26, C.paper2, 400, 'middle')}
-    ${line(565, 1055, 700, 1055, C.muted, 3)}
-    ${text(790, 1065, '03/02', 34, C.orange, 500, 'middle')}
-    ${text(790, 1110, '单日 +3,770', 26, C.paper2, 400, 'middle')}
-    ${line(875, 1055, 975, 1055, C.muted, 3)}
-    ${text(1095, 1065, '07 月', 34, C.blue, 500, 'end')}
-    ${text(1095, 1110, '第二波峰', 26, C.paper2, 400, 'end')}
-    ${line(116, 1160, 1100, 1160, '#3A4B58', 2)}
-    ${text(116, 1212, '能解释“为什么容易传播”，但不能确认唯一的第一条爆帖。', 28, C.paper2, 500)}
-    ${rect(72, 1310, 1072, 132, C.paper2, 26)}
-    ${text(621, 1390, '它火的不是一个新模型，而是一种一眼能懂的 AI 产品形态。', 31, C.ink, 500, 'middle')}
+    ${header('认识工具 2 / 4', '它让人 3 秒就懂', '复杂的全球信息，被包装成一张人人看得懂的地图')}
+    ${reason(72, 350, 1, '一句话有画面', ['“开源全球战情室”', '不用解释技术名词。'], C.orangeSoft, C.orange)}
+    ${reason(650, 350, 2, '截图就能传播', ['暗色地图、事件点、航线，', '视觉冲击很强。'], C.blueSoft, C.blue)}
+    ${reason(72, 600, 3, '解决信息碎片', ['原本散落在许多标签页，', '现在先在一处发现关联。'], C.yellowSoft, C.yellow)}
+    ${reason(650, 600, 4, '同时服务两群人', ['普通人点开即看；开发者', '能研究源码与接口。'], C.greenSoft, C.green)}
+    ${rect(72, 900, 1072, 310, C.ink, 34)}
+    ${text(116, 975, '为什么值得关注', 29, C.yellow, 500)}
+    ${lines(116, 1042, ['它展示了聊天框之外的 AI 产品形态：', 'AI 进入信息聚合、摘要与跨信号关联。'], 38, 1.42, C.paper2, 500)}
+    ${line(116, 1147, 1100, 1147, '#3A4B58', 2)}
+    ${text(116, 1192, '既是一款可直接体验的产品，也是一套可以拆开学习的工程系统。', 27, C.paper2)}
+    ${rect(72, 1262, 1072, 180, C.paper2, 26)}
+    ${text(116, 1325, '传播事实', 27, C.orange, 500)}
+    ${lines(116, 1380, ['02/26 社区扩散 → 03/02 单日 +3,770 → 07 月第二波峰', '传播路径可核实；“为什么容易火”仍是基于证据的编辑判断。'], 28, 1.45, C.ink)}
     ${footer(3)}
   `);
 }
 
-function thenNow() {
-  const col = (x, y, label, value, note, accent) => `
-    ${text(x, y, label, 28, C.muted, 500)}
-    ${text(x, y + 72, value, 52, accent, 500)}
-    ${text(x, y + 121, note, 25, C.muted, 400)}
+function howToUse() {
+  const step = (x, y, number, titleValue, body, fill, accent) => `
+    ${rect(x, y, 520, 235, fill, 28)}
+    ${pill(x + 34, y + 30, `0${number}`, accent, C.paper2, 78)}
+    ${text(x + 138, y + 72, titleValue, 35, C.ink, 500)}
+    ${lines(x + 38, y + 142, body, 28, 1.4, C.muted)}
   `;
   return shell(`
-    ${header('当时 vs 现在', '188 天，发生了什么？', '同一个项目，同一组可复核口径')}
-    ${text(108, 390, '爆火日 · 03/02', 34, C.orange, 500)}
-    ${text(1134, 390, '复查日 · 09/06', 34, C.green, 500, 'end')}
-    ${line(621, 345, 621, 1370, C.line, 3)}
-    ${col(108, 490, '累计 STAR EVENTS', '约 24,007', '单日峰值 3,770', C.orange)}
-    ${col(675, 490, '累计 STAR EVENTS', '85,679', '之后又增加约 61,672', C.green)}
-    ${line(108, 680, 565, 680)}${line(675, 680, 1134, 680)}
-    ${col(108, 760, '仓库 COMMITS', '1,597', '从创建到爆火日', C.orange)}
-    ${col(675, 760, '仓库 COMMITS', '6,686', '仍在持续开发', C.green)}
-    ${line(108, 950, 565, 950)}${line(675, 950, 1134, 950)}
-    ${col(108, 1030, '公开 RELEASE', 'v2.5.23', '爆火当晚发布', C.orange)}
-    ${col(675, 1030, '源码 / TAG', 'v2.10.0', '但 Release 页仍是 v2.5.23', C.blue)}
-    ${rect(108, 1245, 1026, 168, C.yellowSoft, 28)}
-    ${text(150, 1310, '关键区别', 28, C.ink, 500)}
-    ${lines(150, 1364, ['开发很活跃 ≠ 用户拿到的稳定版本同步。'], 33, 1.3, C.ink, 500)}
-    ${text(72, 1497, '＊历史累计 stars 使用 star events 近似，不扣除后来取消的 star。', 25, C.muted)}
+    ${header('认识工具 3 / 4', '普通人怎么用？', '例：快速了解“某个地区发生了什么”')}
+    ${step(72, 355, 1, '先定位', ['搜索地区，或从地图上的', '异常事件进入。'], C.orangeSoft, C.orange)}
+    ${step(650, 355, 2, '再叠图层', ['按问题打开灾害、冲突、', '航班、能源或基建图层。'], C.blueSoft, C.blue)}
+    ${step(72, 625, 3, '交叉查看', ['对照事件时间、附近信号', '和多家新闻来源。'], C.yellowSoft, C.yellow)}
+    ${step(650, 625, 4, '让 AI 压缩', ['用简报快速抓重点，再回到', '原始来源核实关键事实。'], C.greenSoft, C.green)}
+    ${rect(72, 930, 1072, 285, C.ink, 34)}
+    ${text(116, 1005, '一个具体例子', 29, C.yellow, 500)}
+    ${lines(116, 1072, ['“某地突发灾害，会不会影响我的出行？”', '灾害图层 → 航班与基础设施 → 最新来源 → AI 简报'], 36, 1.5, C.paper2, 500)}
+    ${rect(72, 1268, 1072, 174, C.paper2, 26)}
+    ${text(116, 1332, '正确预期', 27, C.green, 500)}
+    ${lines(116, 1385, ['它帮你更快发现线索、建立上下文；不会替你完成事实核验。'], 29, 1.4, C.ink, 500)}
     ${footer(4)}
   `);
 }
 
-async function starTimeline() {
+function developerPaths() {
+  const pathCard = (x, number, titleValue, body, fill, accent) => `
+    ${rect(x, 380, 330, 410, fill, 28)}
+    ${pill(x + 30, 412, `路径 ${number}`, accent, C.paper2, 118)}
+    ${text(x + 30, 520, titleValue, 38, C.ink, 500)}
+    ${lines(x + 30, 592, body, 27, 1.55, C.muted)}
+  `;
+  return shell(`
+    ${header('认识工具 4 / 4', '开发者怎么用？', '从体验到接入，先确认价值再承担部署成本')}
+    ${pathCard(72, 1, '直接体验', ['先用公开 Web', '理解地图、筛选', '与简报工作流。'], C.orangeSoft, C.orange)}
+    ${pathCard(456, 2, '本地读源码', ['npm ci 与开发', '环境可以跑通；', '重点读数据管线。'], C.yellowSoft, C.yellow)}
+    ${pathCard(840, 3, '程序化接入', ['REST API · MCP', 'CLI · Python', 'Ruby · Go SDK'], C.blueSoft, C.blue)}
+    ${rect(72, 850, 1072, 300, C.paper2, 30)}
+    ${text(116, 920, '最值得学的 5 道工程题', 30, C.green, 500)}
+    ${pill(116, 975, '异构数据归一化', C.greenSoft, C.green, 260)}
+    ${pill(400, 975, '缓存与降级', C.blueSoft, C.blue, 210)}
+    ${pill(634, 975, '地图可视化', C.orangeSoft, C.orange, 210)}
+    ${pill(868, 975, 'AI 情报简报', C.yellowSoft, C.ink, 230)}
+    ${pill(116, 1055, 'Web / API / MCP 如何共用一套能力', C.blueSoft, C.blue, 530)}
+    ${pill(670, 1055, '来源可信度与时效治理', C.orangeSoft, C.orange, 428)}
+    ${rect(72, 1210, 1072, 232, C.ink, 30)}
+    ${text(116, 1280, '建议学习路线', 28, C.yellow, 500)}
+    ${lines(116, 1340, ['Web 体验 → 读架构 → 本地最小运行 → 再试 API / MCP', '完整自托管还需要 Redis、密钥与外部数据源。'], 31, 1.45, C.paper2, 500)}
+    ${footer(5)}
+  `);
+}
+
+async function survivalReview() {
   const raw = await fs.readFile(CSV, 'utf8');
   const daily = raw.trim().split(/\r?\n/).slice(1).map((row) => {
     const [date, value] = row.split(',');
@@ -202,7 +216,7 @@ async function starTimeline() {
     const chunk = daily.slice(i, i + 7);
     weeks.push({ date: chunk[0].date, value: chunk.reduce((sum, d) => sum + d.value, 0) });
   }
-  const chart = { x: 100, y: 445, w: 1042, h: 650 };
+  const chart = { x: 100, y: 415, w: 1042, h: 535 };
   const max = Math.max(...weeks.map((d) => d.value));
   const px = (i) => chart.x + (i / (weeks.length - 1)) * chart.w;
   const py = (v) => chart.y + chart.h - (v / max) * chart.h;
@@ -213,44 +227,32 @@ async function starTimeline() {
   const yTicks = [0, 5000, 10000, 15000];
   const grids = yTicks.map((v) => `${line(chart.x, py(v), chart.x + chart.w, py(v), C.line, 2)}${text(chart.x - 18, py(v) + 9, v === 0 ? '0' : `${v / 1000}k`, 24, C.muted, 400, 'end')}`).join('\n');
   return shell(`
-    ${header('STAR 时间线', '热度降了，但没有消失', '每周新增 star events · 线性刻度')}
+    ${header('评价 1 / 4', '热度降了，但没有消失', '188 天后，同时看主峰、低谷与第二波')}
     ${grids}
     <path d="${area}" fill="${C.orangeSoft}" opacity="0.85"/>
     <path d="${dPath}" fill="none" stroke="${C.orange}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="${px(march)}" cy="${py(weeks[march].value)}" r="13" fill="${C.orange}"/>
     <circle cx="${px(july)}" cy="${py(weeks[july].value)}" r="13" fill="${C.blue}"/>
-    ${line(px(march), py(weeks[march].value) + 20, px(march), 1180, C.orange, 2, '7 8')}
-    ${line(px(july), py(weeks[july].value) + 20, px(july), 1180, C.blue, 2, '7 8')}
+    ${line(px(march), py(weeks[march].value) + 20, px(march), 985, C.orange, 2, '7 8')}
+    ${line(px(july), py(weeks[july].value) + 20, px(july), 985, C.blue, 2, '7 8')}
     ${text(px(march), py(weeks[march].value) - 36, '3 月主峰 · 14,678 / 周', 28, C.orange, 500, 'middle')}
     ${text(px(july), py(weeks[july].value) - 36, '7 月第二波 · 12,274 / 周', 28, C.blue, 500, 'middle')}
-    ${text(chart.x, 1148, '1 月', 26, C.muted)}
-    ${text(chart.x + chart.w * .26, 1148, '3 月', 26, C.muted, 400, 'middle')}
-    ${text(chart.x + chart.w * .52, 1148, '5 月', 26, C.muted, 400, 'middle')}
-    ${text(chart.x + chart.w * .78, 1148, '7 月', 26, C.muted, 400, 'middle')}
-    ${text(chart.x + chart.w, 1148, '9 月', 26, C.muted, 400, 'end')}
-    ${rect(100, 1232, 1042, 210, C.paper2, 28)}
-    ${text(145, 1304, '读图', 28, C.muted, 500)}
-    ${lines(145, 1360, ['一次性爆火会只剩长尾；World Monitor 在 7 月', '出现第二个大波峰，因此不能简单判定“热度死亡”。'], 33, 1.35, C.ink, 500)}
-    ${footer(5)}
-  `);
-}
-
-function hypeRetention() {
-  const bar = (y, label, value, max, color, note = '') => `
-    ${text(104, y, label, 30, C.ink, 500)}
-    ${text(1138, y, value.toLocaleString('en-US'), 34, color, 500, 'end')}
-    ${rect(104, y + 30, 1034, 54, C.line, 27)}
-    ${rect(104, y + 30, Math.max(30, 1034 * value / max), 54, color, 27)}
-    ${note ? text(104, y + 126, note, 27, C.muted) : ''}
-  `;
-  return shell(`
-    ${header('热度半衰', '8.7%：降温，不是死亡', '按 30 天窗口观察关注速度')}
-    ${bar(440, '爆火后第 1–30 天', 24706, 24706, C.orange)}
-    ${bar(670, '爆火后第 61–90 天', 2157, 24706, C.yellow, '只剩首月的 8.7%')}
-    ${bar(930, '复查前最近 30 天', 6223, 24706, C.blue, '第二波传播后，速度重新高于 61–90 天窗口')}
-    ${rect(104, 1248, 1034, 180, C.ink, 30)}
-    ${text(150, 1318, '半衰期真正想测的是：', 28, C.yellow, 500)}
-    ${lines(150, 1376, ['关注下降后，还有没有人继续维护、接入和使用？'], 34, 1.3, C.paper2, 500)}
+    ${text(chart.x, 995, '1 月', 26, C.muted)}
+    ${text(chart.x + chart.w * .26, 995, '3 月', 26, C.muted, 400, 'middle')}
+    ${text(chart.x + chart.w * .52, 995, '5 月', 26, C.muted, 400, 'middle')}
+    ${text(chart.x + chart.w * .78, 995, '7 月', 26, C.muted, 400, 'middle')}
+    ${text(chart.x + chart.w, 995, '9 月', 26, C.muted, 400, 'end')}
+    ${rect(100, 1065, 322, 220, C.paper2, 28)}
+    ${text(135, 1130, '85,679', 52, C.green, 500)}
+    ${lines(135, 1182, ['复查日 stars', '峰值日后约 +61,672'], 27, 1.45, C.muted)}
+    ${rect(460, 1065, 322, 220, C.yellowSoft, 28)}
+    ${text(495, 1130, '8.7%', 52, C.orange, 500)}
+    ${lines(495, 1182, ['第 61–90 天增速', '相对爆火后首月'], 27, 1.45, C.muted)}
+    ${rect(820, 1065, 322, 220, C.blueSoft, 28)}
+    ${text(855, 1130, '+6,223', 52, C.blue, 500)}
+    ${lines(855, 1182, ['复查前最近 30 天', '第二波后仍有长尾'], 27, 1.45, C.muted)}
+    ${rect(100, 1340, 1042, 102, C.ink, 26)}
+    ${text(621, 1405, '评价：经历明显降温，但没有变成“一次性流量项目”。', 33, C.paper2, 500, 'middle')}
     ${footer(6)}
   `);
 }
@@ -264,7 +266,7 @@ function maintenance() {
     ${rect(106, y + 30, 1030 * value / max, 58, color, 29)}
   `;
   return shell(`
-    ${header('维护强度', '项目没有停更', '但“活动量”仍要拆开看')}
+    ${header('评价 2 / 4', '开发仍强，交付仍有缺口', '持续更新值得肯定，但不能只看 commit 数')}
     ${metricBar(445, '爆火后的第一个 90 天 · commits', 2423, C.orange)}
     ${metricBar(650, '复查前最近 90 天 · commits', 2465, C.green)}
     ${rect(106, 858, 492, 260, C.paper2, 28)}
@@ -275,14 +277,15 @@ function maintenance() {
     ${text(686, 920, '89.7%', 64, C.orange, 500)}
     ${text(686, 974, '累计贡献中的 owner 占比', 28, C.muted)}
     ${lines(686, 1041, ['维护很强，', '单点风险也很高。'], 30, 1.35, C.ink, 500)}
-    ${rect(106, 1215, 1030, 190, C.yellowSoft, 28)}
-    ${text(148, 1283, '注意', 28, C.ink, 500)}
-    ${lines(148, 1340, ['仓库含自动化与 AI 辅助提交，commit 数不能直接', '翻译成“这么多真人贡献者”。'], 31, 1.35, C.ink)}
+    ${rect(106, 1210, 1030, 228, C.yellowSoft, 28)}
+    ${text(148, 1275, '交付缺口', 28, C.orange, 500)}
+    ${lines(148, 1330, ['源码 / tag 已到 v2.10.0，公开桌面 Release 仍是 v2.5.23。', '开发活跃，不等于用户拿到的稳定版本同步。'], 29, 1.45, C.ink)}
+    ${text(106, 1490, '＊仓库含自动化与 AI 辅助提交，commit 数不能直接等同真人贡献者数。', 24, C.muted)}
     ${footer(7)}
   `);
 }
 
-function whyNotA() {
+function risks() {
   const item = (y, n, titleValue, body, fill, accent) => `
     ${rect(88, y, 1066, 205, fill, 28)}
     ${pill(122, y + 32, `0${n}`, accent, C.paper2, 82)}
@@ -290,13 +293,14 @@ function whyNotA() {
     ${lines(235, y + 126, body, 27, 1.35, C.muted)}
   `;
   return shell(`
-    ${header('为什么不是 A', '活跃，不等于稳稳可用', 'A 级必须同时经得住交付、社区与采用验证')}
-    ${item(365, 1, '发布渠道分裂', ['源码 / tag 到 v2.10.0，公开桌面 Release', '仍停在 v2.5.23；抽查构建失败。'], C.orangeSoft, C.orange)}
-    ${item(592, 2, '维护过度集中', ['owner 约占累计贡献 89.7%，外部贡献者', '增加了，但关键单点风险仍在。'], C.yellowSoft, C.yellow)}
-    ${item(819, 3, '真实采用仍薄', ['核实到 1 个独立 API 接入；这证明有人用，', '还不能证明已经形成规模生态。'], C.blueSoft, C.blue)}
-    ${item(1046, 4, '完整部署并不轻', ['基础开发启动通过；完整自托管还涉及 Redis、', '多组 secret、数据源与依赖风险管理。'], C.greenSoft, C.green)}
-    ${rect(88, 1310, 1066, 120, C.ink, 28)}
-    ${text(621, 1384, 'A 不是“我喜欢”，而是“证据够稳”。', 36, C.paper2, 500, 'middle')}
+    ${header('评价 3 / 4', '使用前先看这 4 个风险', '它值得学，不代表每个场景都能放心依赖')}
+    ${item(345, 1, '聚合信息不等于事实', ['来源可能延迟，AI 摘要也可能出错；关键判断', '必须回到原始来源。'], C.orangeSoft, C.orange)}
+    ${item(565, 2, '发布渠道没有同步', ['源码 / tag 到 v2.10.0，桌面 Release 仍在', 'v2.5.23；抽查的构建也失败。'], C.yellowSoft, C.yellow)}
+    ${item(785, 3, '维护集中度很高', ['owner 约占累计贡献 89.7%；外部贡献增加，', '但关键单点风险仍然存在。'], C.blueSoft, C.blue)}
+    ${item(1005, 4, '采用证据与部署成本', ['只核实到 1 个独立 API 接入；完整自托管还要', 'Redis、密钥和多个外部数据源。'], C.greenSoft, C.green)}
+    ${rect(88, 1260, 1066, 178, C.ink, 28)}
+    ${text(621, 1330, '所以不是“不推荐”，而是要分场景推荐。', 34, C.paper2, 500, 'middle')}
+    ${text(621, 1385, 'A 级需要交付、社区与采用证据同时够稳。', 29, C.yellow, 500, 'middle')}
     ${footer(8)}
   `);
 }
@@ -314,14 +318,14 @@ function verdict() {
     return `${text(106, y, label, 29, C.ink, 500)}${rect(310, y - 31, 660, 36, C.line, 18)}${rect(310, y - 31, 660 * value / 20, 36, color, 18)}${text(1136, y, `${value} / 20`, 31, color, 500, 'end')}`;
   }).join('\n');
   return shell(`
-    ${header('最终评级', '综合 B · 71 / 100', 'Learning A · Adoption B · Confidence high')}
+    ${header('评价 4 / 4', '推荐指数：学习 A，采用 B', '综合 B · 71 / 100 · Confidence high')}
     ${scoreRows}
     ${rect(88, 1055, 1066, 174, C.greenSoft, 28)}
-    ${text(130, 1118, '适合', 30, C.green, 500)}
-    ${lines(130, 1172, ['学实时数据架构 · 体验 Web / 当前源码 · 非关键原型'], 31, 1.3, C.ink, 500)}
+    ${text(130, 1118, '推荐', 30, C.green, 500)}
+    ${lines(130, 1172, ['读代码学架构 · 体验 Web · OSINT 辅助 · 非关键原型'], 31, 1.3, C.ink, 500)}
     ${rect(88, 1252, 1066, 174, C.orangeSoft, 28)}
-    ${text(130, 1315, '暂不适合', 30, C.orange, 500)}
-    ${lines(130, 1369, ['依赖旧桌面版 · 直接做关键生产依赖 · 当作唯一事实源'], 31, 1.3, C.ink, 500)}
+    ${text(130, 1315, '不建议', 30, C.orange, 500)}
+    ${lines(130, 1369, ['作为唯一事实源 · 高风险决策 · 直接成为关键生产依赖'], 31, 1.3, C.ink, 500)}
     ${text(621, 1492, '下次复查：2026-12-05', 30, C.muted, 500, 'middle')}
     ${footer(9)}
   `);
@@ -330,15 +334,15 @@ function verdict() {
 async function render() {
   await fs.mkdir(OUT, { recursive: true });
   const cards = [
-    ['01-cover', cover()],
-    ['02-what-it-is', whatItIs()],
-    ['03-why-it-caught-fire', whyItCaughtFire()],
-    ['04-then-now', thenNow()],
-    ['05-star-timeline', await starTimeline()],
-    ['06-hype-retention', hypeRetention()],
-    ['07-maintenance', maintenance()],
-    ['08-why-not-a', whyNotA()],
-    ['09-verdict', verdict()],
+    ['01-cover', cover(), 'summary'],
+    ['02-what-it-is', whatItIs(), 'product_and_usage'],
+    ['03-why-it-caught-fire', whyItCaughtFire(), 'product_and_usage'],
+    ['04-how-to-use', howToUse(), 'product_and_usage'],
+    ['05-developer-paths', developerPaths(), 'product_and_usage'],
+    ['06-survival-review', await survivalReview(), 'evaluation'],
+    ['07-maintenance', maintenance(), 'evaluation'],
+    ['08-risks', risks(), 'evaluation'],
+    ['09-verdict', verdict(), 'evaluation'],
   ];
 
   const pngs = [];
@@ -373,7 +377,17 @@ async function render() {
     generated_at: new Date().toISOString(),
     canvas: { width: W, height: H, ratio: '3:4' },
     source_data: path.relative(ROOT, CSV),
-    cards: cards.map(([name], index) => ({ order: index + 1, svg: `${name}.svg`, png: `${name}.png` })),
+    story_structure: {
+      summary: [1],
+      product_and_usage: [2, 3, 4, 5],
+      evaluation: [6, 7, 8, 9],
+    },
+    cards: cards.map(([name, , section], index) => ({
+      order: index + 1,
+      section,
+      svg: `${name}.svg`,
+      png: `${name}.png`,
+    })),
   };
   await fs.writeFile(path.join(OUT, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 }

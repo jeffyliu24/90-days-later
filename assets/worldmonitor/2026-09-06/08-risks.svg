@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+
+
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >评价 3 / 4</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >使用前先看这 4 个风险</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >它值得学，不代表每个场景都能放心依赖</text>
+
+
+    <rect x="88" y="345" width="1066" height="205" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <rect x="122" y="377" width="82" height="54" rx="27" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="163" y="415" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >01</text>
+    <text x="235" y="418" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >聚合信息不等于事实</text>
+    <text x="235" y="471" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >来源可能延迟，AI 摘要也可能出错；关键判断</text>
+<text x="235" y="507.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >必须回到原始来源。</text>
+
+
+    <rect x="88" y="565" width="1066" height="205" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <rect x="122" y="597" width="82" height="54" rx="27" fill="#F2C14E" stroke="none" stroke-width="0"/><text x="163" y="635" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >02</text>
+    <text x="235" y="638" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >发布渠道没有同步</text>
+    <text x="235" y="691" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >源码 / tag 到 v2.10.0，桌面 Release 仍在</text>
+<text x="235" y="727.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >v2.5.23；抽查的构建也失败。</text>
+
+
+    <rect x="88" y="785" width="1066" height="205" rx="28" fill="#DCE9F7" stroke="none" stroke-width="0"/>
+    <rect x="122" y="817" width="82" height="54" rx="27" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="163" y="855" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >03</text>
+    <text x="235" y="858" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >维护集中度很高</text>
+    <text x="235" y="911" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >owner 约占累计贡献 89.7%；外部贡献增加，</text>
+<text x="235" y="947.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >但关键单点风险仍然存在。</text>
+
+
+    <rect x="88" y="1005" width="1066" height="205" rx="28" fill="#DCECDF" stroke="none" stroke-width="0"/>
+    <rect x="122" y="1037" width="82" height="54" rx="27" fill="#2F7D5B" stroke="none" stroke-width="0"/><text x="163" y="1075" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >04</text>
+    <text x="235" y="1078" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >采用证据与部署成本</text>
+    <text x="235" y="1131" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >只核实到 1 个独立 API 接入；完整自托管还要</text>
+<text x="235" y="1167.45" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >Redis、密钥和多个外部数据源。</text>
+
+    <rect x="88" y="1260" width="1066" height="178" rx="28" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="621" y="1330" font-size="34" fill="#FFFDF8" font-weight="500" text-anchor="middle" >所以不是“不推荐”，而是要分场景推荐。</text>
+    <text x="621" y="1385" font-size="29" fill="#F2C14E" font-weight="500" text-anchor="middle" >A 级需要交付、社区与采用证据同时够稳。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >8 / 9</text>
+
+</svg>

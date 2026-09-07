@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+
+
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >认识工具 3 / 4</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >普通人怎么用？</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >例：快速了解“某个地区发生了什么”</text>
+
+
+    <rect x="72" y="355" width="520" height="235" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <rect x="106" y="385" width="78" height="54" rx="27" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="145" y="423" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >01</text>
+    <text x="210" y="427" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >先定位</text>
+    <text x="110" y="497" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >搜索地区，或从地图上的</text>
+<text x="110" y="536.2" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >异常事件进入。</text>
+
+
+    <rect x="650" y="355" width="520" height="235" rx="28" fill="#DCE9F7" stroke="none" stroke-width="0"/>
+    <rect x="684" y="385" width="78" height="54" rx="27" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="723" y="423" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >02</text>
+    <text x="788" y="427" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >再叠图层</text>
+    <text x="688" y="497" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >按问题打开灾害、冲突、</text>
+<text x="688" y="536.2" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >航班、能源或基建图层。</text>
+
+
+    <rect x="72" y="625" width="520" height="235" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <rect x="106" y="655" width="78" height="54" rx="27" fill="#F2C14E" stroke="none" stroke-width="0"/><text x="145" y="693" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >03</text>
+    <text x="210" y="697" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >交叉查看</text>
+    <text x="110" y="767" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >对照事件时间、附近信号</text>
+<text x="110" y="806.2" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >和多家新闻来源。</text>
+
+
+    <rect x="650" y="625" width="520" height="235" rx="28" fill="#DCECDF" stroke="none" stroke-width="0"/>
+    <rect x="684" y="655" width="78" height="54" rx="27" fill="#2F7D5B" stroke="none" stroke-width="0"/><text x="723" y="693" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >04</text>
+    <text x="788" y="697" font-size="35" fill="#13202B" font-weight="500" text-anchor="start" >让 AI 压缩</text>
+    <text x="688" y="767" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >用简报快速抓重点，再回到</text>
+<text x="688" y="806.2" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >原始来源核实关键事实。</text>
+
+    <rect x="72" y="930" width="1072" height="285" rx="34" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="116" y="1005" font-size="29" fill="#F2C14E" font-weight="500" text-anchor="start" >一个具体例子</text>
+    <text x="116" y="1072" font-size="36" fill="#FFFDF8" font-weight="500" text-anchor="start" >“某地突发灾害，会不会影响我的出行？”</text>
+<text x="116" y="1126" font-size="36" fill="#FFFDF8" font-weight="500" text-anchor="start" >灾害图层 → 航班与基础设施 → 最新来源 → AI 简报</text>
+    <rect x="72" y="1268" width="1072" height="174" rx="26" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="116" y="1332" font-size="27" fill="#2F7D5B" font-weight="500" text-anchor="start" >正确预期</text>
+    <text x="116" y="1385" font-size="29" fill="#13202B" font-weight="500" text-anchor="start" >它帮你更快发现线索、建立上下文；不会替你完成事实核验。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >4 / 9</text>
+
+</svg>

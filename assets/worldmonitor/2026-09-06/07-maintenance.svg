@@ -6,9 +6,9 @@
   </style>
 
 
-  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >维护强度</text>
-  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >项目没有停更</text>
-  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >但“活动量”仍要拆开看</text>
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >评价 2 / 4</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >开发仍强，交付仍有缺口</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >持续更新值得肯定，但不能只看 commit 数</text>
 
 
     <text x="106" y="445" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >爆火后的第一个 90 天 · commits</text>
@@ -32,10 +32,11 @@
     <text x="686" y="974" font-size="28" fill="#68737D" font-weight="400" text-anchor="start" >累计贡献中的 owner 占比</text>
     <text x="686" y="1041" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >维护很强，</text>
 <text x="686" y="1081.5" font-size="30" fill="#13202B" font-weight="500" text-anchor="start" >单点风险也很高。</text>
-    <rect x="106" y="1215" width="1030" height="190" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
-    <text x="148" y="1283" font-size="28" fill="#13202B" font-weight="500" text-anchor="start" >注意</text>
-    <text x="148" y="1340" font-size="31" fill="#13202B" font-weight="400" text-anchor="start" >仓库含自动化与 AI 辅助提交，commit 数不能直接</text>
-<text x="148" y="1381.85" font-size="31" fill="#13202B" font-weight="400" text-anchor="start" >翻译成“这么多真人贡献者”。</text>
+    <rect x="106" y="1210" width="1030" height="228" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <text x="148" y="1275" font-size="28" fill="#F05A3C" font-weight="500" text-anchor="start" >交付缺口</text>
+    <text x="148" y="1330" font-size="29" fill="#13202B" font-weight="400" text-anchor="start" >源码 / tag 已到 v2.10.0，公开桌面 Release 仍是 v2.5.23。</text>
+<text x="148" y="1372.05" font-size="29" fill="#13202B" font-weight="400" text-anchor="start" >开发活跃，不等于用户拿到的稳定版本同步。</text>
+    <text x="106" y="1490" font-size="24" fill="#68737D" font-weight="400" text-anchor="start" >＊仓库含自动化与 AI 辅助提交，commit 数不能直接等同真人贡献者数。</text>
     <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
   <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
   <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>

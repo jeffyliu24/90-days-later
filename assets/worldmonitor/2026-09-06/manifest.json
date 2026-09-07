@@ -1,54 +1,80 @@
 {
-  "generated_at": "2026-09-06T14:57:18.793Z",
+  "generated_at": "2026-09-07T10:43:29.714Z",
   "canvas": {
     "width": 1242,
     "height": 1660,
     "ratio": "3:4"
   },
   "source_data": "data/snapshots/worldmonitor/2026-09-06/star-history.csv",
+  "story_structure": {
+    "summary": [
+      1
+    ],
+    "product_and_usage": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "evaluation": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
   "cards": [
     {
       "order": 1,
+      "section": "summary",
       "svg": "01-cover.svg",
       "png": "01-cover.png"
     },
     {
       "order": 2,
+      "section": "product_and_usage",
       "svg": "02-what-it-is.svg",
       "png": "02-what-it-is.png"
     },
     {
       "order": 3,
+      "section": "product_and_usage",
       "svg": "03-why-it-caught-fire.svg",
       "png": "03-why-it-caught-fire.png"
     },
     {
       "order": 4,
-      "svg": "04-then-now.svg",
-      "png": "04-then-now.png"
+      "section": "product_and_usage",
+      "svg": "04-how-to-use.svg",
+      "png": "04-how-to-use.png"
     },
     {
       "order": 5,
-      "svg": "05-star-timeline.svg",
-      "png": "05-star-timeline.png"
+      "section": "product_and_usage",
+      "svg": "05-developer-paths.svg",
+      "png": "05-developer-paths.png"
     },
     {
       "order": 6,
-      "svg": "06-hype-retention.svg",
-      "png": "06-hype-retention.png"
+      "section": "evaluation",
+      "svg": "06-survival-review.svg",
+      "png": "06-survival-review.png"
     },
     {
       "order": 7,
+      "section": "evaluation",
       "svg": "07-maintenance.svg",
       "png": "07-maintenance.png"
     },
     {
       "order": 8,
-      "svg": "08-why-not-a.svg",
-      "png": "08-why-not-a.png"
+      "section": "evaluation",
+      "svg": "08-risks.svg",
+      "png": "08-risks.png"
     },
     {
       "order": 9,
+      "section": "evaluation",
       "svg": "09-verdict.svg",
       "png": "09-verdict.png"
     }

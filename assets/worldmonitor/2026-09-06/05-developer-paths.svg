@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1660" viewBox="0 0 1242 1660">
+  <title>World Monitor 188 天后复盘</title>
+  <rect width="1242" height="1660" fill="#F6F1E7"/>
+  <style>
+    text { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", Arial, sans-serif; }
+  </style>
+
+
+  <rect x="72" y="68" width="220" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="182" y="106" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >认识工具 4 / 4</text>
+  <text x="72" y="205" font-size="72" fill="#13202B" font-weight="500" text-anchor="start" >开发者怎么用？</text>
+  <text x="72" y="272" font-size="34" fill="#68737D" font-weight="400" text-anchor="start" >从体验到接入，先确认价值再承担部署成本</text>
+
+
+    <rect x="72" y="380" width="330" height="410" rx="28" fill="#FCE0D7" stroke="none" stroke-width="0"/>
+    <rect x="102" y="412" width="118" height="54" rx="27" fill="#F05A3C" stroke="none" stroke-width="0"/><text x="161" y="450" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >路径 1</text>
+    <text x="102" y="520" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >直接体验</text>
+    <text x="102" y="592" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >先用公开 Web</text>
+<text x="102" y="633.85" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >理解地图、筛选</text>
+<text x="102" y="675.7" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >与简报工作流。</text>
+
+
+    <rect x="456" y="380" width="330" height="410" rx="28" fill="#F9EDC8" stroke="none" stroke-width="0"/>
+    <rect x="486" y="412" width="118" height="54" rx="27" fill="#F2C14E" stroke="none" stroke-width="0"/><text x="545" y="450" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >路径 2</text>
+    <text x="486" y="520" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >本地读源码</text>
+    <text x="486" y="592" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >npm ci 与开发</text>
+<text x="486" y="633.85" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >环境可以跑通；</text>
+<text x="486" y="675.7" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >重点读数据管线。</text>
+
+
+    <rect x="840" y="380" width="330" height="410" rx="28" fill="#DCE9F7" stroke="none" stroke-width="0"/>
+    <rect x="870" y="412" width="118" height="54" rx="27" fill="#2B6CB0" stroke="none" stroke-width="0"/><text x="929" y="450" font-size="26" fill="#FFFDF8" font-weight="500" text-anchor="middle" >路径 3</text>
+    <text x="870" y="520" font-size="38" fill="#13202B" font-weight="500" text-anchor="start" >程序化接入</text>
+    <text x="870" y="592" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >REST API · MCP</text>
+<text x="870" y="633.85" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >CLI · Python</text>
+<text x="870" y="675.7" font-size="27" fill="#68737D" font-weight="400" text-anchor="start" >Ruby · Go SDK</text>
+
+    <rect x="72" y="850" width="1072" height="300" rx="30" fill="#FFFDF8" stroke="none" stroke-width="0"/>
+    <text x="116" y="920" font-size="30" fill="#2F7D5B" font-weight="500" text-anchor="start" >最值得学的 5 道工程题</text>
+    <rect x="116" y="975" width="260" height="54" rx="27" fill="#DCECDF" stroke="none" stroke-width="0"/><text x="246" y="1013" font-size="26" fill="#2F7D5B" font-weight="500" text-anchor="middle" >异构数据归一化</text>
+    <rect x="400" y="975" width="210" height="54" rx="27" fill="#DCE9F7" stroke="none" stroke-width="0"/><text x="505" y="1013" font-size="26" fill="#2B6CB0" font-weight="500" text-anchor="middle" >缓存与降级</text>
+    <rect x="634" y="975" width="210" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="739" y="1013" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >地图可视化</text>
+    <rect x="868" y="975" width="230" height="54" rx="27" fill="#F9EDC8" stroke="none" stroke-width="0"/><text x="983" y="1013" font-size="26" fill="#13202B" font-weight="500" text-anchor="middle" >AI 情报简报</text>
+    <rect x="116" y="1055" width="530" height="54" rx="27" fill="#DCE9F7" stroke="none" stroke-width="0"/><text x="381" y="1093" font-size="26" fill="#2B6CB0" font-weight="500" text-anchor="middle" >Web / API / MCP 如何共用一套能力</text>
+    <rect x="670" y="1055" width="428" height="54" rx="27" fill="#FCE0D7" stroke="none" stroke-width="0"/><text x="884" y="1093" font-size="26" fill="#F05A3C" font-weight="500" text-anchor="middle" >来源可信度与时效治理</text>
+    <rect x="72" y="1210" width="1072" height="232" rx="30" fill="#13202B" stroke="none" stroke-width="0"/>
+    <text x="116" y="1280" font-size="28" fill="#F2C14E" font-weight="500" text-anchor="start" >建议学习路线</text>
+    <text x="116" y="1340" font-size="31" fill="#FFFDF8" font-weight="500" text-anchor="start" >Web 体验 → 读架构 → 本地最小运行 → 再试 API / MCP</text>
+<text x="116" y="1384.95" font-size="31" fill="#FFFDF8" font-weight="500" text-anchor="start" >完整自托管还需要 Redis、密钥与外部数据源。</text>
+    <line x1="72" y1="1572" x2="1170" y2="1572" stroke="#D9D2C5" stroke-width="2" />
+  <text x="72" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="start" >90 DAYS LATER</text>
+  <text x="621" y="1618" font-size="26" fill="#68737D" font-weight="400" text-anchor="middle" >数据截至 2026-09-06</text>
+  <text x="1170" y="1618" font-size="26" fill="#68737D" font-weight="500" text-anchor="end" >5 / 9</text>
+
+</svg>
