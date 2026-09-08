@@ -11,6 +11,8 @@ const sharp = require('sharp');
 const ROOT = process.cwd();
 const OUT = path.join(ROOT, 'assets/worldmonitor/2026-09-06');
 const CSV = path.join(ROOT, 'data/snapshots/worldmonitor/2026-09-06/star-history.csv');
+const GITHUB_SCREENSHOT = path.join(OUT, 'source/github-repository-2026-09-08.png');
+const PRODUCT_SCREENSHOT = path.join(OUT, 'source/product-live-map-official.png');
 const W = 1242;
 const H = 1660;
 
@@ -56,7 +58,7 @@ const pill = (x, y, value, fill = C.orangeSoft, ink = C.orange, width = 180) =>
 const footer = (page) => `${line(72, 1572, 1170, 1572, C.line, 2)}
   ${text(72, 1618, '90 DAYS LATER', 26, C.muted, 500)}
   ${text(621, 1618, '数据截至 2026-09-06', 26, C.muted, 400, 'middle')}
-  ${text(1170, 1618, `${page} / 9`, 26, C.muted, 500, 'end')}`;
+  ${text(1170, 1618, `${page} / 10`, 26, C.muted, 500, 'end')}`;
 
 const shell = (content, background = C.paper) => `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
@@ -205,6 +207,35 @@ function developerPaths() {
   `);
 }
 
+async function realProductProof() {
+  const [githubPng, productPng] = await Promise.all([
+    fs.readFile(GITHUB_SCREENSHOT),
+    fs.readFile(PRODUCT_SCREENSHOT),
+  ]);
+  const githubHref = `data:image/png;base64,${githubPng.toString('base64')}`;
+  const productHref = `data:image/png;base64,${productPng.toString('base64')}`;
+  return shell(`
+    <defs>
+      <clipPath id="github-shot-clip"><rect x="72" y="390" width="1098" height="375" rx="24"/></clipPath>
+      <clipPath id="product-shot-clip"><rect x="72" y="900" width="1098" height="420" rx="24"/></clipPath>
+    </defs>
+    ${header('真实页面', '它实际长这样', 'GitHub 仓库实页 + 官网真实产品画面')}
+    ${pill(72, 320, 'GitHub 仓库', C.blueSoft, C.blue, 218)}
+    ${text(320, 358, '公开仓库截图 · 截取于 2026-09-08', 27, C.muted, 500)}
+    <image href="${githubHref}" x="72" y="390" width="1098" height="375" preserveAspectRatio="xMidYMin slice" clip-path="url(#github-shot-clip)"/>
+    ${rect(72, 390, 1098, 375, 'none', 24, C.line, 3)}
+    ${lines(72, 808, ['画面可见：85.8k stars、13k forks、最近提交与项目简介。'], 27, 1.4, C.muted)}
+    ${pill(72, 842, '实际使用界面', C.orangeSoft, C.orange, 238)}
+    ${text(340, 880, '官网标注：Captured from the live map', 27, C.muted, 500)}
+    <image href="${productHref}" x="72" y="900" width="1098" height="420" preserveAspectRatio="xMidYMin slice" clip-path="url(#product-shot-clip)"/>
+    ${rect(72, 900, 1098, 420, 'none', 24, C.line, 3)}
+    ${lines(72, 1363, ['画面可见：地图图层、事件点、实时新闻、视频画面与 AI Insights。'], 27, 1.4, C.muted)}
+    ${rect(72, 1410, 1098, 92, C.paper2, 22)}
+    ${text(621, 1468, '截图只证明产品与界面真实存在；耐久性评级仍使用独立数据快照。', 28, C.ink, 500, 'middle')}
+    ${footer(6)}
+  `);
+}
+
 async function survivalReview() {
   const raw = await fs.readFile(CSV, 'utf8');
   const daily = raw.trim().split(/\r?\n/).slice(1).map((row) => {
@@ -253,7 +284,7 @@ async function survivalReview() {
     ${lines(855, 1182, ['复查前最近 30 天', '第二波后仍有长尾'], 27, 1.45, C.muted)}
     ${rect(100, 1340, 1042, 102, C.ink, 26)}
     ${text(621, 1405, '评价：经历明显降温，但没有变成“一次性流量项目”。', 33, C.paper2, 500, 'middle')}
-    ${footer(6)}
+    ${footer(7)}
   `);
 }
 
@@ -281,7 +312,7 @@ function maintenance() {
     ${text(148, 1275, '交付缺口', 28, C.orange, 500)}
     ${lines(148, 1330, ['源码 / tag 已到 v2.10.0，公开桌面 Release 仍是 v2.5.23。', '开发活跃，不等于用户拿到的稳定版本同步。'], 29, 1.45, C.ink)}
     ${text(106, 1490, '＊仓库含自动化与 AI 辅助提交，commit 数不能直接等同真人贡献者数。', 24, C.muted)}
-    ${footer(7)}
+    ${footer(8)}
   `);
 }
 
@@ -301,7 +332,7 @@ function risks() {
     ${rect(88, 1260, 1066, 178, C.ink, 28)}
     ${text(621, 1330, '所以不是“不推荐”，而是要分场景推荐。', 34, C.paper2, 500, 'middle')}
     ${text(621, 1385, 'A 级需要交付、社区与采用证据同时够稳。', 29, C.yellow, 500, 'middle')}
-    ${footer(8)}
+    ${footer(9)}
   `);
 }
 
@@ -327,7 +358,7 @@ function verdict() {
     ${text(130, 1315, '不建议', 30, C.orange, 500)}
     ${lines(130, 1369, ['作为唯一事实源 · 高风险决策 · 直接成为关键生产依赖'], 31, 1.3, C.ink, 500)}
     ${text(621, 1492, '下次复查：2026-12-05', 30, C.muted, 500, 'middle')}
-    ${footer(9)}
+    ${footer(10)}
   `);
 }
 
@@ -339,10 +370,11 @@ async function render() {
     ['03-why-it-caught-fire', whyItCaughtFire(), 'product_and_usage'],
     ['04-how-to-use', howToUse(), 'product_and_usage'],
     ['05-developer-paths', developerPaths(), 'product_and_usage'],
-    ['06-survival-review', await survivalReview(), 'evaluation'],
-    ['07-maintenance', maintenance(), 'evaluation'],
-    ['08-risks', risks(), 'evaluation'],
-    ['09-verdict', verdict(), 'evaluation'],
+    ['06-real-product', await realProductProof(), 'real_product_proof'],
+    ['07-survival-review', await survivalReview(), 'evaluation'],
+    ['08-maintenance', maintenance(), 'evaluation'],
+    ['09-risks', risks(), 'evaluation'],
+    ['10-verdict', verdict(), 'evaluation'],
   ];
 
   const pngs = [];
@@ -358,8 +390,9 @@ async function render() {
   const thumbW = 310;
   const thumbH = 415;
   const gap = 24;
+  const rows = Math.ceil(pngs.length / 3);
   const sheetW = gap * 4 + thumbW * 3;
-  const sheetH = gap * 4 + thumbH * 3;
+  const sheetH = gap * (rows + 1) + thumbH * rows;
   const composites = [];
   for (let i = 0; i < pngs.length; i += 1) {
     const input = await sharp(pngs[i]).resize(thumbW, thumbH).png().toBuffer();
@@ -380,7 +413,22 @@ async function render() {
     story_structure: {
       summary: [1],
       product_and_usage: [2, 3, 4, 5],
-      evaluation: [6, 7, 8, 9],
+      real_product_proof: [6],
+      evaluation: [7, 8, 9, 10],
+    },
+    visual_sources: {
+      github_repository: {
+        source_url: 'https://github.com/koala73/worldmonitor',
+        captured_at: '2026-09-08',
+        local_file: path.relative(ROOT, GITHUB_SCREENSHOT),
+      },
+      product_live_map: {
+        page_url: 'https://www.worldmonitor.app/',
+        source_url: 'https://www.worldmonitor.app/pro/assets/worldmonitor-7-mar-2026-1280-DPT55fI_.avif',
+        image_date: '2026-03-07',
+        downloaded_at: '2026-09-08',
+        local_file: path.relative(ROOT, PRODUCT_SCREENSHOT),
+      },
     },
     cards: cards.map(([name, , section], index) => ({
       order: index + 1,

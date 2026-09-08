@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:43:29.714Z",
+  "generated_at": "2026-09-08T01:06:01.003Z",
   "canvas": {
     "width": 1242,
     "height": 1660,
@@ -16,12 +16,29 @@
       4,
       5
     ],
+    "real_product_proof": [
+      6
+    ],
     "evaluation": [
-      6,
       7,
       8,
-      9
+      9,
+      10
     ]
+  },
+  "visual_sources": {
+    "github_repository": {
+      "source_url": "https://github.com/koala73/worldmonitor",
+      "captured_at": "2026-09-08",
+      "local_file": "assets/worldmonitor/2026-09-06/source/github-repository-2026-09-08.png"
+    },
+    "product_live_map": {
+      "page_url": "https://www.worldmonitor.app/",
+      "source_url": "https://www.worldmonitor.app/pro/assets/worldmonitor-7-mar-2026-1280-DPT55fI_.avif",
+      "image_date": "2026-03-07",
+      "downloaded_at": "2026-09-08",
+      "local_file": "assets/worldmonitor/2026-09-06/source/product-live-map-official.png"
+    }
   },
   "cards": [
     {
@@ -56,27 +73,33 @@
     },
     {
       "order": 6,
-      "section": "evaluation",
-      "svg": "06-survival-review.svg",
-      "png": "06-survival-review.png"
+      "section": "real_product_proof",
+      "svg": "06-real-product.svg",
+      "png": "06-real-product.png"
     },
     {
       "order": 7,
       "section": "evaluation",
-      "svg": "07-maintenance.svg",
-      "png": "07-maintenance.png"
+      "svg": "07-survival-review.svg",
+      "png": "07-survival-review.png"
     },
     {
       "order": 8,
       "section": "evaluation",
-      "svg": "08-risks.svg",
-      "png": "08-risks.png"
+      "svg": "08-maintenance.svg",
+      "png": "08-maintenance.png"
     },
     {
       "order": 9,
       "section": "evaluation",
-      "svg": "09-verdict.svg",
-      "png": "09-verdict.png"
+      "svg": "09-risks.svg",
+      "png": "09-risks.png"
+    },
+    {
+      "order": 10,
+      "section": "evaluation",
+      "svg": "10-verdict.svg",
+      "png": "10-verdict.png"
     }
   ]
 }
